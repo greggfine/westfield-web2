@@ -2,7 +2,7 @@ import React from "react";
 import App from "next/app";
 import Navigation from "../components/Navigation";
 import StickyFooter from "react-sticky-footer";
-import "../style.scss";
+import "../style.css";
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
