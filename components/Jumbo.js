@@ -1,10 +1,10 @@
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 
-const Jumbo = () => (
+const Jumbo = ({ headingText }) => (
   <div className="Jumbo">
     <Container>
-      <h1 className="jumbotron-heading">We make websites great</h1>
+      <h1 className="jumbotron-heading">{headingText}</h1>
       <p className="jumbotron-text">
         We've designed websites for the community for the past decade
       </p>

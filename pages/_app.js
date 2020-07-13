@@ -27,11 +27,11 @@ class MyApp extends App {
           bottomThreshold={50}
           normalStyles={{
             backgroundColor: "#999999",
-            padding: "2rem"
+            padding: "2rem",
           }}
           stickyStyles={{
             backgroundColor: "rgba(255,255,255,.8)",
-            padding: "2rem"
+            padding: "2rem",
           }}
         >
           <p>

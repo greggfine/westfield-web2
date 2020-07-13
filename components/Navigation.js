@@ -6,27 +6,43 @@ import Link from "next/link";
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">
-          <Link href="/">
-            <a>Westfield Web</a>
-          </Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Link href="/plansandpricing">
-              <a>Plans and Pricing</a>
+    <>
+      <Navbar expand="lg" style={{ backgroundColor: "#0288d1" }}>
+        <Container>
+          <Navbar.Brand href="#home">
+            <Link href="/">
+              <a style={{ marginRight: "60px" }}>Gregg Fine Web Development</a>
             </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+              <Link href="/services">
+                <a style={{ marginRight: "40px" }}>Services</a>
+              </Link>
 
-            <Link href="/portfolio">
-              <a>Portfolio</a>
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+              <Link href="/portfolio">
+                <a>Portfolio</a>
+              </Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+      <style jsx>
+        {`
+          a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+          }
+          a:hover {
+            transition: color 300ms;
+            color: #0288d1;
+            // background-color: #fff;
+          }
+        `}
+      </style>
+    </>
   );
 }
 
