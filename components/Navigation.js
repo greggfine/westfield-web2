@@ -22,7 +22,11 @@ function Navigation() {
               </Link>
 
               <Link href="/portfolio">
-                <a>Portfolio</a>
+                <a style={{ marginRight: "40px" }}>Portfolio</a>
+              </Link>
+
+              <Link href="/contact">
+                <a>Contact</a>
               </Link>
             </Nav>
           </Navbar.Collapse>
