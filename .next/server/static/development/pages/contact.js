@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -197,6 +197,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   };
 
   return __jsx("main", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormMain,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
@@ -209,18 +210,54 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       lineNumber: 66
     },
     __self: undefined
-  }, __jsx("form", {
-    onSubmit: handleOnSubmit,
+  }, __jsx("h1", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.formTitle,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: undefined
-  }, __jsx("label", {
-    htmlFor: "email",
+  }, "Let's Talk About Your Project!"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
+    },
+    __self: undefined
+  }, "Have an exciting project in mind? Or maybe would like to improve your current setup? We\u2019d be happy to discuss it with you. Let\u2019s get in touch!"), __jsx("form", {
+    onSubmit: handleOnSubmit,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactForm,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: undefined
+  }, __jsx("label", {
+    htmlFor: "name",
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: undefined
+  }, "Name"), __jsx("input", {
+    id: "name",
+    type: "name",
+    name: "_replyto",
+    onChange: handleOnChange,
+    required: true,
+    value: inputs.name,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormInput,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: undefined
+  }), __jsx("label", {
+    htmlFor: "email",
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
     },
     __self: undefined
   }, "Email"), __jsx("input", {
@@ -230,16 +267,18 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     onChange: handleOnChange,
     required: true,
     value: inputs.email,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormInput,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 102
     },
     __self: undefined
   }), __jsx("label", {
     htmlFor: "message",
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 111
     },
     __self: undefined
   }, "Message"), __jsx("textarea", {
@@ -248,30 +287,33 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     onChange: handleOnChange,
     required: true,
     value: inputs.message,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormTextArea,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 114
     },
     __self: undefined
   }), __jsx("button", {
     type: "submit",
     disabled: status.submitting,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormBtn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 122
     },
     __self: undefined
-  }, !status.submitting ? !status.submitted ? "Submit" : "Submitted" : "Submitting...")), status.info.error && __jsx("div", {
-    className: "error",
+  }, !status.submitting ? //   ? !status.submitted ? "Submit" : "Submitted"
+  !status.submitted ? "Send a message" : "Message sent!" : "Submitting...")), status.info.error && __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.error,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 134
     },
     __self: undefined
   }, "Error: ", status.info.msg), !status.info.error && status.info.msg && __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 136
     },
     __self: undefined
   }, status.info.msg)));
@@ -288,12 +330,20 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 // Exports
 module.exports = {
-	"formWrapper": "contact_formWrapper__1IYDR"
+	"formWrapper": "contact_formWrapper__1IYDR",
+	"formTitle": "contact_formTitle__22K9u",
+	"contactForm": "contact_contactForm__2ugqo",
+	"contactFormLabel": "contact_contactFormLabel__4c1PL",
+	"contactFormInput": "contact_contactFormInput___L4Zy",
+	"contactFormBtn": "contact_contactFormBtn__2Lf5l",
+	"contactFormTextArea": "contact_contactFormTextArea__Y93vP",
+	"error": "contact_error__29_M5",
+	"contactFormMain": "contact_contactFormMain__3F172"
 };
 
 /***/ }),
 
-/***/ 6:
+/***/ 7:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/

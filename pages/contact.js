@@ -62,10 +62,43 @@ export default () => {
       });
   };
   return (
-    <main>
+    <main className={styles.contactFormMain}>
       <div className={styles.formWrapper}>
-        <form onSubmit={handleOnSubmit}>
-          <label htmlFor="email">Email</label>
+        <h1 className={styles.formTitle}>Let's Talk About Your Project!</h1>
+        <p>
+          Have an exciting project in mind? Or maybe would like to improve your
+          current setup? We’d be happy to discuss it with you. Let’s get in
+          touch!
+        </p>
+        <form onSubmit={handleOnSubmit} className={styles.contactForm}>
+          <label htmlFor="name" className={styles.contactFormLabel}>
+            Name
+          </label>
+          <input
+            id="name"
+            type="name"
+            name="_replyto"
+            onChange={handleOnChange}
+            required
+            value={inputs.name}
+            className={styles.contactFormInput}
+          />
+          {/* <label htmlFor="phone" className={styles.contactFormLabel}>
+            Phone
+          </label>
+          <input
+            id="phone"
+            type="phone"
+            name="_replyto"
+            onChange={handleOnChange}
+            required
+            value={inputs.phone}
+            className={styles.contactFormInput}
+          /> */}
+
+          <label htmlFor="email" className={styles.contactFormLabel}>
+            Email
+          </label>
           <input
             id="email"
             type="email"
@@ -73,23 +106,32 @@ export default () => {
             onChange={handleOnChange}
             required
             value={inputs.email}
+            className={styles.contactFormInput}
           />
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message" className={styles.contactFormLabel}>
+            Message
+          </label>
           <textarea
             id="message"
             name="message"
             onChange={handleOnChange}
             required
             value={inputs.message}
+            className={styles.contactFormTextArea}
           />
-          <button type="submit" disabled={status.submitting}>
+          <button
+            type="submit"
+            disabled={status.submitting}
+            className={styles.contactFormBtn}
+          >
             {!status.submitting
-              ? !status.submitted ? "Submit" : "Submitted"
+              ? //   ? !status.submitted ? "Submit" : "Submitted"
+                !status.submitted ? "Send a message" : "Message sent!"
               : "Submitting..."}
           </button>
         </form>
         {status.info.error && (
-          <div className="error">Error: {status.info.msg}</div>
+          <div className={styles.error}>Error: {status.info.msg}</div>
         )}
         {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       </div>

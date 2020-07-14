@@ -1,18 +1,10 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import Container from "react-bootstrap/Container";
-import spotify from "../images/spotify.png";
-import creativity from "../images/creativity.jpg";
-import esports from "../images/esports.jpg";
 import styles from "./index.module.scss";
+
 function Index() {
   return (
     <main>
       <div className={styles.Hero}>
-        {/* <h4 className={styles.Hero__subheading}>
-          Full-Service, Search Engine Optimized, Custom Website Design. Just One
-          Low Monthly Fee. Hosting & Maintenance Included.
-        </h4> */}
       </div>
       <h1 className={styles.Hero__heading}>
         WE DESIGN AND DEVELOP

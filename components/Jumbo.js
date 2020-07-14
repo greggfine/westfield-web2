@@ -10,7 +10,8 @@ const Jumbo = ({ headingText }) => (
       </p>
       <p></p>
     </Container>
-    <style jsx>{`
+    <style jsx>
+      {`
       .Jumbo {
         height: 450px;
         background-color: #eee;
@@ -23,7 +24,8 @@ const Jumbo = ({ headingText }) => (
       .jumbotron-text {
         text-align: center;
       }
-    `}</style>
+    `}
+    </style>
   </div>
 );
 

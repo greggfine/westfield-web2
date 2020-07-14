@@ -223,6 +223,7 @@ function Navigation() {
     __self: this
   }, "Gregg Fine Web Dev"))), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Toggle, {
     "aria-controls": "basic-navbar-nav",
+    className: "bg-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -232,56 +233,42 @@ function Navigation() {
     id: "basic-navbar-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 22
     },
     __self: this
   }, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2___default.a, {
     className: "mr-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/services",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Services")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/portfolio",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/portfolio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
   }, __jsx("a", {
     className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 33
     },
     __self: this
   }, __jsx("a", {
     className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 34
     },
     __self: this
   }, "Contact")))))));

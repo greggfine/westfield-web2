@@ -1849,10 +1849,18 @@ module.exports = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".contact_formWrapper__1IYDR {\n  margin: auto;\n  border: 10px solid #000;\n  padding: 20px 20px 60px;\n  max-width: 640px; }\n", "",{"version":3,"sources":["contact.module.scss"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,uBAAuB;EACvB,uBAAuB;EACvB,gBAAgB,EAAA","file":"contact.module.scss","sourcesContent":[".formWrapper {\n  margin: auto;\n  border: 10px solid #000;\n  padding: 20px 20px 60px;\n  max-width: 640px;\n}\n"]}]);
+exports.push([module.i, ".contact_formWrapper__1IYDR {\n  margin: 150px auto;\n  padding: 20px 20px 60px;\n  max-width: 640px; }\n\n.contact_formTitle__22K9u {\n  text-align: center;\n  color: var(--secondaryRed);\n  font-weight: 600;\n  margin-bottom: 100px; }\n\n.contact_contactForm__2ugqo {\n  display: grid;\n  grid-row-gap: 1em; }\n\n.contact_contactFormLabel__4c1PL {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase; }\n\n.contact_contactFormInput___L4Zy,\n.contact_contactFormBtn__2Lf5l,\n.contact_contactFormTextArea__Y93vP,\n.contact_error__29_M5 {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease; }\n\n.contact_contactFormBtn__2Lf5l,\n.contact_error__29_M5 {\n  padding: 0.65em 1em;\n  background: var(--mainPurple);\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease; }\n\n.contact_contactFormTextArea__Y93vP {\n  height: 4em;\n  max-width: 622px; }\n\n.contact_contactFormInput___L4Zy:focus,\n.contact_contactFormTextArea__Y93vP:focus,\n.contact_contactFormBtn__2Lf5l:focus {\n  outline: 0; }\n\n.contact_contactFormBtn__2Lf5l:hover {\n  background-color: var(--neonGreen); }\n\n.contact_contactFormBtn__2Lf5l:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5); }\n\n.contact_contactFormBtn__2Lf5l:disabled {\n  pointer-events: none;\n  background: #999; }\n\n.contact_error__29_M5 {\n  background: #ee0000;\n  color: var(--mainWhite);\n  margin-top: 16px;\n  text-align: center; }\n\n@media screen and (max-width: 580px) {\n  .contact_contactFormMain__3F172 {\n    font-size: 14px; } }\n\n@media screen and (max-width: 474px) {\n  .contact_contactFormMain__3F172 {\n    font-size: 12px;\n    padding: 12px; } }\n", "",{"version":3,"sources":["contact.module.scss"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,uBAAuB;EACvB,gBAAgB,EAAA;;AAElB;EACE,kBAAkB;EAClB,0BAA0B;EAC1B,gBAAgB;EAChB,oBAAoB,EAAA;;AAGtB;EACE,aAAa;EACb,iBAAiB,EAAA;;AAEnB;EACE,cAAc;EACd,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,yBAAyB,EAAA;;AAG3B;;;;EAIE,SAAS;EACT,yBAAyB;EACzB,kBAAkB;EAClB,cAAc;EACd,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,cAAc;EACd,eAAe;EACf,oBAAoB;EACpB,yBAAyB,EAAA;;AAE3B;;EAEE,mBAAmB;EACnB,6BAA6B;EAC7B,WAAW;EACX,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,yBAAyB,EAAA;;AAE3B;EACE,WAAW;EACX,gBAAgB,EAAA;;AAElB;;;EAGE,UAAU,EAAA;;AAEZ;EACE,kCAAkC,EAAA;;AAEpC;EACE,4CAA4C,EAAA;;AAE9C;EACE,oBAAoB;EACpB,gBAAgB,EAAA;;AAElB;EACE,mBAAmB;EACnB,uBAAuB;EACvB,gBAAgB;EAChB,kBAAkB,EAAA;;AAGpB;EACE;IACE,eAAe,EAAA,EAChB;;AAQH;EACE;IACE,eAAe;IACf,aAAa,EAAA,EACd","file":"contact.module.scss","sourcesContent":[".formWrapper {\n  margin: 150px auto;\n  padding: 20px 20px 60px;\n  max-width: 640px;\n}\n.formTitle {\n  text-align: center;\n  color: var(--secondaryRed);\n  font-weight: 600;\n  margin-bottom: 100px;\n}\n\n.contactForm {\n  display: grid;\n  grid-row-gap: 1em;\n}\n.contactFormLabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase;\n}\n\n.contactFormInput,\n.contactFormBtn,\n.contactFormTextArea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease;\n}\n.contactFormBtn,\n.error {\n  padding: 0.65em 1em;\n  background: var(--mainPurple);\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease;\n}\n.contactFormTextArea {\n  height: 4em;\n  max-width: 622px;\n}\n.contactFormInput:focus,\n.contactFormTextArea:focus,\n.contactFormBtn:focus {\n  outline: 0;\n}\n.contactFormBtn:hover {\n  background-color: var(--neonGreen);\n}\n.contactFormBtn:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);\n}\n.contactFormBtn:disabled {\n  pointer-events: none;\n  background: #999;\n}\n.error {\n  background: #ee0000;\n  color: var(--mainWhite);\n  margin-top: 16px;\n  text-align: center;\n}\n\n@media screen and (max-width: 580px) {\n  .contactFormMain {\n    font-size: 14px;\n  }\n  //   header {\n  //     height: 9em;\n  //   }\n  //   h2 {\n  //     padding: 0 16px;\n  //   }\n}\n@media screen and (max-width: 474px) {\n  .contactFormMain {\n    font-size: 12px;\n    padding: 12px;\n  }\n  //   h2 {\n  //     padding: 0 8px;\n  //   }\n}\n"]}]);
 // Exports
 exports.locals = {
-	"formWrapper": "contact_formWrapper__1IYDR"
+	"formWrapper": "contact_formWrapper__1IYDR",
+	"formTitle": "contact_formTitle__22K9u",
+	"contactForm": "contact_contactForm__2ugqo",
+	"contactFormLabel": "contact_contactFormLabel__4c1PL",
+	"contactFormInput": "contact_contactFormInput___L4Zy",
+	"contactFormBtn": "contact_contactFormBtn__2Lf5l",
+	"contactFormTextArea": "contact_contactFormTextArea__Y93vP",
+	"error": "contact_error__29_M5",
+	"contactFormMain": "contact_contactFormMain__3F172"
 };
 
 /***/ }),
@@ -2585,6 +2593,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
   };
 
   return __jsx("main", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormMain,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
@@ -2597,18 +2606,54 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
       lineNumber: 66
     },
     __self: this
-  }, __jsx("form", {
-    onSubmit: handleOnSubmit,
+  }, __jsx("h1", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.formTitle,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
-  }, __jsx("label", {
-    htmlFor: "email",
+  }, "Let's Talk About Your Project!"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 68
+    },
+    __self: this
+  }, "Have an exciting project in mind? Or maybe would like to improve your current setup? We\u2019d be happy to discuss it with you. Let\u2019s get in touch!"), __jsx("form", {
+    onSubmit: handleOnSubmit,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactForm,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, __jsx("label", {
+    htmlFor: "name",
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormLabel,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Name"), __jsx("input", {
+    id: "name",
+    type: "name",
+    name: "_replyto",
+    onChange: handleOnChange,
+    required: true,
+    value: inputs.name,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormInput,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }), __jsx("label", {
+    htmlFor: "email",
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormLabel,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
     },
     __self: this
   }, "Email"), __jsx("input", {
@@ -2618,16 +2663,18 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
     onChange: handleOnChange,
     required: true,
     value: inputs.email,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormInput,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 102
     },
     __self: this
   }), __jsx("label", {
     htmlFor: "message",
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormLabel,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 111
     },
     __self: this
   }, "Message"), __jsx("textarea", {
@@ -2636,30 +2683,33 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
     onChange: handleOnChange,
     required: true,
     value: inputs.message,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormTextArea,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 114
     },
     __self: this
   }), __jsx("button", {
     type: "submit",
     disabled: status.submitting,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.contactFormBtn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 122
     },
     __self: this
-  }, !status.submitting ? !status.submitted ? "Submit" : "Submitted" : "Submitting...")), status.info.error && __jsx("div", {
-    className: "error",
+  }, !status.submitting ? //   ? !status.submitted ? "Submit" : "Submitted"
+  !status.submitted ? "Send a message" : "Message sent!" : "Submitting...")), status.info.error && __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.error,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 134
     },
     __self: this
   }, "Error: ", status.info.msg), !status.info.error && status.info.msg && __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 136
     },
     __self: this
   }, status.info.msg)));
@@ -2728,7 +2778,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2FHTMusic%2FDesktop%2FPROJECTS%2Fwestfield-web%2Fpages%2Fcontact.js ***!
   \****************************************************************************************************************************************************/
@@ -2751,5 +2801,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contact.js.map

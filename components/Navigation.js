@@ -15,16 +15,20 @@ function Navigation() {
               <a className={styles.logo}>Gregg Fine Web Dev</a>
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="bg-light"
+          />
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+          >
             <Nav className="mr-auto">
-              <Link href="/services">
-                <a className={styles.logo}>Services</a>
-              </Link>
-
               <Link href="/portfolio">
                 <a className={styles.logo}>Portfolio</a>
               </Link>
+              {/* <Link href="/services">
+                <a className={styles.logo}>Blog</a>
+              </Link> */}
 
               <Link href="/contact">
                 <a className={styles.logo}>Contact</a>

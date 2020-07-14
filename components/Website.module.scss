@@ -4,22 +4,16 @@
 }
 
 .innerCard:hover {
-  box-shadow: 2px 2px 10px 10px #eee;
+  box-shadow: 2px 2px 10px 10px var(--boxShadowGrey);
 }
 
 .cardImg {
   height: 100%;
 }
 
-.cardBtn {
-  //   margin: 0 auto;
-  //   border: 10px solid #000;
-  //   display: block;
-}
-
 .cardText {
   font-size: 16px;
-  color: #666;
+  color: var(--secondaryText);
 }
 
 .cardTitle {
@@ -29,7 +23,7 @@
 .Card {
   width: 22rem;
   textalign: center;
-  boxshadow: 2px 2px 5px 5px #eee;
+  boxshadow: 2px 2px 5px 5px var(--boxShadowGrey);
   margin: 20px;
-  borderradius: 0.55em;
+  border-radius: 0.55em;
 }

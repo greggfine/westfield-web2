@@ -1,6 +1,96 @@
 .formWrapper {
-  margin: auto;
-  border: 10px solid #000;
+  margin: 150px auto;
   padding: 20px 20px 60px;
   max-width: 640px;
+}
+.formTitle {
+  text-align: center;
+  color: var(--secondaryRed);
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.contactForm {
+  display: grid;
+  grid-row-gap: 1em;
+}
+.contactFormLabel {
+  color: #666666;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.contactFormInput,
+.contactFormBtn,
+.contactFormTextArea,
+.error {
+  margin: 0;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 0.5em;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+.contactFormBtn,
+.error {
+  padding: 0.65em 1em;
+  background: var(--mainPurple);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.contactFormTextArea {
+  height: 4em;
+  max-width: 622px;
+}
+.contactFormInput:focus,
+.contactFormTextArea:focus,
+.contactFormBtn:focus {
+  outline: 0;
+}
+.contactFormBtn:hover {
+  background-color: var(--neonGreen);
+}
+.contactFormBtn:focus {
+  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);
+}
+.contactFormBtn:disabled {
+  pointer-events: none;
+  background: #999;
+}
+.error {
+  background: #ee0000;
+  color: var(--mainWhite);
+  margin-top: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  .contactFormMain {
+    font-size: 14px;
+  }
+  //   header {
+  //     height: 9em;
+  //   }
+  //   h2 {
+  //     padding: 0 16px;
+  //   }
+}
+@media screen and (max-width: 474px) {
+  .contactFormMain {
+    font-size: 12px;
+    padding: 12px;
+  }
+  //   h2 {
+  //     padding: 0 8px;
+  //   }
 }

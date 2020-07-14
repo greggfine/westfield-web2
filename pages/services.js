@@ -9,7 +9,7 @@ function PlansAndPricing(props) {
   const { products } = props;
   return (
     <main>
-      <Jumbo headingText={"Services"} />
+      {/* <Jumbo headingText={"Services"} /> */}
       <Container>
         <ListGroup>
           <ListGroup.Item>Ongoing Maintenance Time</ListGroup.Item>

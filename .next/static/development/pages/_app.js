@@ -175,6 +175,7 @@ function Navigation() {
     __self: this
   }, "Gregg Fine Web Dev"))), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__["default"].Toggle, {
     "aria-controls": "basic-navbar-nav",
+    className: "bg-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -184,56 +185,42 @@ function Navigation() {
     id: "basic-navbar-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 22
     },
     __self: this
   }, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     className: "mr-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/services",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Services")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/portfolio",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/portfolio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
   }, __jsx("a", {
     className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 33
     },
     __self: this
   }, __jsx("a", {
     className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 34
     },
     __self: this
   }, "Contact")))))));
@@ -1242,7 +1229,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Footer_footer__a95ok {\n  background: #4a1962;\n  background: linear-gradient(23deg, #4a1962 54%, #210640 100%);\n  color: #fff;\n  text-align: center;\n  padding: 100px;\n  position: relative; }\n  .Footer_footer__a95ok h3 {\n    font-size: 2.5rem; }\n  .Footer_footer__a95ok p {\n    margin: 0; }\n\n.Footer_footerBox__28aUj {\n  border: 10px solid #00e06d;\n  padding: 10px;\n  width: 200px;\n  height: 200px;\n  position: absolute;\n  top: 40px;\n  left: 400px; }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,mBAA2B;EAC3B,6DAIC;EACD,WAAW;EACX,kBAAkB;EAClB,cAAc;EACd,kBAAkB,EAAA;EAVpB;IAaI,iBAAiB,EAAA;EAbrB;IAgBI,SAAS,EAAA;;AAIb;EACE,0BAA0B;EAC1B,aAAa;EACb,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,SAAS;EACT,WAAW,EAAA","file":"Footer.module.scss","sourcesContent":[".footer {\n  background: rgb(74, 25, 98);\n  background: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  color: #fff;\n  text-align: center;\n  padding: 100px;\n  position: relative;\n\n  h3 {\n    font-size: 2.5rem;\n  }\n  p {\n    margin: 0;\n  }\n}\n\n.footerBox {\n  border: 10px solid #00e06d;\n  padding: 10px;\n  width: 200px;\n  height: 200px;\n  position: absolute;\n  top: 40px;\n  left: 400px;\n}\n"]}]);
+exports.push([module.i, ".Footer_footer__a95ok {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative; }\n  .Footer_footer__a95ok h3 {\n    font-size: 2.5rem; }\n  .Footer_footer__a95ok p {\n    margin: 0; }\n\n.Footer_footerBox__28aUj {\n  border: 10px solid var(--neonGreen);\n  padding: 10px;\n  width: 200px;\n  height: 200px;\n  position: absolute;\n  top: 40px;\n  left: 400px; }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,6BAA6B;EAC7B,iCAAiC;EACjC,uBAAuB;EACvB,kBAAkB;EAClB,cAAc;EACd,kBAAkB,EAAA;EANpB;IASI,iBAAiB,EAAA;EATrB;IAYI,SAAS,EAAA;;AAIb;EACE,mCAAmC;EACnC,aAAa;EACb,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,SAAS;EACT,WAAW,EAAA","file":"Footer.module.scss","sourcesContent":[".footer {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n\n  h3 {\n    font-size: 2.5rem;\n  }\n  p {\n    margin: 0;\n  }\n}\n\n.footerBox {\n  border: 10px solid var(--neonGreen);\n  padding: 10px;\n  width: 200px;\n  height: 200px;\n  position: absolute;\n  top: 40px;\n  left: 400px;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"footer": "Footer_footer__a95ok",
@@ -1260,7 +1247,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Navigation_logo__1Zwfh {\n  text-decoration: none;\n  font-size: 1.5rem;\n  color: #fff;\n  margin-right: 60px;\n  letter-spacing: 1px; }\n\n.Navigation_logo__1Zwfh:hover {\n  transition: color 300ms; }\n\n.Navigation_nav__3cXNL {\n  background-color: #4a1962;\n  background: #4a1962;\n  background: linear-gradient(23deg, #4a1962 54%, #210640 100%); }\n", "",{"version":3,"sources":["Navigation.module.scss"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,iBAAiB;EACjB,WAAW;EACX,kBAAkB;EAClB,mBAAmB,EAAA;;AAErB;EACE,uBAAuB,EAAA;;AAIzB;EACE,yBAAyB;EACzB,mBAA2B;EAC3B,6DAIC,EAAA","file":"Navigation.module.scss","sourcesContent":[".logo {\n  text-decoration: none;\n  font-size: 1.5rem;\n  color: #fff;\n  margin-right: 60px;\n  letter-spacing: 1px;\n}\n.logo:hover {\n  transition: color 300ms;\n  //   background-color: #fff;\n}\n\n.nav {\n  background-color: #4a1962;\n  background: rgb(74, 25, 98);\n  background: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n}\n"]}]);
+exports.push([module.i, ".Navigation_logo__1Zwfh {\n  text-decoration: none;\n  font-size: 1.5rem;\n  color: var(--mainWhite);\n  margin-right: 60px;\n  letter-spacing: 1px; }\n\n.Navigation_logo__1Zwfh:hover {\n  transition: color 300ms; }\n\n.Navigation_nav__3cXNL {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient); }\n", "",{"version":3,"sources":["Navigation.module.scss"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,iBAAiB;EACjB,uBAAuB;EACvB,kBAAkB;EAClB,mBAAmB,EAAA;;AAErB;EACE,uBAAuB,EAAA;;AAGzB;EACE,mCAAmC;EACnC,iCAAiC,EAAA","file":"Navigation.module.scss","sourcesContent":[".logo {\n  text-decoration: none;\n  font-size: 1.5rem;\n  color: var(--mainWhite);\n  margin-right: 60px;\n  letter-spacing: 1px;\n}\n.logo:hover {\n  transition: color 300ms;\n}\n\n.nav {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n}\n"]}]);
 // Exports
 exports.locals = {
 	"logo": "Navigation_logo__1Zwfh",
@@ -1281,7 +1268,7 @@ exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/dis
 
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);"]);
 // Module
-exports.push([module.i, "/* ContactForm.js */\nbody {\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif; }\n\nmain {\n  margin: 0 auto;\n  font-size: 16px;\n  line-height: 1.65;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  flex-grow: 1; }\n\nheader {\n  height: 152px;\n  margin-top: 3em; }\n\nimg {\n  margin-right: 8px;\n  height: 48px; }\n\nhr {\n  border: none;\n  border-top: 1px solid #eaeaea;\n  margin-bottom: 48px; }\n\nh1 {\n  font-size: 1.5em;\n  font-weight: 500; }\n\nh2 {\n  font-size: 16px;\n  font-weight: 700;\n  margin: 0; }\n\nform {\n  display: grid;\n  grid-row-gap: 1em; }\n\nlabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase; }\n\ninput,\nbutton,\ntextarea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease; }\n\nbutton,\n.error {\n  padding: 0.65em 1em;\n  background: #0076ff;\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease; }\n\ntextarea {\n  height: 4em;\n  max-width: 622px; }\n\ninput:focus,\ntextarea:focus,\nbutton:focus {\n  outline: 0;\n  border-color: #0076ff; }\n\nbutton:hover {\n  background: rgba(0, 118, 255, 0.8); }\n\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5); }\n\nbutton:disabled {\n  pointer-events: none;\n  background: #999; }\n\n.error {\n  background: #ee0000;\n  color: #fff;\n  margin-top: 16px;\n  text-align: center; }\n\n@media screen and (max-width: 580px) {\n  main {\n    font-size: 14px; }\n  header {\n    height: 9em; }\n  h2 {\n    padding: 0 16px; } }\n\n@media screen and (max-width: 474px) {\n  main {\n    font-size: 12px;\n    padding: 12px; }\n  h2 {\n    padding: 0 8px; } }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAEA,mBAAA;AAEA;EAEE,gDAAgD,EAAA;;AAGlD;EAME,cAAc;EACd,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,YAAY,EAAA;;AAGd;EACE,aAAa;EACb,eAAe,EAAA;;AAEjB;EACE,iBAAiB;EACjB,YAAY,EAAA;;AAEd;EACE,YAAY;EACZ,6BAA6B;EAC7B,mBAAmB,EAAA;;AAErB;EACE,gBAAgB;EAChB,gBAAgB,EAAA;;AAElB;EACE,eAAe;EACf,gBAAgB;EAChB,SAAS,EAAA;;AAEX;EACE,aAAa;EACb,iBAAiB,EAAA;;AAEnB;EACE,cAAc;EACd,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,yBAAyB,EAAA;;AAE3B;;;;EAIE,SAAS;EACT,yBAAyB;EACzB,kBAAkB;EAClB,cAAc;EACd,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,cAAc;EACd,eAAe;EACf,oBAAoB;EACpB,yBAAyB,EAAA;;AAE3B;;EAEE,mBAAmB;EACnB,mBAAmB;EACnB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,yBAAyB,EAAA;;AAE3B;EACE,WAAW;EACX,gBAAgB,EAAA;;AAElB;;;EAGE,UAAU;EACV,qBAAqB,EAAA;;AAEvB;EACE,kCAAkC,EAAA;;AAEpC;EACE,4CAA4C,EAAA;;AAE9C;EACE,oBAAoB;EACpB,gBAAgB,EAAA;;AAElB;EACE,mBAAmB;EACnB,WAAW;EACX,gBAAgB;EAChB,kBAAkB,EAAA;;AAEpB;EACE;IACE,eAAe,EAAA;EAEjB;IACE,WAAW,EAAA;EAEb;IACE,eAAe,EAAA,EAChB;;AAEH;EACE;IACE,eAAe;IACf,aAAa,EAAA;EAEf;IACE,cAAc,EAAA,EACf","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n\n/* ContactForm.js */\n\nbody {\n  //   font-family: \"CaslonGraD\", \"Arial\", sans-serif;\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n}\n\nmain {\n  //   font-family: \"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", \"Helvetica\",\n  //     \"Arial\", sans-serif;\n\n  //   padding: 20px 20px 60px;\n  //   max-width: 640px;\n  margin: 0 auto;\n  font-size: 16px;\n  line-height: 1.65;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\nheader {\n  height: 152px;\n  margin-top: 3em;\n}\nimg {\n  margin-right: 8px;\n  height: 48px;\n}\nhr {\n  border: none;\n  border-top: 1px solid #eaeaea;\n  margin-bottom: 48px;\n}\nh1 {\n  font-size: 1.5em;\n  font-weight: 500;\n}\nh2 {\n  font-size: 16px;\n  font-weight: 700;\n  margin: 0;\n}\nform {\n  display: grid;\n  grid-row-gap: 1em;\n}\nlabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase;\n}\ninput,\nbutton,\ntextarea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease;\n}\nbutton,\n.error {\n  padding: 0.65em 1em;\n  background: #0076ff;\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease;\n}\ntextarea {\n  height: 4em;\n  max-width: 622px;\n}\ninput:focus,\ntextarea:focus,\nbutton:focus {\n  outline: 0;\n  border-color: #0076ff;\n}\nbutton:hover {\n  background: rgba(0, 118, 255, 0.8);\n}\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);\n}\nbutton:disabled {\n  pointer-events: none;\n  background: #999;\n}\n.error {\n  background: #ee0000;\n  color: #fff;\n  margin-top: 16px;\n  text-align: center;\n}\n@media screen and (max-width: 580px) {\n  main {\n    font-size: 14px;\n  }\n  header {\n    height: 9em;\n  }\n  h2 {\n    padding: 0 16px;\n  }\n}\n@media screen and (max-width: 474px) {\n  main {\n    font-size: 12px;\n    padding: 12px;\n  }\n  h2 {\n    padding: 0 8px;\n  }\n}\n"]}]);
+exports.push([module.i, ":root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63; }\n\nbody {\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column; }\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1; }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAGA;EACE,qBAAa;EACb;;;;GAAiB;EAKjB,oBAAY;EACZ,oBAAY;EACZ,qBAAgB;EAChB,qBAAgB;EAChB,kBAAU;EACV,uBAAe,EAAA;;AAGjB;EAEE,gDAAgD;EAChD,aAAa;EACb,sBAAsB,EAAA;;AAGxB;EACE,iBAAiB;EACjB,YAAY,EAAA","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n// @import \"base/baseline\";\n\n:root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63;\n}\n\nbody {\n  //   font-family: \"CaslonGraD\", \"Arial\", sans-serif;\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column;\n}\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\n// @define-mixin atSmall {\n//   @media (min-width: 530px) {\n//     @mixin-content;\n//   }\n// }\n\n// @define-mixin atSmallMedium {\n//   @media (min-width: 767px) {\n//     @mixin-content;\n//   }\n// }\n\n// @define-mixin atMedium {\n//   @media (min-width: 960px) {\n//     @mixin-content;\n//   }\n// }\n"]}]);
 
 
 /***/ }),
