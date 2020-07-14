@@ -12,7 +12,6 @@
   &__about {
     background-color: #f0f0f0;
     text-align: center;
-    // border: 1px solid #000;
   }
 
   &__whatwedo {
@@ -69,22 +68,17 @@
   }
 
   &__text {
-    // padding-top: 280px;
     font-family: "Avenir", Arial, sans-serif;
-    // max-width: 900px;
     text-align: center;
     margin: 0 auto;
     padding: 0 30px 30px;
-    // padding: 100px;
   }
 
   &__typewriter {
     white-space: nowrap;
     overflow: hidden;
     font-size: 1.5rem;
-    // color: rgba(255, 255, 255, 0.7);
     color: var(--secondaryRed);
-    // color: var(--mainPurple);
     animation: animated-text 3s steps(30, end) 1s 1 alternate both;
     animation-iteration-count: infinite;
     padding-left: 0px;
@@ -102,9 +96,6 @@
 }
 
 .serviceCardTitle {
-  //   color: red;
-  //   border: 1px solid #000;
-  //   min-width: 300px;
   font-size: 1.5rem;
   margin-top: 20px;
 }
@@ -176,9 +167,6 @@
   }
 
   .cardGrid {
-    //   display: flex;
     flex-direction: row;
-    //   justify-content: space-evenly;
-    //   padding: 50px;
   }
 }
