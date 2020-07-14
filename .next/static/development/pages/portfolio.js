@@ -2578,7 +2578,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 2:
 /*!********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=%2FUsers%2FHTMusic%2FDesktop%2FPROJECTS%2Fwestfield-web%2Fpages%2Fportfolio.js ***!
   \********************************************************************************************************************************************************/
@@ -2601,5 +2601,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=portfolio.js.map
