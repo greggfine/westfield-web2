@@ -5,64 +5,65 @@ import spotify from "../images/spotify.png";
 import creativity from "../images/creativity.jpg";
 import esports from "../images/esports.jpg";
 import styles from "./index.module.scss";
-import IconGrid from "../components/IconGrid";
 function Index() {
   return (
-    <>
+    <main>
       <div className={styles.Hero}>
-        <h2 className={styles.Hero__heading}>
-          Turn Your Website Into A Marketing Machine
-        </h2>
-        <h4 className={styles.Hero__subheading}>
+        {/* <h4 className={styles.Hero__subheading}>
           Full-Service, Search Engine Optimized, Custom Website Design. Just One
           Low Monthly Fee. Hosting & Maintenance Included.
-        </h4>
-        <Container>
-          <Carousel style={{ paddingTop: "60px" }}>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                className={styles.Hero__img}
-                src={spotify}
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                className={styles.Hero__img}
-                src={creativity}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                className={styles.Hero__img}
-                src={esports}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
-        </Container>
+        </h4> */}
       </div>
-      <p className={styles.Hero__text}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit iusto quis
-        labore, ad est voluptate asperiores aliquam. Dolores voluptatibus nisi
-        explicabo recusandae, odit quisquam, nobis temporibus tempore facere
-        quaerat, magni neque corporis amet voluptatem dolorem necessitatibus
-      </p>
-      <div className={styles.Hero__waveContainer}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#03a9f4"
-            fill-opacity="1"
-            d="M0,32L80,48C160,64,320,96,480,90.7C640,85,800,43,960,53.3C1120,64,1280,128,1360,160L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-          ></path>
-        </svg>
-      </div>
-      <IconGrid />
-    </>
+      <h1 className={styles.Hero__heading}>
+        WE DESIGN AND DEVELOP
+        <br />
+      </h1>
+      <h2 className={styles.typewriter}>WEBSITES THAT GET RESULTS</h2>
+
+      <section className={styles.Hero__about}>
+        <h1 className={styles.Hero__whatwedo}>
+          Gregg Fine provides website design & marketing strategies tailored to
+          you
+        </h1>
+        <p className={styles.Hero__text}>
+          I provide reliable and personal website building, redesign and
+          maintenance services to nonprofits and small businesses. My websites
+          are based on WordPress, a powerful open-source content management
+          system. Your website will be tailored to your organization’s needs and
+          you will be getting rock-solid, one-on-one service.
+        </p>
+      </section>
+
+      <section className={styles.cardGrid}>
+        <div className={styles.serviceCard}>
+          <img src="/mobile-icon.png" alt="" className={styles.cardIcon} />
+          <h2>Website Design & Development</h2>
+          <p>
+            We create truly customized websites, everything from beautiful,
+            eye-catching and elegant designs to sleek, professional web pages
+            that are sure to get you noticed.
+          </p>
+        </div>
+        <div className={styles.serviceCard}>
+          <img src="/mobile-icon.png" alt="" className={styles.cardIcon} />
+          <h2>SEO</h2>
+          <p>
+            Our innovative SEO strategies, as well as our wealth of knowledge
+            regarding search algorithms will enable you to rise to the very top
+            of the search rankings.
+          </p>
+        </div>
+        <div className={styles.serviceCard}>
+          <img src="/mobile-icon.png" alt="" className={styles.cardIcon} />
+          <h2>Email Marketing</h2>
+          <p>
+            We can help you reach out in the best possible way through our email
+            marketing expertise. Retaining valuable customers and keeping
+            clients abreast of your company’s latest goings-on.
+          </p>
+        </div>
+      </section>
+    </main>
   );
 }
 

@@ -1,47 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/IconGrid.js":
-/*!********************************!*\
-  !*** ./components/IconGrid.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/IconGrid.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // import activity from "../images/icons/activity_200.gif";
-// import activity from "../images/icons/activity.svg";
-// import sprite from "../images/sprite_60fps.svg";
-// import GoogleLogo from "./GoogleLogo";
-
-function IconGrid() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("img", {
-    alt: "",
-    style: {
-      width: "10%"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  })));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (IconGrid);
-
-/***/ }),
-
 /***/ "./images/creativity.jpg":
 /*!*******************************!*\
   !*** ./images/creativity.jpg ***!
@@ -72,33 +30,6 @@ module.exports = "/_next/static/images/esports-4dc69f088cb523cf26941362c88cc5e2.
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/spotify-8ed71cc3888f276e057d381c2e08f40e.png";
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
 
 /***/ }),
 
@@ -289,15 +220,23 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".index_Hero__37DBn {\n  background-color: #03a9f4;\n  height: 920px;\n  margin: 0;\n  color: #fff; }\n  .index_Hero__heading__2gFdS {\n    max-width: 600px;\n    text-align: center;\n    margin: 0 auto 30px;\n    padding-top: 60px;\n    font-size: 3rem;\n    font-weight: 800; }\n  .index_Hero__subheading__3xdkH {\n    max-width: 750px;\n    margin: 0 auto;\n    text-align: center;\n    line-height: 1.4;\n    font-weight: 400; }\n  .index_Hero__img__3fwzM {\n    height: 600px; }\n  .index_Hero__text__1eVzx {\n    padding-top: 280px; }\n  .index_Hero__waveContainer__Damyq {\n    background-blend-mode: color-burn;\n    background-repeat: no-repeat;\n    background-size: 130%;\n    position: relative;\n    background: #09f;\n    color: #fff;\n    text-align: center;\n    overflow: hidden; }\n    .index_Hero__waveContainer__Damyq svg {\n      display: block; }\n", "",{"version":3,"sources":["index.module.scss"],"names":[],"mappings":"AAAA;EACE,yBAAyB;EACzB,aAAa;EACb,SAAS;EACT,WAAW,EAAA;EAEX;IACE,gBAAgB;IAChB,kBAAkB;IAClB,mBAAmB;IACnB,iBAAiB;IACjB,eAAe;IACf,gBAAgB,EAAA;EAGlB;IACE,gBAAgB;IAChB,cAAc;IACd,kBAAkB;IAClB,gBAAgB;IAChB,gBAAgB,EAAA;EAGlB;IACE,aAAa,EAAA;EAGf;IACE,kBAAkB,EAAA;EAGpB;IACE,iCAAiC;IACjC,4BAA4B;IAC5B,qBAAqB;IACrB,kBAAkB;IAClB,gBAAgB;IAChB,WAAW;IACX,kBAAkB;IAClB,gBAAgB,EAAA;IARjB;MAWG,cAAc,EAAA","file":"index.module.scss","sourcesContent":[".Hero {\n  background-color: #03a9f4;\n  height: 920px;\n  margin: 0;\n  color: #fff;\n\n  &__heading {\n    max-width: 600px;\n    text-align: center;\n    margin: 0 auto 30px;\n    padding-top: 60px;\n    font-size: 3rem;\n    font-weight: 800;\n  }\n\n  &__subheading {\n    max-width: 750px;\n    margin: 0 auto;\n    text-align: center;\n    line-height: 1.4;\n    font-weight: 400;\n  }\n\n  &__img {\n    height: 600px;\n  }\n\n  &__text {\n    padding-top: 280px;\n  }\n\n  &__waveContainer {\n    background-blend-mode: color-burn;\n    background-repeat: no-repeat;\n    background-size: 130%;\n    position: relative;\n    background: #09f;\n    color: #fff;\n    text-align: center;\n    overflow: hidden;\n\n    svg {\n      display: block;\n    }\n  }\n}\n"]}]);
+exports.push([module.i, ".index_Hero__37DBn {\n  height: 600px;\n  margin: 0;\n  color: #fff;\n  background-image: url(\"/man.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 0 -100px;\n  -webkit-filter: grayscale(50%);\n          filter: grayscale(50%); }\n  .index_Hero__about__2jUlL {\n    background-color: #f0f0f0;\n    text-align: center; }\n  .index_Hero__whatwedo__2yJ82 {\n    color: #19222b;\n    padding-top: 100px; }\n  .index_Hero__button__2bbcr {\n    background-color: #fff;\n    color: #d81159;\n    border: 2px solid #d81159;\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 22px;\n    padding: 17px 32px; }\n    .index_Hero__button__2bbcr:hover {\n      background-color: #d81159;\n      color: #fff; }\n  .index_Hero__heading__2gFdS {\n    max-width: 700px;\n    text-align: left;\n    padding-left: 60px;\n    padding-top: 60px;\n    font-size: 3rem;\n    font-weight: 800;\n    color: #f3f3f3;\n    color: #333333; }\n  .index_Hero__subheading__3xdkH {\n    max-width: 750px;\n    margin: 0 auto;\n    text-align: center;\n    line-height: 1.4;\n    font-weight: 400; }\n  .index_Hero__img__3fwzM {\n    height: 600px; }\n  .index_Hero__text__1eVzx {\n    font-family: \"Avenir\", Arial, sans-serif;\n    max-width: 900px;\n    text-align: center;\n    margin: 0 auto;\n    padding: 100px; }\n  .index_Hero__waveContainer__Damyq {\n    background-blend-mode: color-burn;\n    background-repeat: no-repeat;\n    background-size: 130%;\n    position: relative;\n    background: #09f;\n    color: #fff;\n    text-align: center;\n    overflow: hidden; }\n    .index_Hero__waveContainer__Damyq svg {\n      display: block; }\n\n.index_typewriter__12Agr {\n  white-space: nowrap;\n  overflow: hidden;\n  font-size: 48px;\n  color: rgba(255, 255, 255, 0.7);\n  color: #d81159;\n  color: #4a1962;\n  -webkit-animation: index_animated-text__1Mu-A 3s steps(30, end) 1s 1 alternate both;\n          animation: index_animated-text__1Mu-A 3s steps(30, end) 1s 1 alternate both;\n  -webkit-animation-iteration-count: infinite;\n          animation-iteration-count: infinite;\n  padding-left: 60px; }\n\n@-webkit-keyframes index_animated-text__1Mu-A {\n  from {\n    width: 0; }\n  to {\n    width: 872px; } }\n\n@keyframes index_animated-text__1Mu-A {\n  from {\n    width: 0; }\n  to {\n    width: 872px; } }\n\n.index_cardIcon__2YE5f {\n  width: 50px;\n  height: 50px;\n  border: 1px solid #d81159;\n  border-radius: 50%;\n  padding: 5px; }\n\n.index_cardGrid__3TXB7 {\n  display: flex;\n  justify-content: space-evenly;\n  padding: 50px; }\n\n.index_serviceCard__3zLsb {\n  display: flex;\n  flex-direction: column;\n  flex-basis: 25%;\n  padding: 10px; }\n", "",{"version":3,"sources":["index.module.scss"],"names":[],"mappings":"AAAA;EAEE,aAAa;EACb,SAAS;EACT,WAAW;EACX,iCAAiC;EACjC,4BAA4B;EAC5B,sBAAsB;EACtB,6BAA6B;EAC7B,8BAAsB;UAAtB,sBAAsB,EAAA;EAEtB;IACE,yBAAyB;IACzB,kBAAkB,EAAA;EAGpB;IACE,cAAc;IACd,kBAAkB,EAAA;EAGpB;IACE,sBAAsB;IACtB,cAAc;IACd,yBAAyB;IACzB,eAAe;IACf,gBAAgB;IAChB,iBAAiB;IACjB,kBAAkB,EAAA;IAPnB;MAUG,yBAAyB;MACzB,WAAW,EAAA;EAIf;IACE,gBAAgB;IAChB,gBAAgB;IAChB,kBAAkB;IAElB,iBAAiB;IACjB,eAAe;IACf,gBAAgB;IAChB,cAAc;IACd,cAAsB,EAAA;EAGxB;IACE,gBAAgB;IAChB,cAAc;IACd,kBAAkB;IAClB,gBAAgB;IAChB,gBAAgB,EAAA;EAGlB;IACE,aAAa,EAAA;EAGf;IAEE,wCAAwC;IACxC,gBAAgB;IAChB,kBAAkB;IAClB,cAAc;IACd,cAAc,EAAA;EAGhB;IACE,iCAAiC;IACjC,4BAA4B;IAC5B,qBAAqB;IACrB,kBAAkB;IAClB,gBAAgB;IAChB,WAAW;IACX,kBAAkB;IAClB,gBAAgB,EAAA;IARjB;MAWG,cAAc,EAAA;;AAKpB;EACE,mBAAmB;EACnB,gBAAgB;EAEhB,eAAe;EACf,+BAA+B;EAC/B,cAAc;EACd,cAAc;EACd,mFAA8D;UAA9D,2EAA8D;EAC9D,2CAAmC;UAAnC,mCAAmC;EACnC,kBAAkB,EAAA;;AAGpB;EACE;IACE,QAAQ,EAAA;EAEV;IACE,YAAY,EAAA,EAAA;;AALhB;EACE;IACE,QAAQ,EAAA;EAEV;IACE,YAAY,EAAA,EAAA;;AAIhB;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,kBAAkB;EAClB,YAAY,EAAA;;AAGd;EACE,aAAa;EACb,6BAA6B;EAC7B,aAAa,EAAA;;AAGf;EACE,aAAa;EACb,sBAAsB;EAEtB,eAAe;EACf,aAAa,EAAA","file":"index.module.scss","sourcesContent":[".Hero {\n  //   background-color: #03a9f4;\n  height: 600px;\n  margin: 0;\n  color: #fff;\n  background-image: url(\"/man.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 0 -100px;\n  filter: grayscale(50%);\n\n  &__about {\n    background-color: #f0f0f0;\n    text-align: center;\n  }\n\n  &__whatwedo {\n    color: #19222b;\n    padding-top: 100px;\n  }\n\n  &__button {\n    background-color: #fff;\n    color: #d81159;\n    border: 2px solid #d81159;\n    font-size: 18px;\n    font-weight: 500;\n    line-height: 22px;\n    padding: 17px 32px;\n\n    &:hover {\n      background-color: #d81159;\n      color: #fff;\n    }\n  }\n\n  &__heading {\n    max-width: 700px;\n    text-align: left;\n    padding-left: 60px;\n    // margin: 0 auto 30px;\n    padding-top: 60px;\n    font-size: 3rem;\n    font-weight: 800;\n    color: #f3f3f3;\n    color: rgb(51, 51, 51);\n  }\n\n  &__subheading {\n    max-width: 750px;\n    margin: 0 auto;\n    text-align: center;\n    line-height: 1.4;\n    font-weight: 400;\n  }\n\n  &__img {\n    height: 600px;\n  }\n\n  &__text {\n    // padding-top: 280px;\n    font-family: \"Avenir\", Arial, sans-serif;\n    max-width: 900px;\n    text-align: center;\n    margin: 0 auto;\n    padding: 100px;\n  }\n\n  &__waveContainer {\n    background-blend-mode: color-burn;\n    background-repeat: no-repeat;\n    background-size: 130%;\n    position: relative;\n    background: #09f;\n    color: #fff;\n    text-align: center;\n    overflow: hidden;\n\n    svg {\n      display: block;\n    }\n  }\n}\n\n.typewriter {\n  white-space: nowrap;\n  overflow: hidden;\n  //   font-family: \"Source Code Pro\", monospace;\n  font-size: 48px;\n  color: rgba(255, 255, 255, 0.7);\n  color: #d81159;\n  color: #4a1962;\n  animation: animated-text 3s steps(30, end) 1s 1 alternate both;\n  animation-iteration-count: infinite;\n  padding-left: 60px;\n}\n\n@keyframes animated-text {\n  from {\n    width: 0;\n  }\n  to {\n    width: 872px;\n  }\n}\n\n.cardIcon {\n  width: 50px;\n  height: 50px;\n  border: 1px solid #d81159;\n  border-radius: 50%;\n  padding: 5px;\n}\n\n.cardGrid {\n  display: flex;\n  justify-content: space-evenly;\n  padding: 50px;\n}\n\n.serviceCard {\n  display: flex;\n  flex-direction: column;\n  //   border: 1px solid #000;\n  flex-basis: 25%;\n  padding: 10px;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"Hero": "index_Hero__37DBn",
+	"Hero__about": "index_Hero__about__2jUlL",
+	"Hero__whatwedo": "index_Hero__whatwedo__2yJ82",
+	"Hero__button": "index_Hero__button__2bbcr",
 	"Hero__heading": "index_Hero__heading__2gFdS",
 	"Hero__subheading": "index_Hero__subheading__3xdkH",
 	"Hero__img": "index_Hero__img__3fwzM",
 	"Hero__text": "index_Hero__text__1eVzx",
-	"Hero__waveContainer": "index_Hero__waveContainer__Damyq"
+	"Hero__waveContainer": "index_Hero__waveContainer__Damyq",
+	"typewriter": "index_typewriter__12Agr",
+	"animated-text": "index_animated-text__1Mu-A",
+	"cardIcon": "index_cardIcon__2YE5f",
+	"cardGrid": "index_cardGrid__3TXB7",
+	"serviceCard": "index_serviceCard__3zLsb"
 };
 
 /***/ }),
@@ -2548,24 +2487,20 @@ function canAcceptRef(component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Carousel */ "./node_modules/react-bootstrap/esm/Carousel.js");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var _images_spotify_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/spotify.png */ "./images/spotify.png");
-/* harmony import */ var _images_spotify_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_spotify_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _images_creativity_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/creativity.jpg */ "./images/creativity.jpg");
-/* harmony import */ var _images_creativity_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_creativity_jpg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _images_esports_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/esports.jpg */ "./images/esports.jpg");
-/* harmony import */ var _images_esports_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_esports_jpg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index.module.scss */ "./pages/index.module.scss");
-/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_index_module_scss__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_IconGrid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/IconGrid */ "./components/IconGrid.js");
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Carousel */ "./node_modules/react-bootstrap/esm/Carousel.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var _images_spotify_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/spotify.png */ "./images/spotify.png");
+/* harmony import */ var _images_spotify_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_spotify_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _images_creativity_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/creativity.jpg */ "./images/creativity.jpg");
+/* harmony import */ var _images_creativity_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_creativity_jpg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _images_esports_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/esports.jpg */ "./images/esports.jpg");
+/* harmony import */ var _images_esports_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_esports_jpg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.module.scss */ "./pages/index.module.scss");
+/* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_index_module_scss__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
@@ -2575,115 +2510,152 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 function Index() {
-  var _jsx, _jsx2, _jsx3;
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero,
+  return __jsx("main", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 10
     },
     __self: this
-  }, __jsx("h2", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__heading,
+  }, __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 11
     },
     __self: this
-  }, "Turn Your Website Into A Marketing Machine"), __jsx("h4", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__subheading,
+  }), __jsx("h1", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__heading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
-  }, "Full-Service, Search Engine Optimized, Custom Website Design. Just One Low Monthly Fee. Hosting & Maintenance Included."), __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "WE DESIGN AND DEVELOP", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
-  }, __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    style: {
-      paddingTop: "60px"
-    },
+  })), __jsx("h2", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.typewriter,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"].Item, {
+  }, "WEBSITES THAT GET RESULTS"), __jsx("section", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__about,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
-  }, __jsx("img", (_jsx = {
-    className: "d-block w-100"
-  }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "className", _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__img), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "src", _images_spotify_png__WEBPACK_IMPORTED_MODULE_4___default.a), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "alt", "First slide"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
-    fileName: _jsxFileName,
-    lineNumber: 23
-  }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", this), _jsx))), __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"].Item, {
+  }, __jsx("h1", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__whatwedo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 24
     },
     __self: this
-  }, __jsx("img", (_jsx2 = {
-    className: "d-block w-100"
-  }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "className", _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__img), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "src", _images_creativity_jpg__WEBPACK_IMPORTED_MODULE_5___default.a), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "alt", "Third slide"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__source", {
-    fileName: _jsxFileName,
-    lineNumber: 31
-  }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__self", this), _jsx2))), __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"].Item, {
+  }, "Gregg Fine provides website design & marketing strategies tailored to you"), __jsx("p", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__text,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "I provide reliable and personal website building, redesign and maintenance services to nonprofits and small businesses. My websites are based on WordPress, a powerful open-source content management system. Your website will be tailored to your organization\u2019s needs and you will be getting rock-solid, one-on-one service.")), __jsx("section", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardGrid,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, __jsx("img", (_jsx3 = {
-    className: "d-block w-100"
-  }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx3, "className", _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__img), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx3, "src", _images_esports_jpg__WEBPACK_IMPORTED_MODULE_6___default.a), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx3, "alt", "Third slide"), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx3, "__source", {
-    fileName: _jsxFileName,
-    lineNumber: 39
-  }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx3, "__self", this), _jsx3)))))), __jsx("p", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__text,
+  }, __jsx("img", {
+    src: "/mobile-icon.png",
+    alt: "",
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardIcon,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Website Design & Development"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "We create truly customized websites, everything from beautiful, eye-catching and elegant designs to sleek, professional web pages that are sure to get you noticed.")), __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.serviceCard,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/mobile-icon.png",
+    alt: "",
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardIcon,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
-  }, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit iusto quis labore, ad est voluptate asperiores aliquam. Dolores voluptatibus nisi explicabo recusandae, odit quisquam, nobis temporibus tempore facere quaerat, magni neque corporis amet voluptatem dolorem necessitatibus"), __jsx("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_7___default.a.Hero__waveContainer,
+  }, "SEO"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 50
     },
     __self: this
-  }, __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 1440 320",
+  }, "Our innovative SEO strategies, as well as our wealth of knowledge regarding search algorithms will enable you to rise to the very top of the search rankings.")), __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }, __jsx("path", {
-    fill: "#03a9f4",
-    "fill-opacity": "1",
-    d: "M0,32L80,48C160,64,320,96,480,90.7C640,85,800,43,960,53.3C1120,64,1280,128,1360,160L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z",
+  }, __jsx("img", {
+    src: "/mobile-icon.png",
+    alt: "",
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardIcon,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
     },
     __self: this
-  }))), __jsx(_components_IconGrid__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 58
     },
     __self: this
-  }));
+  }, "Email Marketing"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "We can help you reach out in the best possible way through our email marketing expertise. Retaining valuable customers and keeping clients abreast of your company\u2019s latest goings-on."))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

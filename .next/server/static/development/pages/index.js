@@ -88,52 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/IconGrid.js":
-/*!********************************!*\
-  !*** ./components/IconGrid.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/IconGrid.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
- // import activity from "../images/icons/activity_200.gif";
-// import activity from "../images/icons/activity.svg";
-// import sprite from "../images/sprite_60fps.svg";
-// import GoogleLogo from "./GoogleLogo";
-
-function IconGrid() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("img", {
-    alt: "",
-    style: {
-      width: "10%"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  })));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (IconGrid);
-
-/***/ }),
 
 /***/ "./images/creativity.jpg":
 /*!*******************************!*\
@@ -191,7 +149,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_esports_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_images_esports_jpg__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.module.scss */ "./pages/index.module.scss");
 /* harmony import */ var _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_index_module_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_IconGrid__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/IconGrid */ "./components/IconGrid.js");
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -202,130 +159,153 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 function Index() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+  return __jsx("main", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("div", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
-  }, __jsx("h2", {
+  }), __jsx("h1", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__heading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
-  }, "Turn Your Website Into A Marketing Machine"), __jsx("h4", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__subheading,
+  }, "WE DESIGN AND DEVELOP", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 19
     },
     __self: this
-  }, "Full-Service, Search Engine Optimized, Custom Website Design. Just One Low Monthly Fee. Hosting & Maintenance Included."), __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    style: {
-      paddingTop: "60px"
-    },
+  })), __jsx("h2", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.typewriter,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "d-block w-100",
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__img,
-    src: _images_spotify_png__WEBPACK_IMPORTED_MODULE_3___default.a,
-    alt: "First slide",
+  }, "WEBSITES THAT GET RESULTS"), __jsx("section", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__about,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  })), __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+  }, __jsx("h1", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__whatwedo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 24
     },
     __self: this
-  }, __jsx("img", {
-    className: "d-block w-100",
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__img,
-    src: _images_creativity_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
-    alt: "Third slide",
+  }, "Gregg Fine provides website design & marketing strategies tailored to you"), __jsx("p", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 28
     },
     __self: this
-  })), __jsx(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+  }, "I provide reliable and personal website building, redesign and maintenance services to nonprofits and small businesses. My websites are based on WordPress, a powerful open-source content management system. Your website will be tailored to your organization\u2019s needs and you will be getting rock-solid, one-on-one service.")), __jsx("section", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardGrid,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
   }, __jsx("img", {
-    className: "d-block w-100",
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__img,
-    src: _images_esports_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
-    alt: "Third slide",
+    src: "/mobile-icon.png",
+    alt: "",
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardIcon,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }))))), __jsx("p", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__text,
+  }), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Website Design & Development"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "We create truly customized websites, everything from beautiful, eye-catching and elegant designs to sleek, professional web pages that are sure to get you noticed.")), __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.serviceCard,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/mobile-icon.png",
+    alt: "",
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardIcon,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
-  }, "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit iusto quis labore, ad est voluptate asperiores aliquam. Dolores voluptatibus nisi explicabo recusandae, odit quisquam, nobis temporibus tempore facere quaerat, magni neque corporis amet voluptatem dolorem necessitatibus"), __jsx("div", {
-    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.Hero__waveContainer,
+  }, "SEO"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 50
     },
     __self: this
-  }, __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 1440 320",
+  }, "Our innovative SEO strategies, as well as our wealth of knowledge regarding search algorithms will enable you to rise to the very top of the search rankings.")), __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }, __jsx("path", {
-    fill: "#03a9f4",
-    "fill-opacity": "1",
-    d: "M0,32L80,48C160,64,320,96,480,90.7C640,85,800,43,960,53.3C1120,64,1280,128,1360,160L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z",
+  }, __jsx("img", {
+    src: "/mobile-icon.png",
+    alt: "",
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_6___default.a.cardIcon,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
     },
     __self: this
-  }))), __jsx(_components_IconGrid__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }), __jsx("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 58
     },
     __self: this
-  }));
+  }, "Email Marketing"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "We can help you reach out in the best possible way through our email marketing expertise. Retaining valuable customers and keeping clients abreast of your company\u2019s latest goings-on."))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -345,16 +325,24 @@ NOTES: Link provides an onClick function around whatever it's wrapping
 // Exports
 module.exports = {
 	"Hero": "index_Hero__37DBn",
+	"Hero__about": "index_Hero__about__2jUlL",
+	"Hero__whatwedo": "index_Hero__whatwedo__2yJ82",
+	"Hero__button": "index_Hero__button__2bbcr",
 	"Hero__heading": "index_Hero__heading__2gFdS",
 	"Hero__subheading": "index_Hero__subheading__3xdkH",
 	"Hero__img": "index_Hero__img__3fwzM",
 	"Hero__text": "index_Hero__text__1eVzx",
-	"Hero__waveContainer": "index_Hero__waveContainer__Damyq"
+	"Hero__waveContainer": "index_Hero__waveContainer__Damyq",
+	"typewriter": "index_typewriter__12Agr",
+	"animated-text": "index_animated-text__1Mu-A",
+	"cardIcon": "index_cardIcon__2YE5f",
+	"cardGrid": "index_cardGrid__3TXB7",
+	"serviceCard": "index_serviceCard__3zLsb"
 };
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

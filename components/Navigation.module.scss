@@ -1,0 +1,21 @@
+.logo {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 60px;
+  letter-spacing: 1px;
+}
+.logo:hover {
+  transition: color 300ms;
+  //   background-color: #fff;
+}
+
+.nav {
+  background-color: #4a1962;
+  background: rgb(74, 25, 98);
+  background: linear-gradient(
+    23deg,
+    rgba(74, 25, 98, 1) 54%,
+    rgba(33, 6, 64, 1) 100%
+  );
+}
