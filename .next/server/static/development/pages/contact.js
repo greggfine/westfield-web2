@@ -316,7 +316,60 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       lineNumber: 136
     },
     __self: undefined
-  }, status.info.msg)));
+  }, status.info.msg)), __jsx("div", {
+    class: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bottomWrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__additional,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: undefined
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: undefined
+  }, "NEW YORK | NEW JERSEY"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: undefined
+  }, "522 Summit Ave. Westfield, NJ 10012"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: undefined
+  }, "(917)355-4217")), __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDiv,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 144
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bgImgLeft,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 145
+    },
+    __self: undefined
+  }), __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bgImgRight,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146
+    },
+    __self: undefined
+  }))));
 });
 
 /***/ }),
@@ -338,7 +391,12 @@ module.exports = {
 	"contactFormBtn": "contact_contactFormBtn__2Lf5l",
 	"contactFormTextArea": "contact_contactFormTextArea__Y93vP",
 	"error": "contact_error__29_M5",
-	"contactFormMain": "contact_contactFormMain__3F172"
+	"contactFormMain": "contact_contactFormMain__3F172",
+	"Contact__bottomWrapper": "contact_Contact__bottomWrapper__2xj4H",
+	"Contact__additional": "contact_Contact__additional__3Y1y8",
+	"Contact__colorDiv": "contact_Contact__colorDiv__3tr07",
+	"Contact__bgImgLeft": "contact_Contact__bgImgLeft__1efil",
+	"Contact__bgImgRight": "contact_Contact__bgImgRight__2y5Fb"
 };
 
 /***/ }),

@@ -5,7 +5,6 @@ import styles from "./portfolio.module.scss";
 function Portfolio(props) {
   return (
     <div className={styles.Portfolio}>
-      {/* <Jumbo headingText="PORTFOLIO" className={styles.portfolioHeading} /> */}
       <div className={styles.Portfolio__heading}>
         <div class={styles.Portfolio__headerWrapper}>
           <h1 className={styles.Portfolio__title}>
@@ -16,6 +15,7 @@ function Portfolio(props) {
           </p>
         </div>
       </div>
+
       <div className={styles.websitesWrapper}>
         <h2 className={styles.wrapperHeading}>Websites</h2>
         <ul className={styles.Portfolio__websites}>

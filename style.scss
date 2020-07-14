@@ -33,6 +33,10 @@ main {
   flex-grow: 1;
 }
 
+.container {
+  padding-left: 0px;
+}
+
 // @define-mixin atSmall {
 //   @media (min-width: 530px) {
 //     @mixin-content;

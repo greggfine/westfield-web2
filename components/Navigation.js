@@ -4,40 +4,45 @@ import Container from "react-bootstrap/Container";
 import styles from "./Navigation.module.scss";
 
 import Link from "next/link";
+import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 function Navigation() {
   return (
-    <>
-      <Navbar expand="lg" className={styles.nav}>
+    <Navbar expand="lg" className={styles.Nav}>
+      {/* <div> */}
+      <Container>
+        <Navbar.Brand href="#home" className={styles.Nav__brand}>
+          <Link href="/">
+            <a className={styles.Nav__logo}>Gregg Fine Web Dev</a>
+          </Link>
+        </Navbar.Brand>
+
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="bg-light"
+        />
+        {/* </div> */}
+
+        {/* <div> */}
+      </Container>
+      <Navbar.Collapse id="basic-navbar-nav">
         <Container>
-          <Navbar.Brand href="#home">
-            <Link href="/">
-              <a className={styles.logo}>Gregg Fine Web Dev</a>
+          <Nav className="mr-auto" className={styles.Nav__listitems}>
+            <Link href="/portfolio">
+              <a className={styles.Nav__listitem}>Portfolio</a>
             </Link>
-          </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="basic-navbar-nav"
-            className="bg-light"
-          />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-          >
-            <Nav className="mr-auto">
-              <Link href="/portfolio">
-                <a className={styles.logo}>Portfolio</a>
-              </Link>
-              {/* <Link href="/services">
+            {/* <Link href="/services">
                 <a className={styles.logo}>Blog</a>
               </Link> */}
 
-              <Link href="/contact">
-                <a className={styles.logo}>Contact</a>
-              </Link>
-            </Nav>
-          </Navbar.Collapse>
+            <Link href="/contact">
+              <a className={styles.Nav__listitem}>Contact</a>
+            </Link>
+          </Nav>
         </Container>
-      </Navbar>
-    </>
+      </Navbar.Collapse>
+      {/* </div> */}
+    </Navbar>
   );
 }
 

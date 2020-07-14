@@ -94,3 +94,65 @@
   //     padding: 0 8px;
   //   }
 }
+
+.Contact {
+  &__bottomWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--boxShadowGrey);
+  }
+  &__additional {
+    // border: 8px solid var(--neonGreen);
+    padding: 20px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  &__colorDiv {
+    // background-color: var(--neonGreen);
+    // height: 200px;
+    // width: 100vw;
+    // float: right;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    filter: grayscale(100);
+  }
+
+  &__bgImgLeft {
+    background-image: url("/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-color: #eee;
+
+    // &:hover {
+    //   transform: scale(1.05);
+    // }
+  }
+
+  &__bgImgRight {
+    background-image: url("/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    background-color: #eee;
+    background-blend-mode: exclusion;
+  }
+}
+
+@media (min-width: 960px) {
+  .Contact {
+    &__bottomWrapper {
+      flex-direction: row;
+    }
+
+    &__bgImgLeft,
+    &__bgImgRight {
+      width: 700px;
+    }
+  }
+}

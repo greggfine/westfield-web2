@@ -2392,28 +2392,28 @@ function Portfolio(props) {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__heading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
     "class": _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__headerWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, __jsx("h1", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, "PORTFOLIO"), __jsx("p", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__subheading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, "Custom websites and web apps"))), __jsx("div", {

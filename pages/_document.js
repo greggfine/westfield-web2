@@ -15,6 +15,10 @@ class MyDocument extends Document {
             content="initial-scale=1.0, width=device-width"
           />
           <title>Gregg Fine Web Dev</title>
+          <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          />
           <link rel="icon" href="/favicon.png" />
         </Head>
         <body>

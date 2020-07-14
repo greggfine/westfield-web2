@@ -135,6 +135,17 @@ export default () => {
         )}
         {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       </div>
+      <div class={styles.Contact__bottomWrapper}>
+        <div className={styles.Contact__additional}>
+          <p>NEW YORK | NEW JERSEY</p>
+          <p>522 Summit Ave. Westfield, NJ 10012</p>
+          <p>(917)355-4217</p>
+        </div>
+        <div className={styles.Contact__colorDiv}>
+          <div className={styles.Contact__bgImgLeft}></div>
+          <div className={styles.Contact__bgImgRight}></div>
+        </div>
+      </div>
     </main>
   );
 };

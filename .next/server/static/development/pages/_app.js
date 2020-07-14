@@ -111,32 +111,83 @@ var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Foo
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /* harmony default export */ __webpack_exports__["default"] = (() => __jsx("footer", {
-  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
 }, __jsx("div", {
-  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.footerBox,
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__wrapper,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}), __jsx("h3", {
+}, __jsx("h3", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__header,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, "Our Digital Agency Is Hiring!"), __jsx("p", {
+}, "Gregg Fine Web Dev"), __jsx("div", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__box,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}, "\xA92020 Gregg Fine Web Dev")));
+})), __jsx("div", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__inner,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("p", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__copyright,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "\xA92020 Gregg Fine Web Dev"), __jsx("div", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fa fa-facebook",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), __jsx("i", {
+  className: "fa fa-twitter",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}), __jsx("i", {
+  className: "fa fa-youtube",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), __jsx("i", {
+  className: "fa fa-instagram",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+})))));
 
 /***/ }),
 
@@ -149,8 +200,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 // Exports
 module.exports = {
-	"footer": "Footer_footer__a95ok",
-	"footerBox": "Footer_footerBox__28aUj"
+	"Footer": "Footer_Footer__2cf9C",
+	"Footer__inner": "Footer_Footer__inner__1B1gQ",
+	"Footer__social": "Footer_Footer__social__1GwyK",
+	"Footer__copyright": "Footer_Footer__copyright__E0mY4",
+	"Footer__header": "Footer_Footer__header__1SWp3",
+	"Footer__box": "Footer_Footer__box__3wRBr",
+	"Footer__wrapper": "Footer_Footer__wrapper__2pM_0"
 };
 
 /***/ }),
@@ -176,6 +232,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Navigation.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -185,10 +243,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 function Navigation() {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  return __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a, {
     expand: "lg",
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.nav,
+    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -197,28 +256,29 @@ function Navigation() {
   }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Brand, {
     href: "#home",
+    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__brand,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
+    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__logo,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   }, "Gregg Fine Web Dev"))), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Toggle, {
@@ -226,52 +286,59 @@ function Navigation() {
     className: "bg-light",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
-  }), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Collapse, {
+  })), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Collapse, {
     id: "basic-navbar-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
     },
     __self: this
   }, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2___default.a, {
     className: "mr-auto",
+    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__listitems,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 30
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 31
     },
     __self: this
   }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
+    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__listitem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 32
     },
     __self: this
   }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 38
     },
     __self: this
   }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.logo,
+    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__listitem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 39
     },
     __self: this
-  }, "Contact")))))));
+  }, "Contact"))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);
@@ -287,8 +354,11 @@ function Navigation() {
 
 // Exports
 module.exports = {
-	"logo": "Navigation_logo__1Zwfh",
-	"nav": "Navigation_nav__3cXNL"
+	"Nav": "Navigation_Nav__3EIaX",
+	"Nav__logo": "Navigation_Nav__logo__2nhlN",
+	"Nav__listitem": "Navigation_Nav__listitem__2_NFA",
+	"Nav__brand": "Navigation_Nav__brand__7_p_X",
+	"Nav__listitems": "Navigation_Nav__listitems__28RmA"
 };
 
 /***/ }),
@@ -2278,6 +2348,17 @@ module.exports = require("react-bootstrap/Nav");
 /***/ (function(module, exports) {
 
 module.exports = require("react-bootstrap/Navbar");
+
+/***/ }),
+
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
 
 /***/ }),
 
