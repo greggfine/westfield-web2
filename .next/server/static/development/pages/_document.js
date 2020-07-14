@@ -1097,9 +1097,9 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 13
       },
       __self: this
-    }, "Westfield Web"), __jsx("link", {
+    }, "Gregg Fine Web Dev"), __jsx("link", {
       rel: "icon",
-      href: "/favicon.ico",
+      href: "/favicon.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14

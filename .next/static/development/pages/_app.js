@@ -1,5 +1,102 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.module.scss */ "./components/Footer.module.scss");
+/* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Footer.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("footer", {
+    className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, "\xA92020 Gregg Fine Web Dev"));
+});
+
+/***/ }),
+
+/***/ "./components/Footer.module.scss":
+/*!***************************************!*\
+  !*** ./components/Footer.module.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../node_modules/postcss-loader/src??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./Footer.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/Footer.module.scss");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../node_modules/postcss-loader/src??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./Footer.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/Footer.module.scss",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!../node_modules/postcss-loader/src??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-3-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./Footer.module.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/Footer.module.scss");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./components/Navigation.js":
 /*!**********************************!*\
   !*** ./components/Navigation.js ***!
@@ -1076,10 +1173,27 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./style.css":
-/*!*******************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./style.css ***!
-  \*******************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./components/Footer.module.scss":
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-3-1!./node_modules/postcss-loader/src??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-3-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-3-4!./components/Footer.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".Footer_footer__a95ok {\n  background-color: orange; }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,wBAAwB,EAAA","file":"Footer.module.scss","sourcesContent":[".footer {\n  background-color: orange;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"footer": "Footer_footer__a95ok"
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./style.scss":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1088,7 +1202,7 @@ exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/dis
 
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);"]);
 // Module
-exports.push([module.i, "/* ContactForm.js */\n\nmain {\n  font-family: \"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", \"Helvetica\",\n    \"Arial\", sans-serif;\n  padding: 20px 20px 60px;\n  max-width: 640px;\n  margin: 0 auto;\n  font-size: 16px;\n  line-height: 1.65;\n}\nheader {\n  height: 152px;\n  margin-top: 3em;\n}\nimg {\n  margin-right: 8px;\n  height: 48px;\n}\nhr {\n  border: none;\n  border-top: 1px solid #eaeaea;\n  margin-bottom: 48px;\n}\nh1 {\n  font-size: 1.5em;\n  font-weight: 500;\n}\nh2 {\n  font-size: 16px;\n  font-weight: 700;\n  margin: 0;\n}\nform {\n  display: grid;\n  grid-row-gap: 1em;\n}\nlabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase;\n}\ninput,\nbutton,\ntextarea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease;\n}\nbutton,\n.error {\n  padding: 0.65em 1em;\n  background: #0076ff;\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease;\n}\ntextarea {\n  height: 4em;\n  max-width: 622px;\n}\ninput:focus,\ntextarea:focus,\nbutton:focus {\n  outline: 0;\n  border-color: #0076ff;\n}\nbutton:hover {\n  background: rgba(0, 118, 255, 0.8);\n}\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);\n}\nbutton:disabled {\n  pointer-events: none;\n  background: #999;\n}\n.error {\n  background: #ee0000;\n  color: #fff;\n  margin-top: 16px;\n  text-align: center;\n}\n@media screen and (max-width: 580px) {\n  main {\n    font-size: 14px;\n  }\n  header {\n    height: 9em;\n  }\n  h2 {\n    padding: 0 16px;\n  }\n}\n@media screen and (max-width: 474px) {\n  main {\n    font-size: 12px;\n    padding: 12px;\n  }\n  h2 {\n    padding: 0 8px;\n  }\n}\n", "",{"version":3,"sources":["style.css"],"names":[],"mappings":"AAEA,mBAAmB;;AAEnB;EACE;uBACqB;EACrB,uBAAuB;EACvB,gBAAgB;EAChB,cAAc;EACd,eAAe;EACf,iBAAiB;AACnB;AACA;EACE,aAAa;EACb,eAAe;AACjB;AACA;EACE,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,YAAY;EACZ,6BAA6B;EAC7B,mBAAmB;AACrB;AACA;EACE,gBAAgB;EAChB,gBAAgB;AAClB;AACA;EACE,eAAe;EACf,gBAAgB;EAChB,SAAS;AACX;AACA;EACE,aAAa;EACb,iBAAiB;AACnB;AACA;EACE,cAAc;EACd,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,yBAAyB;AAC3B;AACA;;;;EAIE,SAAS;EACT,yBAAyB;EACzB,kBAAkB;EAClB,cAAc;EACd,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,cAAc;EACd,eAAe;EACf,oBAAoB;EACpB,yBAAyB;AAC3B;AACA;;EAEE,mBAAmB;EACnB,mBAAmB;EACnB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,yBAAyB;AAC3B;AACA;EACE,WAAW;EACX,gBAAgB;AAClB;AACA;;;EAGE,UAAU;EACV,qBAAqB;AACvB;AACA;EACE,kCAAkC;AACpC;AACA;EACE,4CAA4C;AAC9C;AACA;EACE,oBAAoB;EACpB,gBAAgB;AAClB;AACA;EACE,mBAAmB;EACnB,WAAW;EACX,gBAAgB;EAChB,kBAAkB;AACpB;AACA;EACE;IACE,eAAe;EACjB;EACA;IACE,WAAW;EACb;EACA;IACE,eAAe;EACjB;AACF;AACA;EACE;IACE,eAAe;IACf,aAAa;EACf;EACA;IACE,cAAc;EAChB;AACF","file":"style.css","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n\n/* ContactForm.js */\n\nmain {\n  font-family: \"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", \"Helvetica\",\n    \"Arial\", sans-serif;\n  padding: 20px 20px 60px;\n  max-width: 640px;\n  margin: 0 auto;\n  font-size: 16px;\n  line-height: 1.65;\n}\nheader {\n  height: 152px;\n  margin-top: 3em;\n}\nimg {\n  margin-right: 8px;\n  height: 48px;\n}\nhr {\n  border: none;\n  border-top: 1px solid #eaeaea;\n  margin-bottom: 48px;\n}\nh1 {\n  font-size: 1.5em;\n  font-weight: 500;\n}\nh2 {\n  font-size: 16px;\n  font-weight: 700;\n  margin: 0;\n}\nform {\n  display: grid;\n  grid-row-gap: 1em;\n}\nlabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase;\n}\ninput,\nbutton,\ntextarea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease;\n}\nbutton,\n.error {\n  padding: 0.65em 1em;\n  background: #0076ff;\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease;\n}\ntextarea {\n  height: 4em;\n  max-width: 622px;\n}\ninput:focus,\ntextarea:focus,\nbutton:focus {\n  outline: 0;\n  border-color: #0076ff;\n}\nbutton:hover {\n  background: rgba(0, 118, 255, 0.8);\n}\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);\n}\nbutton:disabled {\n  pointer-events: none;\n  background: #999;\n}\n.error {\n  background: #ee0000;\n  color: #fff;\n  margin-top: 16px;\n  text-align: center;\n}\n@media screen and (max-width: 580px) {\n  main {\n    font-size: 14px;\n  }\n  header {\n    height: 9em;\n  }\n  h2 {\n    padding: 0 16px;\n  }\n}\n@media screen and (max-width: 474px) {\n  main {\n    font-size: 12px;\n    padding: 12px;\n  }\n  h2 {\n    padding: 0 8px;\n  }\n}\n"]}]);
+exports.push([module.i, "/* ContactForm.js */\nmain {\n  font-family: \"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  padding: 20px 20px 60px;\n  max-width: 640px;\n  margin: 0 auto;\n  font-size: 16px;\n  line-height: 1.65;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  flex-grow: 1; }\n\nheader {\n  height: 152px;\n  margin-top: 3em; }\n\nimg {\n  margin-right: 8px;\n  height: 48px; }\n\nhr {\n  border: none;\n  border-top: 1px solid #eaeaea;\n  margin-bottom: 48px; }\n\nh1 {\n  font-size: 1.5em;\n  font-weight: 500; }\n\nh2 {\n  font-size: 16px;\n  font-weight: 700;\n  margin: 0; }\n\nform {\n  display: grid;\n  grid-row-gap: 1em; }\n\nlabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase; }\n\ninput,\nbutton,\ntextarea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease; }\n\nbutton,\n.error {\n  padding: 0.65em 1em;\n  background: #0076ff;\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease; }\n\ntextarea {\n  height: 4em;\n  max-width: 622px; }\n\ninput:focus,\ntextarea:focus,\nbutton:focus {\n  outline: 0;\n  border-color: #0076ff; }\n\nbutton:hover {\n  background: rgba(0, 118, 255, 0.8); }\n\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5); }\n\nbutton:disabled {\n  pointer-events: none;\n  background: #999; }\n\n.error {\n  background: #ee0000;\n  color: #fff;\n  margin-top: 16px;\n  text-align: center; }\n\n@media screen and (max-width: 580px) {\n  main {\n    font-size: 14px; }\n  header {\n    height: 9em; }\n  h2 {\n    padding: 0 16px; } }\n\n@media screen and (max-width: 474px) {\n  main {\n    font-size: 12px;\n    padding: 12px; }\n  h2 {\n    padding: 0 8px; } }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAEA,mBAAA;AAKA;EACE,8FACqB;EACrB,uBAAuB;EACvB,gBAAgB;EAChB,cAAc;EACd,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,sBAAsB;EACtB,iBAAiB;EACjB,YAAY,EAAA;;AAGd;EACE,aAAa;EACb,eAAe,EAAA;;AAEjB;EACE,iBAAiB;EACjB,YAAY,EAAA;;AAEd;EACE,YAAY;EACZ,6BAA6B;EAC7B,mBAAmB,EAAA;;AAErB;EACE,gBAAgB;EAChB,gBAAgB,EAAA;;AAElB;EACE,eAAe;EACf,gBAAgB;EAChB,SAAS,EAAA;;AAEX;EACE,aAAa;EACb,iBAAiB,EAAA;;AAEnB;EACE,cAAc;EACd,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,yBAAyB,EAAA;;AAE3B;;;;EAIE,SAAS;EACT,yBAAyB;EACzB,kBAAkB;EAClB,cAAc;EACd,sBAAsB;EACtB,mBAAmB;EACnB,gBAAgB;EAChB,cAAc;EACd,eAAe;EACf,oBAAoB;EACpB,yBAAyB,EAAA;;AAE3B;;EAEE,mBAAmB;EACnB,mBAAmB;EACnB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,yBAAyB,EAAA;;AAE3B;EACE,WAAW;EACX,gBAAgB,EAAA;;AAElB;;;EAGE,UAAU;EACV,qBAAqB,EAAA;;AAEvB;EACE,kCAAkC,EAAA;;AAEpC;EACE,4CAA4C,EAAA;;AAE9C;EACE,oBAAoB;EACpB,gBAAgB,EAAA;;AAElB;EACE,mBAAmB;EACnB,WAAW;EACX,gBAAgB;EAChB,kBAAkB,EAAA;;AAEpB;EACE;IACE,eAAe,EAAA;EAEjB;IACE,WAAW,EAAA;EAEb;IACE,eAAe,EAAA,EAChB;;AAEH;EACE;IACE,eAAe;IACf,aAAa,EAAA;EAEf;IACE,cAAc,EAAA,EACf","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n\n/* ContactForm.js */\n\nbody {\n}\n\nmain {\n  font-family: \"SF Pro Text\", \"SF Pro Icons\", \"Helvetica Neue\", \"Helvetica\",\n    \"Arial\", sans-serif;\n  padding: 20px 20px 60px;\n  max-width: 640px;\n  margin: 0 auto;\n  font-size: 16px;\n  line-height: 1.65;\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\nheader {\n  height: 152px;\n  margin-top: 3em;\n}\nimg {\n  margin-right: 8px;\n  height: 48px;\n}\nhr {\n  border: none;\n  border-top: 1px solid #eaeaea;\n  margin-bottom: 48px;\n}\nh1 {\n  font-size: 1.5em;\n  font-weight: 500;\n}\nh2 {\n  font-size: 16px;\n  font-weight: 700;\n  margin: 0;\n}\nform {\n  display: grid;\n  grid-row-gap: 1em;\n}\nlabel {\n  color: #666666;\n  font-size: 12px;\n  font-weight: 500;\n  text-align: left;\n  text-transform: uppercase;\n}\ninput,\nbutton,\ntextarea,\n.error {\n  margin: 0;\n  border: 1px solid #d1d1d1;\n  border-radius: 5px;\n  padding: 0.5em;\n  vertical-align: middle;\n  white-space: normal;\n  background: none;\n  line-height: 1;\n  font-size: 1rem;\n  font-family: inherit;\n  transition: all 0.2s ease;\n}\nbutton,\n.error {\n  padding: 0.65em 1em;\n  background: #0076ff;\n  color: #fff;\n  border: none;\n  cursor: pointer;\n  font-weight: 500;\n  transition: all 0.2s ease;\n}\ntextarea {\n  height: 4em;\n  max-width: 622px;\n}\ninput:focus,\ntextarea:focus,\nbutton:focus {\n  outline: 0;\n  border-color: #0076ff;\n}\nbutton:hover {\n  background: rgba(0, 118, 255, 0.8);\n}\nbutton:focus {\n  box-shadow: 0 0 0 2px rgba(0, 118, 255, 0.5);\n}\nbutton:disabled {\n  pointer-events: none;\n  background: #999;\n}\n.error {\n  background: #ee0000;\n  color: #fff;\n  margin-top: 16px;\n  text-align: center;\n}\n@media screen and (max-width: 580px) {\n  main {\n    font-size: 14px;\n  }\n  header {\n    height: 9em;\n  }\n  h2 {\n    padding: 0 16px;\n  }\n}\n@media screen and (max-width: 474px) {\n  main {\n    font-size: 12px;\n    padding: 12px;\n  }\n  h2 {\n    padding: 0 8px;\n  }\n}\n"]}]);
 
 
 /***/ }),
@@ -6636,157 +6750,6 @@ function polyfill(Component) {
 
 /***/ }),
 
-/***/ "./node_modules/react-sticky-footer/es/index.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-sticky-footer/es/index.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return StickyFooter; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-
-
-
-var StickyFooter = function (_Component) {
-  _inherits(StickyFooter, _Component);
-
-  function StickyFooter(props) {
-    _classCallCheck(this, StickyFooter);
-
-    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
-
-    _this.determineState = function () {
-      var scrollOffset = window.pageYOffset + window.innerHeight;
-      var contentHeight = document.body.clientHeight - _this.props.bottomThreshold;
-
-      if (!_this.state.isAtBottom && scrollOffset >= contentHeight) {
-        _this.setState({ isAtBottom: true });
-        _this.props.onFooterStateChange && _this.props.onFooterStateChange(true);
-      } else if (_this.state.isAtBottom && scrollOffset < contentHeight - contentHeight * _this.props.stickAtMultiplier) {
-        _this.setState({ isAtBottom: false });
-        _this.props.onFooterStateChange && _this.props.onFooterStateChange(false);
-      }
-    };
-
-    _this.handleScroll = function () {
-      _this.determineState();
-    };
-
-    _this.state = {
-      isAtBottom: false
-    };
-    return _this;
-  }
-
-  StickyFooter.prototype.componentDidMount = function componentDidMount() {
-    var _this2 = this;
-
-    this.observer = new MutationObserver(function (mutations) {
-      var targetHeight = mutations[mutations.length - 1].target.clientHeight;
-      var remainingHeight = document.body.clientHeight - targetHeight;
-      var totalContentHeight = targetHeight + remainingHeight;
-
-      if (totalContentHeight > window.innerHeight) {
-        _this2.determineState();
-      } else {
-        _this2.setState({ isAtBottom: true });
-        _this2.props.onFooterStateChange && _this2.props.onFooterStateChange(true);
-      }
-    });
-    this.observer.observe(document.body, {
-      childList: true,
-      subtree: true,
-      attributes: true
-    });
-    window.addEventListener("scroll", this.handleScroll);
-    this.determineState();
-  };
-
-  StickyFooter.prototype.componentWillUnmount = function componentWillUnmount() {
-    this.observer.disconnect();
-    window.removeEventListener("scroll", this.handleScroll);
-  };
-
-  StickyFooter.prototype.render = function render() {
-    var fixedStyles = _extends({}, this.props.stickyStyles, {
-      position: "fixed",
-      bottom: 0
-    });
-    var initialStyles = _extends({}, this.props.normalStyles, { position: "static" });
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-      "div",
-      null,
-      react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "div",
-        { style: initialStyles },
-        this.props.children
-      ),
-      !this.state.isAtBottom && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
-        "div",
-        { style: fixedStyles },
-        this.props.children
-      )
-    );
-  };
-
-  return StickyFooter;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-
-
-
-StickyFooter.propTypes =  true ? {
-  /**
-   * A value that tells the component how close to the bottom should the scroller be before the sticky footer hides
-   * and displays at the end of your content. The default is 0, meaning the user needs to scroll all the way to the bottom
-   * before the footer hides. A number greater than 0 would cause the sticky footer to hide at some point before the user
-   * has scrolled all the way down, depending on the value of the number.
-   */
-  bottomThreshold: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  /**
-   * A value that tells the component how much the user should scroll back up before the sticky footer shows up again.
-   * The default is 0.001. A number greater than the default would require the user scroll up more before the
-   * sticky footer shows up.
-   */
-  stickAtMultiplier: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  /**
-   * Styles to be applied to the sticky footer only.
-   */
-  stickyStyles: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-  /**
-   * Styles to be applied to the footer in its standard location only.
-   */
-  normalStyles: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.object,
-  /**
-   * Callback that informs when the state of the footer has changed from sticky to being in normal document flow, via boolean argument.
-   * true means it is in normal flow, false means it is sticky.
-   */
-  onFooterStateChange: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
-} : undefined;
-
-StickyFooter.defaultProps = {
-  bottomThreshold: 0,
-  stickAtMultiplier: 0.001,
-  stickyStyles: {},
-  normalStyles: {}
-};
-
-/***/ }),
-
 /***/ "./node_modules/react-transition-group/esm/Transition.js":
 /*!***************************************************************!*\
   !*** ./node_modules/react-transition-group/esm/Transition.js ***!
@@ -9579,9 +9542,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Navigation */ "./components/Navigation.js");
-/* harmony import */ var react_sticky_footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-sticky-footer */ "./node_modules/react-sticky-footer/es/index.js");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../style.css */ "./style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../style.scss */ "./style.scss");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -9624,28 +9587,13 @@ var MyApp = /*#__PURE__*/function (_App) {
           lineNumber: 24
         },
         __self: this
-      })), __jsx(react_sticky_footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        bottomThreshold: 50,
-        normalStyles: {
-          backgroundColor: "#999999",
-          padding: "2rem"
-        },
-        stickyStyles: {
-          backgroundColor: "rgba(255,255,255,.8)",
-          padding: "2rem"
-        },
+      })), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 25
         },
         __self: this
-      }, __jsx("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus facere molestiae rem quibusdam, architecto saepe dolor minima quisquam eaque inventore recusandae enim laudantium esse maxime earum voluptate! Voluptates iusto saepe distinctio quaerat dolorum quos, optio consequuntur provident veniam aut accusamus dolore, ipsa obcaecati harum labore voluptatem! Fugit illo aperiam, atque dolorem quisquam mollitia provident officiis omnis iusto! Asperiores dolorem nemo quaerat, consectetur sequi praesentium amet doloremque? Nesciunt totam sit aliquam cumque qui delectus vel perspiciatis id maxime, beatae optio voluptatem distinctio. Quod cupiditate, quae repudiandae, a eaque possimus veniam eos recusandae, vel nisi alias nemo tenetur. Deserunt, earum hic.")));
+      }));
     }
   }], [{
     key: "getInitialProps",
@@ -9690,14 +9638,14 @@ var MyApp = /*#__PURE__*/function (_App) {
 
 /***/ }),
 
-/***/ "./style.css":
-/*!*******************!*\
-  !*** ./style.css ***!
-  \*******************/
+/***/ "./style.scss":
+/*!********************!*\
+  !*** ./style.scss ***!
+  \********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./style.css");
+var content = __webpack_require__(/*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./style.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./style.scss");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -9731,9 +9679,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./style.css",
+      /*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./style.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./style.scss",
       function () {
-        var newContent = __webpack_require__(/*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./style.css");
+        var newContent = __webpack_require__(/*! !./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./style.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./style.scss");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];

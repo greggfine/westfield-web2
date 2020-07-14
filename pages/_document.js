@@ -10,8 +10,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Westfield Web</title>
-          <link rel="icon" href="/favicon.ico" />
+          <title>Gregg Fine Web Dev</title>
+          <link rel="icon" href="/favicon.png" />
         </Head>
         <body>
           <Main />

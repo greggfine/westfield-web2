@@ -93,6 +93,54 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.module.scss */ "./components/Footer.module.scss");
+/* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Footer.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (() => __jsx("footer", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.footer,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, "\xA92020 Gregg Fine Web Dev")));
+
+/***/ }),
+
+/***/ "./components/Footer.module.scss":
+/*!***************************************!*\
+  !*** ./components/Footer.module.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"footer": "Footer_footer__a95ok"
+};
+
+/***/ }),
+
 /***/ "./components/Navigation.js":
 /*!**********************************!*\
   !*** ./components/Navigation.js ***!
@@ -2080,10 +2128,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navigation */ "./components/Navigation.js");
-/* harmony import */ var react_sticky_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-sticky-footer */ "react-sticky-footer");
-/* harmony import */ var react_sticky_footer__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_sticky_footer__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../style.css */ "./style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../style.scss */ "./style.scss");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2128,28 +2175,13 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 24
       },
       __self: this
-    })), __jsx(react_sticky_footer__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      bottomThreshold: 50,
-      normalStyles: {
-        backgroundColor: "#999999",
-        padding: "2rem"
-      },
-      stickyStyles: {
-        backgroundColor: "rgba(255,255,255,.8)",
-        padding: "2rem"
-      },
+    })), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 25
       },
       __self: this
-    }, __jsx("p", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37
-      },
-      __self: this
-    }, "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus facere molestiae rem quibusdam, architecto saepe dolor minima quisquam eaque inventore recusandae enim laudantium esse maxime earum voluptate! Voluptates iusto saepe distinctio quaerat dolorum quos, optio consequuntur provident veniam aut accusamus dolore, ipsa obcaecati harum labore voluptatem! Fugit illo aperiam, atque dolorem quisquam mollitia provident officiis omnis iusto! Asperiores dolorem nemo quaerat, consectetur sequi praesentium amet doloremque? Nesciunt totam sit aliquam cumque qui delectus vel perspiciatis id maxime, beatae optio voluptatem distinctio. Quod cupiditate, quae repudiandae, a eaque possimus veniam eos recusandae, vel nisi alias nemo tenetur. Deserunt, earum hic.")));
+    }));
   }
 
 }
@@ -2158,10 +2190,10 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
 
 /***/ }),
 
-/***/ "./style.css":
-/*!*******************!*\
-  !*** ./style.css ***!
-  \*******************/
+/***/ "./style.scss":
+/*!********************!*\
+  !*** ./style.scss ***!
+  \********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2255,17 +2287,6 @@ module.exports = require("react-bootstrap/Navbar");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "react-sticky-footer":
-/*!**************************************!*\
-  !*** external "react-sticky-footer" ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-sticky-footer");
 
 /***/ }),
 

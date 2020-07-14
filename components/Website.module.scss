@@ -1,0 +1,35 @@
+.mycard:hover {
+  transition: transform 400ms ease-in-out;
+  transform: translateY(-7px);
+}
+
+.innerCard:hover {
+  box-shadow: 2px 2px 10px 10px #eee;
+}
+
+.cardImg {
+  height: 100%;
+}
+
+.cardBtn {
+  //   margin: 0 auto;
+  //   border: 10px solid #000;
+  //   display: block;
+}
+
+.cardText {
+  font-size: 16px;
+  color: #666;
+}
+
+.cardTitle {
+  font-size: 20px;
+}
+
+.Card {
+  width: 22rem;
+  textalign: center;
+  boxshadow: 2px 2px 5px 5px #eee;
+  margin: 20px;
+  borderradius: 0.55em;
+}

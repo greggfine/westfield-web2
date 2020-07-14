@@ -1,6 +1,6 @@
 const withImages = require("next-images");
 // const path = require("path");
-require("dotenv").config();
+// require("dotenv").config();
 
 // module.exports = withImages({});
 
