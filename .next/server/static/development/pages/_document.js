@@ -1091,10 +1091,18 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 12
       },
       __self: this
-    }, __jsx("title", {
+    }, __jsx("meta", {
+      name: "viewport",
+      content: "initial-scale=1.0, width=device-width",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
+      },
+      __self: this
+    }), __jsx("title", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
       },
       __self: this
     }, "Gregg Fine Web Dev"), __jsx("link", {
@@ -1102,25 +1110,25 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/favicon.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 18
       },
       __self: this
     })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 20
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 21
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 22
       },
       __self: this
     })));

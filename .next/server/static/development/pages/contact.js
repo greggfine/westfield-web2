@@ -106,6 +106,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _contact_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.module.scss */ "./pages/contact.module.scss");
+/* harmony import */ var _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_contact_module_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/contact.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -116,6 +118,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 // FORMSPREE ENDPOINT:  https://formspree.io/xyynberj
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = (() => {
@@ -196,22 +199,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   return __jsx("main", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: undefined
-  }, __jsx("h1", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 65
     },
     __self: undefined
-  }, "React and Formspree"), __jsx("hr", {
+  }, __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.formWrapper,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: undefined
-  }), __jsx("form", {
+  }, __jsx("form", {
     onSubmit: handleOnSubmit,
     __source: {
       fileName: _jsxFileName,
@@ -267,17 +265,31 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     className: "error",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 92
     },
     __self: undefined
   }, "Error: ", status.info.msg), !status.info.error && status.info.msg && __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 94
     },
     __self: undefined
-  }, status.info.msg));
+  }, status.info.msg)));
 });
+
+/***/ }),
+
+/***/ "./pages/contact.module.scss":
+/*!***********************************!*\
+  !*** ./pages/contact.module.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"formWrapper": "contact_formWrapper__1IYDR"
+};
 
 /***/ }),
 
