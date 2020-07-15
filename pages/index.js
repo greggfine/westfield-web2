@@ -5,13 +5,13 @@ function Index() {
   return (
     <main>
       <div className={styles.Hero}>
-        <div class={styles.Hero__headerWrap}>
+        <div className={styles.Hero__headerWrap}>
           <h1 className={styles.Hero__heading}>
-            WE DESIGN AND DEVELOP
+            I DESIGN AND DEVELOP
             <br />
           </h1>
           <h2 className={styles.Hero__typewriter}>WEBSITES THAT GET RESULTS</h2>
-        </div>;
+        </div>
       </div>
 
       <section className={styles.Hero__about}>

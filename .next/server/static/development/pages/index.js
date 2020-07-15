@@ -126,7 +126,7 @@ function Index() {
     },
     __self: this
   }, __jsx("div", {
-    class: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__headerWrap,
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__headerWrap,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -139,7 +139,7 @@ function Index() {
       lineNumber: 9
     },
     __self: this
-  }, "WE DESIGN AND DEVELOP", __jsx("br", {
+  }, "I DESIGN AND DEVELOP", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -152,7 +152,7 @@ function Index() {
       lineNumber: 13
     },
     __self: this
-  }, "WEBSITES THAT GET RESULTS")), ";"), __jsx("section", {
+  }, "WEBSITES THAT GET RESULTS"))), __jsx("section", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__about,
     __source: {
       fileName: _jsxFileName,

@@ -1,7 +1,8 @@
 .Nav {
   background-color: var(--mainPurple);
   background: var(--purpleGradient);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+
   &__logo,
   &__listitem {
     font-size: 1.5rem;
@@ -10,7 +11,6 @@
     letter-spacing: 1px;
     transition: 200ms;
     border-bottom: none;
-    // border: 1px solid #000;
   }
 
   &__logo:hover {
@@ -24,12 +24,6 @@
     width: 100px;
   }
 }
-
-// @media (min-width: 1200px) {
-//   .Navigation_Nav__logo__2nhlN {
-//     max-width: 0px !important;
-//   }
-// }
 
 @media (min-width: 530px) {
   .Nav {
@@ -48,6 +42,7 @@
       letter-spacing: 1px;
       transition: 200ms;
       border-bottom: none;
+      font-family: "TTNorms-Medium.otf", "Arial", sans-serif;
     }
 
     &__listitem:hover {

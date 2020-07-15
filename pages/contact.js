@@ -142,9 +142,16 @@ export default () => {
           <p>(917)355-4217</p>
         </div>
         <div className={styles.Contact__colorDiv}>
-          <div className={styles.Contact__bgImgLeft}></div>
-          <div className={styles.Contact__bgImgRight}></div>
+          <div className={styles.Contact__colorDivItem}>
+            <img src="/gregg-secondary.jpg" alt="" />
+          </div>
         </div>
+        <div className={styles.Contact__colorDiv}>
+          <div className={styles.Contact__colorDivItem}>
+            <img src="/domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="" />
+          </div>
+        </div>
+
       </div>
     </main>
   );

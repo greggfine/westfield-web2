@@ -26,7 +26,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }, __jsx("div", {
-    className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__wrapper,
+    className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__logoWrapper,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -50,52 +50,72 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__inner,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 12
     },
     __self: this
   }, __jsx("p", {
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__copyright,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }, "\xA92020 Gregg Fine Web Dev"), __jsx("div", {
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "fa fa-facebook",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("i", {
-    className: "fa fa-twitter",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx("i", {
-    className: "fa fa-youtube",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }), __jsx("i", {
-    className: "fa fa-instagram",
+  }, __jsx("a", {
+    href: "https://twitter.com/GreggFine",
+    target: "_blank",
+    className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }))));
+  }, __jsx("i", {
+    className: "fa fa-twitter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  })), __jsx("a", {
+    href: "https://www.youtube.com/channel/UCmOpHGj4JRWCdXhllVTZCVw/videos",
+    target: "_blank",
+    className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-youtube",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  })), __jsx("a", {
+    href: "https://www.instagram.com/greggfinedev/",
+    target: "_blank",
+    className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-instagram",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  })))));
 });
 
 /***/ }),
@@ -170,22 +190,20 @@ if (true) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Navigation.module.scss */ "./components/Navigation.module.scss");
-/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navigation.module.scss */ "./components/Navigation.module.scss");
+/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Navigation.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
@@ -194,99 +212,168 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 function Navigation() {
-  var _jsx;
-
-  return __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    expand: "lg",
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.Nav,
+  return __jsx("header", {
+    className: "site-header",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx("div", {
+    className: "site-header__menu-icon",
+    id: "menu-icon",
+    onClick: function onClick() {
+      var menuIcon = document.getElementById("menu-icon");
+      var sideMenu = document.querySelector("#side-menu");
+      menuIcon.classList.toggle("site-header__menu-icon--close-x");
+      sideMenu.classList.toggle("open-side-menu");
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
-  }, __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Brand, {
-    href: "#home",
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.Nav__brand,
+  }, __jsx("div", {
+    className: "site-header__menu-icon__middle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/",
+  })), __jsx("div", {
+    id: "side-menu",
+    className: "side-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("ul", {
+    className: "side-nav-list-items",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/portfolio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
     },
     __self: this
   }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.Nav__logo,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Gregg Fine Web Dev"))), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Toggle, {
-    "aria-controls": "basic-navbar-nav",
-    className: "bg-light",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  })), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].Collapse, {
-    id: "basic-navbar-nav",
+    className: "site-header__listitem",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
-  }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
-  }, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], (_jsx = {
-    className: "mr-auto"
-  }, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "className", _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.Nav__listitems), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
-    fileName: _jsxFileName,
-    lineNumber: 30
-  }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", this), _jsx), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/portfolio",
+  }, __jsx("a", {
+    className: "site-header__listitem",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.Nav__listitem,
+  }, "Contact")))), __jsx("div", {
+    className: "content-sizer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
-  }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "/contact",
+  }, __jsx("nav", {
+    className: "site-header__nav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx("ul", {
+    className: "site-header__nav-list",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "site-header__brand-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_5___default.a.Nav__listitem,
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "Contact"))))));
+  }, __jsx("h1", {
+    className: "site-header__brand-name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Gregg Fine Web Dev"))), __jsx("div", {
+    "class": "site-header__list-item-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx("li", {
+    className: "site-header__nav-list-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/portfolio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "site-header__listitem",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Portfolio"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "site-header__listitem",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Contact"))))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);
@@ -537,33 +624,6 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
 }
 
 /***/ }),
@@ -1319,16 +1379,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Footer_Footer__2cf9C {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative; }\n  .Footer_Footer__2cf9C h3 {\n    font-size: 2.5rem; }\n  .Footer_Footer__2cf9C p {\n    margin: 0; }\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px; }\n  .Footer_Footer__social__1GwyK i {\n    font-size: 1.5rem;\n    margin-right: 15px; }\n  .Footer_Footer__copyright__E0mY4 {\n    margin-bottom: 30px !important; }\n  .Footer_Footer__header__1SWp3 {\n    text-align: left;\n    font-size: 1rem; }\n  .Footer_Footer__box__3wRBr {\n    border: 4px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.8;\n    width: 237px;\n    height: 60px;\n    position: absolute;\n    top: -2px;\n    left: -42px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn); }\n  .Footer_Footer__wrapper__2pM_0 {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 30px; }\n\n@media (min-width: 960px) {\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    justify-content: space-between;\n    flex-direction: row; }\n  .Footer_Footer__wrapper__2pM_0 {\n    width: 400px; } }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,6BAA6B;EAC7B,iCAAiC;EACjC,uBAAuB;EACvB,kBAAkB;EAClB,cAAc;EACd,kBAAkB,EAAA;EANpB;IASI,iBAAiB,EAAA;EATrB;IAYI,SAAS,EAAA;EAGX;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,iBAAiB,EAAA;EAGlB;IAEG,iBAAiB;IACjB,kBAAkB,EAAA;EAItB;IACE,8BAA8B,EAAA;EAGhC;IACE,gBAAgB;IAChB,eAAe,EAAA;EAGjB;IACE,kCAAkC;IAClC,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,SAAS;IACT,WAAW;IACX,4CAA4C,EAAA;EAG9C;IACE,kBAAkB;IAClB,YAAY;IACZ,mBAAmB,EAAA;;AAIvB;EAEI;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,8BAA8B;IAC9B,mBAAmB,EAAA;EAGrB;IACE,YAAY,EAAA,EACb","file":"Footer.module.scss","sourcesContent":[".Footer {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n\n  h3 {\n    font-size: 2.5rem;\n  }\n  p {\n    margin: 0;\n  }\n\n  &__inner {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px;\n  }\n\n  &__social {\n    i {\n      font-size: 1.5rem;\n      margin-right: 15px;\n    }\n  }\n\n  &__copyright {\n    margin-bottom: 30px !important;\n  }\n\n  &__header {\n    text-align: left;\n    font-size: 1rem;\n  }\n\n  &__box {\n    border: 4px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.8;\n    width: 237px;\n    height: 60px;\n    position: absolute;\n    top: -2px;\n    left: -42px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn);\n  }\n\n  &__wrapper {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 30px;\n  }\n}\n\n@media (min-width: 960px) {\n  .Footer {\n    &__inner {\n      border-top: 1px solid #65587a;\n      text-align: left;\n      justify-content: space-between;\n      flex-direction: row;\n    }\n\n    &__wrapper {\n      width: 400px;\n    }\n  }\n}\n"]}]);
+exports.push([module.i, ".Footer_Footer__2cf9C {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n  -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);\n          clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%); }\n  .Footer_Footer__circleDecoration__3dmF2, .Footer_Footer__circleDecoration2__1eWgu {\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    background-color: #01e471;\n    display: block;\n    transform: translate(940px, -35px); }\n  .Footer_Footer__circleDecoration2__1eWgu {\n    width: 1.2rem;\n    height: 1.2rem;\n    transform: translate(1070px, -25px); }\n  .Footer_Footer__box__3wRBr {\n    border: 4px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.8;\n    width: 237px;\n    height: 60px;\n    position: absolute;\n    top: -6px;\n    left: -42px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn); }\n  .Footer_Footer__logoWrapper__32YX6 {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 30px; }\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px; }\n  .Footer_Footer__social__1GwyK i {\n    font-size: 1.5rem;\n    margin-right: 15px; }\n  .Footer_Footer__socialLink__3ZIMn {\n    color: #fff; }\n    .Footer_Footer__socialLink__3ZIMn:hover {\n      color: #aaa; }\n  .Footer_Footer__copyright__E0mY4 {\n    margin-bottom: 30px !important; }\n  .Footer_Footer__header__1SWp3 {\n    text-align: left;\n    font-size: 2.5rem;\n    margin-top: 60px; }\n\n@media (min-width: 960px) {\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    justify-content: space-between;\n    flex-direction: row; }\n  .Footer_Footer__header__1SWp3 {\n    font-size: 2.5rem; }\n  .Footer_Footer__logoWrapper__32YX6 {\n    width: 400px; } }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,6BAA6B;EAC7B,iCAAiC;EACjC,uBAAuB;EACvB,kBAAkB;EAClB,cAAc;EACd,kBAAkB;EAClB,4DAAoD;UAApD,oDAAoD,EAAA;EAEpD;IAEE,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,yBAAyB;IACzB,cAAc;IACd,kCAAkC,EAAA;EAGpC;IACE,aAAa;IACb,cAAc;IACd,mCAAmC,EAAA;EAGrC;IACE,kCAAkC;IAClC,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,SAAS;IACT,WAAW;IACX,4CAA4C,EAAA;EAG9C;IACE,kBAAkB;IAClB,YAAY;IACZ,mBAAmB,EAAA;EAGrB;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,iBAAiB,EAAA;EAGlB;IAEG,iBAAiB;IACjB,kBAAkB,EAAA;EAGtB;IACE,WAAW,EAAA;IADZ;MAIG,WAAW,EAAA;EAIf;IACE,8BAA8B,EAAA;EAGhC;IACE,gBAAgB;IAChB,iBAAiB;IACjB,gBAAgB,EAAA;;AAIpB;EAEI;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,8BAA8B;IAC9B,mBAAmB,EAAA;EAGrB;IACE,iBAAiB,EAAA;EAGnB;IACE,YAAY,EAAA,EACb","file":"Footer.module.scss","sourcesContent":[".Footer {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);\n\n  &__circleDecoration,\n  &__circleDecoration2 {\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    background-color: #01e471;\n    display: block;\n    transform: translate(940px, -35px);\n  }\n\n  &__circleDecoration2 {\n    width: 1.2rem;\n    height: 1.2rem;\n    transform: translate(1070px, -25px);\n  }\n\n  &__box {\n    border: 4px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.8;\n    width: 237px;\n    height: 60px;\n    position: absolute;\n    top: -6px;\n    left: -42px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn);\n  }\n\n  &__logoWrapper {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 30px;\n  }\n\n  &__inner {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px;\n  }\n\n  &__social {\n    i {\n      font-size: 1.5rem;\n      margin-right: 15px;\n    }\n  }\n  &__socialLink {\n    color: #fff;\n\n    &:hover {\n      color: #aaa;\n    }\n  }\n\n  &__copyright {\n    margin-bottom: 30px !important;\n  }\n\n  &__header {\n    text-align: left;\n    font-size: 2.5rem;\n    margin-top: 60px;\n  }\n}\n\n@media (min-width: 960px) {\n  .Footer {\n    &__inner {\n      border-top: 1px solid #65587a;\n      text-align: left;\n      justify-content: space-between;\n      flex-direction: row;\n    }\n\n    &__header {\n      font-size: 2.5rem;\n    }\n\n    &__logoWrapper {\n      width: 400px;\n    }\n  }\n}\n"]}]);
 // Exports
 exports.locals = {
 	"Footer": "Footer_Footer__2cf9C",
+	"Footer__circleDecoration": "Footer_Footer__circleDecoration__3dmF2",
+	"Footer__circleDecoration2": "Footer_Footer__circleDecoration2__1eWgu",
+	"Footer__box": "Footer_Footer__box__3wRBr",
+	"Footer__logoWrapper": "Footer_Footer__logoWrapper__32YX6",
 	"Footer__inner": "Footer_Footer__inner__1B1gQ",
 	"Footer__social": "Footer_Footer__social__1GwyK",
+	"Footer__socialLink": "Footer_Footer__socialLink__3ZIMn",
 	"Footer__copyright": "Footer_Footer__copyright__E0mY4",
-	"Footer__header": "Footer_Footer__header__1SWp3",
-	"Footer__box": "Footer_Footer__box__3wRBr",
-	"Footer__wrapper": "Footer_Footer__wrapper__2pM_0"
+	"Footer__header": "Footer_Footer__header__1SWp3"
 };
 
 /***/ }),
@@ -1342,7 +1405,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Navigation_Nav__3EIaX {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 30px; }\n  .Navigation_Nav__logo__2nhlN, .Navigation_Nav__listitem__2_NFA {\n    font-size: 1.5rem;\n    color: var(--mainWhite);\n    text-decoration: none;\n    letter-spacing: 1px;\n    transition: 200ms;\n    border-bottom: none; }\n  .Navigation_Nav__logo__2nhlN:hover {\n    text-decoration: none;\n    color: var(--mainWhite); }\n  .Navigation_Nav__listitem__2_NFA:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n    border-bottom: 1px solid var(--neonGreen);\n    width: 100px; }\n\n@media (min-width: 530px) {\n  .Navigation_Nav__3EIaX {\n    display: flex;\n    justify-content: space-around;\n    margin-bottom: 0px; }\n    .Navigation_Nav__brand__7_p_X {\n      padding-left: 50px; }\n    .Navigation_Nav__logo__2nhlN, .Navigation_Nav__listitem__2_NFA {\n      color: var(--mainWhite);\n      font-size: 1.5rem;\n      text-decoration: none;\n      letter-spacing: 1px;\n      transition: 200ms;\n      border-bottom: none; }\n    .Navigation_Nav__listitem__2_NFA:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 1px solid var(--neonGreen);\n      width: auto; }\n    .Navigation_Nav__listitems__28RmA {\n      display: flex;\n      justify-content: space-evenly;\n      width: 300px; } }\n", "",{"version":3,"sources":["Navigation.module.scss"],"names":[],"mappings":"AAAA;EACE,mCAAmC;EACnC,iCAAiC;EACjC,mBAAmB,EAAA;EACnB;IAEE,iBAAiB;IACjB,uBAAuB;IACvB,qBAAqB;IACrB,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB,EAAA;EAIrB;IACE,qBAAqB;IACrB,uBAAuB,EAAA;EAEzB;IACE,qBAAqB;IACrB,uBAAuB;IACvB,yCAAyC;IACzC,YAAY,EAAA;;AAUhB;EACE;IACE,aAAa;IACb,6BAA6B;IAC7B,kBAAkB,EAAA;IAElB;MACE,kBAAkB,EAAA;IAEpB;MAEE,uBAAuB;MACvB,iBAAiB;MACjB,qBAAqB;MACrB,mBAAmB;MACnB,iBAAiB;MACjB,mBAAmB,EAAA;IAGrB;MACE,qBAAqB;MACrB,uBAAuB;MACvB,yCAAyC;MACzC,WAAW,EAAA;IAGb;MACE,aAAa;MACb,6BAA6B;MAC7B,YAAY,EAAA,EACb","file":"Navigation.module.scss","sourcesContent":[".Nav {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 30px;\n  &__logo,\n  &__listitem {\n    font-size: 1.5rem;\n    color: var(--mainWhite);\n    text-decoration: none;\n    letter-spacing: 1px;\n    transition: 200ms;\n    border-bottom: none;\n    // border: 1px solid #000;\n  }\n\n  &__logo:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n  }\n  &__listitem:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n    border-bottom: 1px solid var(--neonGreen);\n    width: 100px;\n  }\n}\n\n// @media (min-width: 1200px) {\n//   .Navigation_Nav__logo__2nhlN {\n//     max-width: 0px !important;\n//   }\n// }\n\n@media (min-width: 530px) {\n  .Nav {\n    display: flex;\n    justify-content: space-around;\n    margin-bottom: 0px;\n\n    &__brand {\n      padding-left: 50px;\n    }\n    &__logo,\n    &__listitem {\n      color: var(--mainWhite);\n      font-size: 1.5rem;\n      text-decoration: none;\n      letter-spacing: 1px;\n      transition: 200ms;\n      border-bottom: none;\n    }\n\n    &__listitem:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 1px solid var(--neonGreen);\n      width: auto;\n    }\n\n    &__listitems {\n      display: flex;\n      justify-content: space-evenly;\n      width: 300px;\n    }\n  }\n}\n"]}]);
+exports.push([module.i, ".Navigation_Nav__3EIaX {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px; }\n  .Navigation_Nav__logo__2nhlN, .Navigation_Nav__listitem__2_NFA {\n    font-size: 1.5rem;\n    color: var(--mainWhite);\n    text-decoration: none;\n    letter-spacing: 1px;\n    transition: 200ms;\n    border-bottom: none; }\n  .Navigation_Nav__logo__2nhlN:hover {\n    text-decoration: none;\n    color: var(--mainWhite); }\n  .Navigation_Nav__listitem__2_NFA:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n    border-bottom: 1px solid var(--neonGreen);\n    width: 100px; }\n\n@media (min-width: 530px) {\n  .Navigation_Nav__3EIaX {\n    display: flex;\n    justify-content: space-around;\n    margin-bottom: 0px; }\n    .Navigation_Nav__brand__7_p_X {\n      padding-left: 50px; }\n    .Navigation_Nav__logo__2nhlN, .Navigation_Nav__listitem__2_NFA {\n      color: var(--mainWhite);\n      font-size: 1.5rem;\n      text-decoration: none;\n      letter-spacing: 1px;\n      transition: 200ms;\n      border-bottom: none;\n      font-family: \"TTNorms-Medium.otf\", \"Arial\", sans-serif; }\n    .Navigation_Nav__listitem__2_NFA:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 1px solid var(--neonGreen);\n      width: auto; }\n    .Navigation_Nav__listitems__28RmA {\n      display: flex;\n      justify-content: space-evenly;\n      width: 300px; } }\n", "",{"version":3,"sources":["Navigation.module.scss"],"names":[],"mappings":"AAAA;EACE,mCAAmC;EACnC,iCAAiC;EACjC,mBAAmB,EAAA;EAEnB;IAEE,iBAAiB;IACjB,uBAAuB;IACvB,qBAAqB;IACrB,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB,EAAA;EAGrB;IACE,qBAAqB;IACrB,uBAAuB,EAAA;EAEzB;IACE,qBAAqB;IACrB,uBAAuB;IACvB,yCAAyC;IACzC,YAAY,EAAA;;AAIhB;EACE;IACE,aAAa;IACb,6BAA6B;IAC7B,kBAAkB,EAAA;IAElB;MACE,kBAAkB,EAAA;IAEpB;MAEE,uBAAuB;MACvB,iBAAiB;MACjB,qBAAqB;MACrB,mBAAmB;MACnB,iBAAiB;MACjB,mBAAmB;MACnB,sDAAsD,EAAA;IAGxD;MACE,qBAAqB;MACrB,uBAAuB;MACvB,yCAAyC;MACzC,WAAW,EAAA;IAGb;MACE,aAAa;MACb,6BAA6B;MAC7B,YAAY,EAAA,EACb","file":"Navigation.module.scss","sourcesContent":[".Nav {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px;\n\n  &__logo,\n  &__listitem {\n    font-size: 1.5rem;\n    color: var(--mainWhite);\n    text-decoration: none;\n    letter-spacing: 1px;\n    transition: 200ms;\n    border-bottom: none;\n  }\n\n  &__logo:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n  }\n  &__listitem:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n    border-bottom: 1px solid var(--neonGreen);\n    width: 100px;\n  }\n}\n\n@media (min-width: 530px) {\n  .Nav {\n    display: flex;\n    justify-content: space-around;\n    margin-bottom: 0px;\n\n    &__brand {\n      padding-left: 50px;\n    }\n    &__logo,\n    &__listitem {\n      color: var(--mainWhite);\n      font-size: 1.5rem;\n      text-decoration: none;\n      letter-spacing: 1px;\n      transition: 200ms;\n      border-bottom: none;\n      font-family: \"TTNorms-Medium.otf\", \"Arial\", sans-serif;\n    }\n\n    &__listitem:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 1px solid var(--neonGreen);\n      width: auto;\n    }\n\n    &__listitems {\n      display: flex;\n      justify-content: space-evenly;\n      width: 300px;\n    }\n  }\n}\n"]}]);
 // Exports
 exports.locals = {
 	"Nav": "Navigation_Nav__3EIaX",
@@ -1366,7 +1429,7 @@ exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/dis
 
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);"]);
 // Module
-exports.push([module.i, ":root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63; }\n\n@font-face {\n  font-family: \"Exo2-Regular\";\n  src: url(\"/fonts/Exo2-Regular.otf\") format(\"opentype\"); }\n\nbody {\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column; }\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1; }\n\n.container {\n  padding-left: 0px; }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAGA;EACE,qBAAa;EACb;;;;GAAiB;EAKjB,oBAAY;EACZ,oBAAY;EACZ,qBAAgB;EAChB,qBAAgB;EAChB,kBAAU;EACV,uBAAe,EAAA;;AAGjB;EACE,2BAA2B;EAC3B,sDAAsD,EAAA;;AAGxD;EAEE,gDAAgD;EAChD,aAAa;EACb,sBAAsB,EAAA;;AAGxB;EACE,iBAAiB;EACjB,YAAY,EAAA;;AAGd;EACE,iBAAiB,EAAA","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n// @import \"base/baseline\";\n\n:root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63;\n}\n\n@font-face {\n  font-family: \"Exo2-Regular\";\n  src: url(\"/fonts/Exo2-Regular.otf\") format(\"opentype\");\n}\n\nbody {\n  //   font-family: \"CaslonGraD\", \"Arial\", sans-serif;\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column;\n}\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\n.container {\n  padding-left: 0px;\n}\n\n// @define-mixin atSmall {\n//   @media (min-width: 530px) {\n//     @mixin-content;\n//   }\n// }\n\n// @define-mixin atSmallMedium {\n//   @media (min-width: 767px) {\n//     @mixin-content;\n//   }\n// }\n\n// @define-mixin atMedium {\n//   @media (min-width: 960px) {\n//     @mixin-content;\n//   }\n// }\n"]}]);
+exports.push([module.i, ":root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63; }\n\n@font-face {\n  font-family: \"Exo2-Regular\";\n  src: url(\"/fonts/Exo2-Regular.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"PlayfairDisplaySC-Bold\";\n  src: url(\"/fonts/PlayfairDisplaySC-Bold.ttf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"IBMPlexSans-Bold\";\n  src: url(\"/fonts/IBMPlexSans-Bold.ttf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"sofiapro-light.otf\";\n  src: url(\"/fonts/sofiapro-light.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Bold.otf\";\n  src: url(\"/fonts/TTNorms-Bold.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Regular.otf\";\n  src: url(\"/fonts/TTNorms-Regular.otf\") format(\"opentype\"); }\n\nbody {\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  font-family: \"sofiapro-light.otf\", \"Arial\", sans-serif;\n  font-family: \"TTNorms-Regular.otf\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column; }\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1; }\n\n.container {\n  padding-left: 0px; }\n\n.site-header {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px;\n  position: relative;\n  border-bottom: 5px solid #ead4c5; }\n  @media (min-width: 960px) {\n    .site-header__listitem:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 3px solid var(--neonGreen); } }\n  .site-header__list-item-wrapper {\n    display: flex;\n    justify-content: space-between;\n    width: 250px; }\n  .site-header__brand-wrapper {\n    padding: 20px; }\n  .site-header__brand-name {\n    color: #fff;\n    font-size: 2rem;\n    padding: 0;\n    margin: 0; }\n    .site-header__brand-name:hover {\n      cursor: pointer; }\n    @media (max-width: 960px) {\n      .site-header__brand-name {\n        font-size: 1rem;\n        visibility: visible; } }\n  .site-header__brand {\n    color: #fff;\n    margin: 0;\n    padding: 0;\n    position: relative;\n    display: none; }\n  .site-header__brand--logo {\n    padding-right: 10px;\n    width: 70px;\n    height: 70px; }\n  .site-header__menu-icon {\n    position: absolute;\n    right: 80px;\n    width: 25px;\n    height: 19px;\n    top: 50%;\n    transform: translateY(-50%); }\n    .site-header__menu-icon:hover {\n      cursor: pointer; }\n    .site-header__menu-icon--close-x::before {\n      transform: rotate(45deg); }\n    .site-header__menu-icon--close-x .site-header__menu-icon__middle {\n      opacity: 0; }\n    .site-header__menu-icon--close-x::after {\n      transform: rotate(-45deg) translateY(1px); }\n    .site-header__menu-icon::before {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 3px;\n      top: 0;\n      transform-origin: 0 0;\n      transition: 300ms ease-out; }\n    .site-header__menu-icon__middle {\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 3px;\n      top: 8px;\n      transition: 300ms ease-out; }\n    .site-header__menu-icon::after {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 3px;\n      bottom: 0;\n      transform-origin: 0 100%;\n      transition: 300ms ease-out; }\n    @media (min-width: 960px) {\n      .site-header__menu-icon {\n        display: none; } }\n  .site-header__nav-active {\n    text-decoration: underline; }\n  .site-header__nav-list {\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    justify-content: space-around;\n    align-items: center; }\n    @media (max-width: 960px) {\n      .site-header__nav-list {\n        visibility: hidden; } }\n  .site-header__nav-list-item {\n    list-style-type: none; }\n  .site-header nav ul li a,\n  .site-header li {\n    color: #fff;\n    font-size: 1.5rem;\n    font-weight: bold; }\n\n.side-nav {\n  background-color: var(--secondaryRed);\n  opacity: 0.97;\n  width: 0;\n  height: 100%;\n  position: fixed;\n  top: 59px;\n  right: 0px;\n  overflow-x: hidden;\n  padding-top: 60px;\n  transition: 0.3s;\n  z-index: 1; }\n  @media (min-width: 960px) {\n    .side-nav {\n      display: none; } }\n\n.side-nav a {\n  padding: 10px 10px 10px 30px;\n  text-decoration: none;\n  font-size: 22px;\n  color: #ccc;\n  display: block;\n  transition: 0.3s; }\n  .side-nav a:hover {\n    color: #fff; }\n\n.open-side-menu {\n  width: 300px;\n  width: 80%; }\n\n.btn-close {\n  color: #000;\n  background-color: #fff;\n  position: absolute;\n  top: 60px;\n  left: 15px;\n  font-size: 36px;\n  padding: 5px 10px;\n  border-radius: 5px; }\n\n.side-nav-list-items {\n  padding: 0;\n  width: 50%;\n  margin-left: 50%; }\n  .side-nav-list-items a {\n    text-align: right;\n    border-bottom: 1px solid #fff;\n    padding-right: 50px; }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"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","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n// @import \"base/baseline\";\n\n:root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63;\n}\n\n@font-face {\n  font-family: \"Exo2-Regular\";\n  src: url(\"/fonts/Exo2-Regular.otf\") format(\"opentype\");\n}\n\n@font-face {\n  font-family: \"PlayfairDisplaySC-Bold\";\n  src: url(\"/fonts/PlayfairDisplaySC-Bold.ttf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"IBMPlexSans-Bold\";\n  src: url(\"/fonts/IBMPlexSans-Bold.ttf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"sofiapro-light.otf\";\n  src: url(\"/fonts/sofiapro-light.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Bold.otf\";\n  src: url(\"/fonts/TTNorms-Bold.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Regular.otf\";\n  src: url(\"/fonts/TTNorms-Regular.otf\") format(\"opentype\");\n}\n\nbody {\n  //   font-family: \"CaslonGraD\", \"Arial\", sans-serif;\n  font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  //   font-family: \"PlayfairDisplaySC-Bold\", \"Arial\", sans-serif;\n  //   font-family: \"IBMPlexSans-Bold\", \"Arial\", sans-serif;\n  font-family: \"sofiapro-light.otf\", \"Arial\", sans-serif;\n  font-family: \"TTNorms-Regular.otf\", \"Arial\", sans-serif;\n  //   font-weight: 900;\n  display: flex;\n  flex-direction: column;\n}\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\n.container {\n  padding-left: 0px;\n}\n\n// @define-mixin atSmall {\n//   @media (min-width: 530px) {\n//     @mixin-content;\n//   }\n// }\n\n// @define-mixin atSmallMedium {\n//   @media (min-width: 767px) {\n//     @mixin-content;\n//   }\n// }\n\n// @define-mixin atMedium {\n//   @media (min-width: 960px) {\n//     @mixin-content;\n//   }\n// }\n\n// NAV STYLES\n.site-header {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px;\n  position: relative;\n  //   font-family: Tahoma;\n  border-bottom: 5px solid #ead4c5;\n\n  &__listitem {\n    // width: 200px;\n    // margin: 0 auto;\n    @media (min-width: 960px) {\n      &:hover {\n        text-decoration: none;\n        color: var(--mainWhite);\n        border-bottom: 3px solid var(--neonGreen);\n        // width: 100px;\n      }\n    }\n  }\n\n  &__list-item-wrapper {\n    // @media (min-width: 960px) {\n    display: flex;\n    justify-content: space-between;\n    width: 250px;\n    // }\n  }\n\n  &__brand-wrapper {\n    padding: 20px;\n  }\n\n  &__brand-name {\n    color: #fff;\n    font-size: 2rem;\n    padding: 0;\n    margin: 0;\n\n    &:hover {\n      cursor: pointer;\n    }\n    @media (max-width: 960px) {\n      font-size: 1rem;\n      visibility: visible;\n    }\n  }\n\n  &__brand {\n    color: #fff;\n    margin: 0;\n    padding: 0;\n    position: relative;\n    display: none;\n  }\n\n  &__brand--logo {\n    padding-right: 10px;\n    width: 70px;\n    height: 70px;\n  }\n\n  &__menu-icon {\n    position: absolute;\n    right: 80px;\n    width: 25px;\n    height: 19px;\n    top: 50%;\n    transform: translateY(-50%);\n\n    &:hover {\n      cursor: pointer;\n    }\n\n    &--close-x {\n      &::before {\n        transform: rotate(45deg);\n      }\n      .site-header__menu-icon__middle {\n        opacity: 0;\n      }\n      &::after {\n        transform: rotate(-45deg) translateY(1px);\n      }\n    }\n\n    &::before {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 3px;\n      top: 0;\n      transform-origin: 0 0;\n      transition: 300ms ease-out;\n    }\n\n    &__middle {\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 3px;\n      top: 8px;\n      transition: 300ms ease-out;\n    }\n\n    &::after {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 3px;\n      bottom: 0;\n      transform-origin: 0 100%;\n      transition: 300ms ease-out;\n    }\n\n    @media (min-width: 960px) {\n      display: none;\n    }\n  }\n\n  &__nav-active {\n    text-decoration: underline;\n  }\n\n  &__nav-list {\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    // border: 10px solid #000;\n    @media (max-width: 960px) {\n      visibility: hidden;\n    }\n  }\n\n  &__nav-list-item {\n    list-style-type: none;\n  }\n\n  nav ul li a,\n  li {\n    // padding: 30px;\n    color: #fff;\n\n    font-size: 1.5rem;\n    font-weight: bold;\n    &:hover {\n      //   text-decoration: underline;\n    }\n  }\n}\n\n.side-nav {\n  background-color: var(--secondaryRed);\n  opacity: 0.97;\n  width: 0;\n  height: 100%;\n  position: fixed;\n  top: 59px;\n  right: 0px;\n  overflow-x: hidden;\n  padding-top: 60px;\n  transition: 0.3s;\n  z-index: 1;\n\n  @media (min-width: 960px) {\n    display: none;\n  }\n}\n\n.side-nav a {\n  padding: 10px 10px 10px 30px;\n  text-decoration: none;\n  font-size: 22px;\n  color: #ccc;\n  display: block;\n  transition: 0.3s;\n\n  &:hover {\n    color: #fff;\n  }\n}\n\n.open-side-menu {\n  width: 300px;\n  width: 80%;\n}\n\n.btn-close {\n  color: #000;\n  background-color: #fff;\n  position: absolute;\n  top: 60px;\n  left: 15px;\n  font-size: 36px;\n  padding: 5px 10px;\n  border-radius: 5px;\n}\n\n.side-nav-list-items {\n  padding: 0;\n  width: 50%;\n  margin-left: 50%;\n  //   border: 1px solid #000;\n  a {\n    text-align: right;\n    border-bottom: 1px solid #fff;\n    padding-right: 50px;\n  }\n}\n"]}]);
 
 
 /***/ }),

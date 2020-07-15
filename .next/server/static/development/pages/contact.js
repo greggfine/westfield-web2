@@ -356,20 +356,43 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     },
     __self: undefined
   }, __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bgImgLeft,
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDivItem,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 145
     },
     __self: undefined
-  }), __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bgImgRight,
+  }, __jsx("img", {
+    src: "/gregg-secondary.jpg",
+    alt: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 146
     },
     __self: undefined
-  }))));
+  }))), __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDiv,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDivItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: undefined
+  }, __jsx("img", {
+    src: "/domenico-loia-hGV2TfOh0ns-unsplash.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: undefined
+  })))));
 });
 
 /***/ }),
@@ -395,8 +418,7 @@ module.exports = {
 	"Contact__bottomWrapper": "contact_Contact__bottomWrapper__2xj4H",
 	"Contact__additional": "contact_Contact__additional__3Y1y8",
 	"Contact__colorDiv": "contact_Contact__colorDiv__3tr07",
-	"Contact__bgImgLeft": "contact_Contact__bgImgLeft__1efil",
-	"Contact__bgImgRight": "contact_Contact__bgImgRight__2y5Fb"
+	"Contact__colorDivItem": "contact_Contact__colorDivItem__w8CJF"
 };
 
 /***/ }),

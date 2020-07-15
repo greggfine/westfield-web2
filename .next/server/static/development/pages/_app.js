@@ -118,7 +118,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   },
   __self: undefined
 }, __jsx("div", {
-  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__wrapper,
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__logoWrapper,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
@@ -142,52 +142,72 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__inner,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("p", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__copyright,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 13
   },
   __self: undefined
 }, "\xA92020 Gregg Fine Web Dev"), __jsx("div", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "fa fa-facebook",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}), __jsx("i", {
-  className: "fa fa-twitter",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}), __jsx("i", {
-  className: "fa fa-youtube",
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
-}), __jsx("i", {
-  className: "fa fa-instagram",
+}, __jsx("a", {
+  href: "https://twitter.com/GreggFine",
+  target: "_blank",
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-})))));
+}, __jsx("i", {
+  className: "fa fa-twitter",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+})), __jsx("a", {
+  href: "https://www.youtube.com/channel/UCmOpHGj4JRWCdXhllVTZCVw/videos",
+  target: "_blank",
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fa fa-youtube",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+})), __jsx("a", {
+  href: "https://www.instagram.com/greggfinedev/",
+  target: "_blank",
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fa fa-instagram",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}))))));
 
 /***/ }),
 
@@ -201,12 +221,15 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // Exports
 module.exports = {
 	"Footer": "Footer_Footer__2cf9C",
+	"Footer__circleDecoration": "Footer_Footer__circleDecoration__3dmF2",
+	"Footer__circleDecoration2": "Footer_Footer__circleDecoration2__1eWgu",
+	"Footer__box": "Footer_Footer__box__3wRBr",
+	"Footer__logoWrapper": "Footer_Footer__logoWrapper__32YX6",
 	"Footer__inner": "Footer_Footer__inner__1B1gQ",
 	"Footer__social": "Footer_Footer__social__1GwyK",
+	"Footer__socialLink": "Footer_Footer__socialLink__3ZIMn",
 	"Footer__copyright": "Footer_Footer__copyright__E0mY4",
-	"Footer__header": "Footer_Footer__header__1SWp3",
-	"Footer__box": "Footer_Footer__box__3wRBr",
-	"Footer__wrapper": "Footer_Footer__wrapper__2pM_0"
+	"Footer__header": "Footer_Footer__header__1SWp3"
 };
 
 /***/ }),
@@ -245,100 +268,168 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Navigation() {
-  return __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    expand: "lg",
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav,
+  return __jsx("header", {
+    className: "site-header",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx("div", {
+    className: "site-header__menu-icon",
+    id: "menu-icon",
+    onClick: () => {
+      const menuIcon = document.getElementById("menu-icon");
+      const sideMenu = document.querySelector("#side-menu");
+      menuIcon.classList.toggle("site-header__menu-icon--close-x");
+      sideMenu.classList.toggle("open-side-menu");
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
-  }, __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Brand, {
-    href: "#home",
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__brand,
+  }, __jsx("div", {
+    className: "site-header__menu-icon__middle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 22
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/",
+  })), __jsx("div", {
+    id: "side-menu",
+    className: "side-nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 25
     },
     __self: this
-  }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__logo,
+  }, __jsx("ul", {
+    className: "side-nav-list-items",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Gregg Fine Web Dev"))), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Toggle, {
-    "aria-controls": "basic-navbar-nav",
-    className: "bg-light",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  })), __jsx(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default.a.Collapse, {
-    id: "basic-navbar-nav",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    className: "mr-auto",
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__listitems,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 26
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 27
     },
     __self: this
   }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__listitem,
+    className: "site-header__listitem",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 28
     },
     __self: this
   }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 30
     },
     __self: this
   }, __jsx("a", {
-    className: _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Nav__listitem,
+    className: "site-header__listitem",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Contact")))), __jsx("div", {
+    className: "content-sizer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx("nav", {
+    className: "site-header__nav",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx("ul", {
+    className: "site-header__nav-list",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "site-header__brand-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "Contact"))))));
+  }, __jsx("h1", {
+    className: "site-header__brand-name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Gregg Fine Web Dev"))), __jsx("div", {
+    class: "site-header__list-item-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx("li", {
+    className: "site-header__nav-list-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/portfolio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "site-header__listitem",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Portfolio"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    href: "/contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "site-header__listitem",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Contact"))))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);

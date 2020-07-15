@@ -8,41 +8,54 @@ import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className={styles.Nav}>
-      {/* <div> */}
-      <Container>
-        <Navbar.Brand href="#home" className={styles.Nav__brand}>
-          <Link href="/">
-            <a className={styles.Nav__logo}>Gregg Fine Web Dev</a>
+    <header className="site-header">
+      <div
+        className="site-header__menu-icon"
+        id="menu-icon"
+        onClick={() => {
+          const menuIcon = document.getElementById("menu-icon");
+          const sideMenu = document.querySelector("#side-menu");
+          menuIcon.classList.toggle("site-header__menu-icon--close-x");
+          sideMenu.classList.toggle("open-side-menu");
+        }}
+      >
+        <div className="site-header__menu-icon__middle"></div>
+      </div>
+
+      <div id="side-menu" className="side-nav">
+        <ul className="side-nav-list-items">
+          <Link href="/portfolio">
+            <a className="site-header__listitem">Portfolio</a>
           </Link>
-        </Navbar.Brand>
-
-        <Navbar.Toggle
-          aria-controls="basic-navbar-nav"
-          className="bg-light"
-        />
-        {/* </div> */}
-
-        {/* <div> */}
-      </Container>
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Container>
-          <Nav className="mr-auto" className={styles.Nav__listitems}>
-            <Link href="/portfolio">
-              <a className={styles.Nav__listitem}>Portfolio</a>
-            </Link>
-            {/* <Link href="/services">
-                <a className={styles.logo}>Blog</a>
-              </Link> */}
-
-            <Link href="/contact">
-              <a className={styles.Nav__listitem}>Contact</a>
-            </Link>
-          </Nav>
-        </Container>
-      </Navbar.Collapse>
-      {/* </div> */}
-    </Navbar>
+          <Link href="/contact">
+            <a className="site-header__listitem">Contact</a>
+          </Link>
+        </ul>
+      </div>
+      <div className="content-sizer">
+        <nav className="site-header__nav">
+          <ul className="site-header__nav-list">
+            <div className="site-header__brand-wrapper">
+              <Link href="/">
+                <h1 className="site-header__brand-name">Gregg Fine Web Dev</h1>
+              </Link>
+            </div>
+            <div class="site-header__list-item-wrapper">
+              <li className="site-header__nav-list-item">
+                <Link href="/portfolio">
+                  <a className="site-header__listitem">Portfolio</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <a className="site-header__listitem">Contact</a>
+                </Link>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 }
 

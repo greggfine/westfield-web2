@@ -6,6 +6,7 @@
 .formTitle {
   text-align: center;
   color: var(--secondaryRed);
+  color: var(--mainPurple);
   font-weight: 600;
   margin-bottom: 100px;
 }
@@ -41,7 +42,7 @@
 .contactFormBtn,
 .error {
   padding: 0.65em 1em;
-  background: var(--mainPurple);
+  background: var(--secondaryRed);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -78,21 +79,12 @@
   .contactFormMain {
     font-size: 14px;
   }
-  //   header {
-  //     height: 9em;
-  //   }
-  //   h2 {
-  //     padding: 0 16px;
-  //   }
 }
 @media screen and (max-width: 474px) {
   .contactFormMain {
     font-size: 12px;
     padding: 12px;
   }
-  //   h2 {
-  //     padding: 0 8px;
-  //   }
 }
 
 .Contact {
@@ -103,44 +95,35 @@
     background-color: var(--boxShadowGrey);
   }
   &__additional {
-    // border: 8px solid var(--neonGreen);
     padding: 20px;
     height: 150px;
     margin-top: 30px;
     margin-left: 60px;
   }
   &__colorDiv {
-    // background-color: var(--neonGreen);
-    // height: 200px;
-    // width: 100vw;
-    // float: right;
     display: flex;
     flex-direction: column;
     position: relative;
-    filter: grayscale(100);
+    filter: grayscale(80%);
+    width: 480px;
+    height: 280px;
+    overflow: hidden;
   }
 
-  &__bgImgLeft {
-    background-image: url("/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    background-color: #eee;
+  &__colorDivItem {
+    position: absolute;
+    top: 0;
+    left: 0;
 
-    // &:hover {
-    //   transform: scale(1.05);
-    // }
+    img {
+      width: 100%;
+      transition: 0.6s ease;
+    }
   }
 
-  &__bgImgRight {
-    background-image: url("/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    background-color: #eee;
-    background-blend-mode: exclusion;
+  &__colorDiv:hover &__colorDivItem img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
@@ -148,11 +131,6 @@
   .Contact {
     &__bottomWrapper {
       flex-direction: row;
-    }
-
-    &__bgImgLeft,
-    &__bgImgRight {
-      width: 700px;
     }
   }
 }
