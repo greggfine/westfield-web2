@@ -4,7 +4,7 @@ export default () => (
   <footer className={styles.Footer}>
     <div className={styles.Footer__logoWrapper}>
       {/* <h3 className={styles.Footer__header}>The Fine Web</h3> */}
-      <img src="/the-fine-web.png" alt="" style={{ width: "50%" }} />
+      <img src="/the-fine-web.png" alt="" style={{ width: "70%" }} />
     </div>
 
     {/* <div class="svg-wrapper"> */}
@@ -17,7 +17,7 @@ export default () => (
     <div className={styles.Footer__circleDecoration2}></div> */}
 
     <div className={styles.Footer__inner}>
-      <p className={styles.Footer__copyright}>&copy;2020 Gregg Fine Web</p>
+      <p className={styles.Footer__copyright}>&copy;2020 The Fine Web</p>
       <div className={styles.Footer__social}>
         <a
           href="https://twitter.com/GreggFine"

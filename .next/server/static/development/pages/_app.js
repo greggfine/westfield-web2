@@ -128,7 +128,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   src: "/the-fine-web.png",
   alt: "",
   style: {
-    width: "50%"
+    width: "70%"
   },
   __source: {
     fileName: _jsxFileName,
@@ -149,7 +149,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 20
   },
   __self: undefined
-}, "\xA92020 Gregg Fine Web"), __jsx("div", {
+}, "\xA92020 The Fine Web"), __jsx("div", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
   __source: {
     fileName: _jsxFileName,

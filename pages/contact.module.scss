@@ -9,6 +9,14 @@
   color: var(--mainPurple);
   font-weight: 600;
   margin-bottom: 100px;
+  font-family: "TTNorms-Bold.otf";
+}
+
+.subMessage {
+  text-align: center;
+  font-size: 1.15rem;
+  font-family: "TTNorms-Medium.otf";
+  margin-bottom: 60px;
 }
 
 .contactForm {
@@ -95,19 +103,12 @@
     background-color: var(--boxShadowGrey);
   }
   &__additional {
-    // border: 1px solid #000;
-    // padding: 20px;
-    // border: 1px solid #000;
-    // border: 1px solid #000;
     text-align: center;
-    text-align: left;
-    // height: 150px;
-    // margin-top: 30px;
-    // margin-left: 60px;
     flex-basis: 33%;
-    // transform: translateY(50%);
     font-size: 1.2rem;
     font-family: "TTNorms-Medium.otf";
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   &__colorDiv {
     display: flex;
@@ -138,6 +139,9 @@
 
 @media (min-width: 960px) {
   .Contact {
+    &__additional {
+      text-align: left;
+    }
     &__bottomWrapper {
       flex-direction: row;
       justify-content: flex-end;

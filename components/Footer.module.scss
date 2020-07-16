@@ -61,12 +61,13 @@
 
   &__social {
     i {
-      font-size: 1.5rem;
-      margin-right: 15px;
+      font-size: 1.7rem;
+      margin-right: 20px;
     }
   }
   &__socialLink {
     color: #fff;
+    transition: color 500ms;
 
     &:hover {
       color: #aaa;
@@ -100,6 +101,9 @@
       top: 46%;
       left: 73%;
     }
+    &__copyright {
+      font-size: 1.2rem;
+    }
     &__inner {
       border-top: 1px solid #65587a;
       text-align: left;
@@ -114,6 +118,12 @@
 
     &__logoWrapper {
       width: 400px;
+    }
+    &__social {
+      i {
+        font-size: 2rem;
+        margin-right: 30px;
+      }
     }
   }
 }

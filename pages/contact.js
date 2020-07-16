@@ -54,7 +54,7 @@ export default () => {
       .then((response) => {
         handleServerResponse(
           true,
-          "Thank you, your message has been submitted.",
+          "Thank you, your message has been submitted."
         );
       })
       .catch((error) => {
@@ -65,7 +65,7 @@ export default () => {
     <main className={styles.contactFormMain}>
       <div className={styles.formWrapper}>
         <h1 className={styles.formTitle}>Let's Talk About Your Project!</h1>
-        <p>
+        <p className={styles.subMessage}>
           Have an exciting project in mind? Or maybe would like to improve your
           current setup? We’d be happy to discuss it with you. Let’s get in
           touch!
@@ -126,7 +126,9 @@ export default () => {
           >
             {!status.submitting
               ? //   ? !status.submitted ? "Submit" : "Submitted"
-                !status.submitted ? "Send a message" : "Message sent!"
+                !status.submitted
+                ? "Send a message"
+                : "Message sent!"
               : "Submitting..."}
           </button>
         </form>
@@ -151,7 +153,6 @@ export default () => {
             <img src="/domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="" />
           </div>
         </div>
-
       </div>
     </main>
   );
