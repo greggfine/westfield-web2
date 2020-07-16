@@ -95,10 +95,19 @@
     background-color: var(--boxShadowGrey);
   }
   &__additional {
-    padding: 20px;
-    height: 150px;
-    margin-top: 30px;
-    margin-left: 60px;
+    // border: 1px solid #000;
+    // padding: 20px;
+    // border: 1px solid #000;
+    // border: 1px solid #000;
+    text-align: center;
+    text-align: left;
+    // height: 150px;
+    // margin-top: 30px;
+    // margin-left: 60px;
+    flex-basis: 33%;
+    // transform: translateY(50%);
+    font-size: 1.2rem;
+    font-family: "TTNorms-Medium.otf";
   }
   &__colorDiv {
     display: flex;
@@ -131,6 +140,8 @@
   .Contact {
     &__bottomWrapper {
       flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
     }
   }
 }

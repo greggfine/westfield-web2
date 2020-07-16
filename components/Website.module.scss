@@ -1,6 +1,7 @@
 .mycard:hover {
   transition: transform 400ms ease-in-out;
-  transform: translateY(-7px);
+  //   transform: translateY(-7px);
+  transform: translateY(-5px);
 }
 
 .innerCard:hover {
@@ -22,8 +23,23 @@
 
 .Card {
   width: 22rem;
+  //   height: 10%;
   textalign: center;
   boxshadow: 2px 2px 5px 5px var(--boxShadowGrey);
   margin: 20px;
   border-radius: 0.55em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cardBtn {
+  color: var(--secondaryRed);
+  border: 1px solid var(--secondaryRed);
+
+  &:hover {
+    background-color: var(--secondaryRed);
+    border: 1px solid var(--secondaryRed);
+  }
 }

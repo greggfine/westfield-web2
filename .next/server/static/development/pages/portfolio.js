@@ -269,7 +269,8 @@ module.exports = {
 	"cardImg": "Website_cardImg__3aGfb",
 	"cardText": "Website_cardText__3a_Z0",
 	"cardTitle": "Website_cardTitle__1cc4j",
-	"Card": "Website_Card__3Zo-r"
+	"Card": "Website_Card__3Zo-r",
+	"cardBtn": "Website_cardBtn__1yQAm"
 };
 
 /***/ }),
@@ -311,81 +312,67 @@ function Portfolio(props) {
       lineNumber: 8
     },
     __self: this
-  }, __jsx("div", {
-    class: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__headerWrapper,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "PORTFOLIO"), __jsx("p", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__subheading,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "Custom websites and web apps"))), __jsx("div", {
+  }), __jsx("div", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.websitesWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 17
     },
     __self: this
   }, __jsx("h2", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.wrapperHeading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }, "Websites"), __jsx("ul", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__websites,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
   }, props.sites.map(site => __jsx(_components_Website__WEBPACK_IMPORTED_MODULE_1__["default"], {
     website: site,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
   })))), __jsx("div", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__horizontalRow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx("div", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.websitesWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, __jsx("h2", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.wrapperHeading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }, "Web Apps"), __jsx("ul", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__websites,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }, props.apps.map(site => __jsx(_components_Website__WEBPACK_IMPORTED_MODULE_1__["default"], {
     website: site,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }))), ";"));
@@ -393,35 +380,35 @@ function Portfolio(props) {
 
 Portfolio.defaultProps = {
   sites: [{
-    name: "Beauty Site",
-    img: "/website1.jpg",
-    link: "http://localhost:8888/Beauty/",
+    name: "Gregg Fine Dev",
+    img: "/website1.png",
+    link: "https://greggfinedev.com/",
+    description: "The web development site of JavaScript programmer Gregg Fine"
+  }, {
+    name: "Hidden Tiger Music Inc.",
+    img: "/website2.png",
+    link: "http://hiddentigermusic.com/",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }, {
-    name: "Cosmetics Site",
-    img: "/website2.jpg",
-    link: "http://localhost:8888/Beauty/",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }, {
-    name: "Restaurant Site",
+    name: "Synth Explorer",
     img: "/website3.png",
-    link: "http://localhost:8888/Beauty/",
+    link: "https://greggfine.github.io/synth-explorer-2020/#!/home",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }],
   apps: [{
-    name: "Ear Trainer",
-    img: "/website1.jpg",
-    link: "http://localhost:8888/Beauty/",
+    name: "Jazz Guitar Game",
+    img: "/website4.png",
+    link: "https://www.greggfineguitar.com",
+    description: "Guess the name of the Jazz guitarist you are listening to."
+  }, {
+    name: "Rhythmic Ear Trainer",
+    img: "/website5.png",
+    link: "https://greggfine.github.io/subdivision-app/",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }, {
-    name: "Cosmetics Site",
-    img: "/website2.jpg",
-    link: "http://localhost:8888/Beauty/",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }, {
-    name: "Restaurant Site",
-    img: "/website3.png",
-    link: "http://localhost:8888/Beauty/",
+    name: "Searchable Music Library",
+    img: "/website6.png",
+    link: "https://immense-atoll-44421.herokuapp.com/search",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }]
 };
@@ -439,6 +426,7 @@ Portfolio.defaultProps = {
 // Exports
 module.exports = {
 	"Portfolio__websites": "portfolio_Portfolio__websites__2rPvN",
+	"Portfolio__horizontalRow": "portfolio_Portfolio__horizontalRow__kiyvM",
 	"Portfolio__heading": "portfolio_Portfolio__heading__3RS8x",
 	"Portfolio__title": "portfolio_Portfolio__title__dcCcs",
 	"Portfolio__subheading": "portfolio_Portfolio__subheading__1pb3A",

@@ -4,21 +4,23 @@ import styles from "./index.module.scss";
 function Index() {
   return (
     <main>
-      <div className={styles.Hero}>
-        <div className={styles.Hero__headerWrap}>
-          <h1 className={styles.Hero__heading}>
-            I DESIGN AND DEVELOP
-            <br />
-          </h1>
-          <h2 className={styles.Hero__typewriter}>WEBSITES THAT GET RESULTS</h2>
-        </div>
+      <div className={styles.Hero}></div>
+      <div className={styles.Hero__headerWrap}>
+        <h1 className={styles.Hero__heading}>
+          I DESIGN AND DEVELOP
+          <br />
+        </h1>
+        <h2 className={styles.Hero__typewriter}>WEBSITES THAT GET RESULTS</h2>
       </div>
-
       <section className={styles.Hero__about}>
         <h1 className={styles.Hero__whatwedo}>
-          Gregg Fine provides website design &amp; marketing strategies tailored
-          to you
+          Gregg Fine provides website design &amp; marketing strategies{" "}
+          <span className={styles.Hero__highlightParent}>
+            tailored to you<div className={styles.Hero__highlight}></div>
+          </span>
         </h1>
+        {/* <div className={styles.Hero__circleDecoration}></div>
+        <div className={styles.Hero__circleDecoration2}></div> */}
         <p className={styles.Hero__text}>
           I provide reliable and personal website building, redesign and
           maintenance services to nonprofits and small businesses. My websites
@@ -36,7 +38,7 @@ function Index() {
 
       <section className={styles.cardGrid}>
         <div className={styles.serviceCard}>
-          <img src="/mobile-icon.png" alt="" className={styles.cardIcon} />
+          <img src="/web-icon-gravit.png" alt="" className={styles.cardIcon} />
           <h2 className={styles.serviceCardTitle}>
             Website Design & Development
           </h2>
@@ -47,7 +49,7 @@ function Index() {
           </p>
         </div>
         <div className={styles.serviceCard}>
-          <img src="/mobile-icon.png" alt="" className={styles.cardIcon} />
+          <img src="/seo-icon-gravit.png" alt="" className={styles.cardIcon} />
           <h2 className={styles.serviceCardTitle}>SEO</h2>
           <p className={styles.secondaryCardContent}>
             Our innovative SEO strategies, as well as our wealth of knowledge
@@ -56,7 +58,11 @@ function Index() {
           </p>
         </div>
         <div className={styles.serviceCard}>
-          <img src="/mobile-icon.png" alt="" className={styles.cardIcon} />
+          <img
+            src="/email-icon-gravit.png"
+            alt=""
+            className={styles.cardIcon}
+          />
           <h2 className={styles.serviceCardTitle}>Email Marketing</h2>
           <p className={styles.secondaryCardContent}>
             We can help you reach out in the best possible way through our email

@@ -10,8 +10,16 @@
     width: 90%;
   }
 
+  &__horizontalRow {
+    // color: var(--secondaryText);
+    width: 65vw;
+    height: 1.2px;
+    margin: 0 auto;
+    background-color: var(--secondaryText);
+  }
+
   &__heading {
-    border: 1px solid #000;
+    // border: 1px solid #000;
     // background-color: #4a1962;
     background-color: #1f062c;
     background-image: url("/domenico-loia-hGV2TfOh0ns-unsplash.jpg");
@@ -19,7 +27,7 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: screen;
-    filter: grayscale(40%);
+    // filter: grayscale(70%);
     width: 100vw;
     height: 400px;
     display: flex;
@@ -30,8 +38,12 @@
   &__title {
     // color: #d81159;
     color: var(--secondaryRed);
+    // color: #3f224d;
     font-weight: 700;
     font-size: 4rem;
+    font-family: "TTNorms-Extra-Bold.otf";
+    text-shadow: -2px 2px 2px #5e3a3a63;
+
     // -webkit-text-stroke-width: 1px;
     // -webkit-text-stroke-color: black;
   }
@@ -39,15 +51,19 @@
   &__subheading {
     // color: #d81159;
     color: var(--secondaryRed);
+    font-family: "TTNorms-ExtraBoldItalic.otf";
+    font-size: 2rem;
     // -webkit-text-stroke-width: 0.5px;
     // -webkit-text-stroke-color: black;
   }
 
   &__headerWrapper {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
+    padding: 2% 10px;
     border-radius: 5px;
     text-align: center;
+
     // border: 10px solid #000;
   }
 }
@@ -59,6 +75,13 @@
 
 .wrapperHeading {
   color: #d81159;
+  color: #3f224d;
   margin-top: 60px;
-  font-size: 2rem;
+  font-size: 4rem;
+  font-weight: 900;
+  //   width: 300px;
+  //   margin: 60px auto;
+  //   border-bottom: 5px solid var(--neonGreen);
+  font-family: "TTNorms-Bold.otf";
+  font-family: "TTNorms-Extra-Bold.otf";
 }

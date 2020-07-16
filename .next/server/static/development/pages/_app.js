@@ -124,15 +124,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 5
   },
   __self: undefined
-}, __jsx("h3", {
-  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__header,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
+}, __jsx("img", {
+  src: "/the-fine-web.png",
+  alt: "",
+  style: {
+    width: "50%"
   },
-  __self: undefined
-}, "Gregg Fine Web Dev"), __jsx("div", {
-  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__box,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -142,21 +139,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__inner,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx("p", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__copyright,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 20
   },
   __self: undefined
-}, "\xA92020 Gregg Fine Web Dev"), __jsx("div", {
+}, "\xA92020 Gregg Fine Web"), __jsx("div", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx("a", {
@@ -165,14 +162,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx("i", {
   className: "fa fa-twitter",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 27
   },
   __self: undefined
 })), __jsx("a", {
@@ -181,14 +178,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 29
   },
   __self: undefined
 }, __jsx("i", {
   className: "fa fa-youtube",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 34
   },
   __self: undefined
 })), __jsx("a", {
@@ -197,14 +194,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 36
   },
   __self: undefined
 }, __jsx("i", {
   className: "fa fa-instagram",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 41
   },
   __self: undefined
 }))))));
@@ -243,193 +240,220 @@ module.exports = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Navbar */ "react-bootstrap/Navbar");
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navigation.module.scss */ "./components/Navigation.module.scss");
-/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-bootstrap/Navbar */ "react-bootstrap/Navbar");
+/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Nav */ "react-bootstrap/Nav");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navigation.module.scss */ "./components/Navigation.module.scss");
+/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "react-dom");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Navigation.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
 
-function Navigation() {
-  return __jsx("header", {
-    className: "site-header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "site-header__menu-icon",
-    id: "menu-icon",
-    onClick: () => {
-      const menuIcon = document.getElementById("menu-icon");
-      const sideMenu = document.querySelector("#side-menu");
-      menuIcon.classList.toggle("site-header__menu-icon--close-x");
-      sideMenu.classList.toggle("open-side-menu");
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "site-header__menu-icon__middle",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  })), __jsx("div", {
-    id: "side-menu",
-    className: "side-nav",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx("ul", {
-    className: "side-nav-list-items",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/portfolio",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "site-header__listitem",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "site-header__listitem",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "Contact")))), __jsx("div", {
-    className: "content-sizer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, __jsx("nav", {
-    className: "site-header__nav",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx("ul", {
-    className: "site-header__nav-list",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "site-header__brand-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "site-header__brand-name",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Gregg Fine Web Dev"))), __jsx("div", {
-    class: "site-header__list-item-wrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx("li", {
-    className: "site-header__nav-list-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/portfolio",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "site-header__listitem",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "Portfolio"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "site-header__listitem",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Contact"))))))));
+
+
+
+
+
+class Navigation extends react__WEBPACK_IMPORTED_MODULE_4___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "handleClick", () => {
+      this.setState({
+        isOpen: !this.state.isOpen,
+        isSideMenuOpen: !this.state.isSideMenuOpen
+      });
+    });
+
+    this.state = {
+      isOpen: true,
+      isSideMenuOpen: false
+    };
+  }
+
+  render() {
+    return __jsx("header", {
+      className: "site-header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, __jsx("div", {
+      className: this.state.isOpen ? "site-header__menu-icon" : "site-header__menu-icon site-header__menu-icon--close-x",
+      id: "menu-icon",
+      onClick: this.handleClick,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "site-header__menu-icon__middle",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    })), __jsx("div", {
+      id: "side-menu",
+      className: this.state.isSideMenuOpen ? "side-nav open-side-menu" : "side-nav",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, __jsx("ul", {
+      className: "side-nav-list-items",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      href: "/portfolio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "site-header__listitem",
+      onClick: this.handleClick,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      href: "/contact",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "site-header__listitem",
+      onClick: this.handleClick,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
+      },
+      __self: this
+    }, "Contact")))), __jsx("div", {
+      className: "content-sizer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59
+      },
+      __self: this
+    }, __jsx("nav", {
+      className: "site-header__nav",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }, __jsx("ul", {
+      className: "site-header__nav-list",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "site-header__brand-wrapper",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      href: "/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, __jsx("h1", {
+      className: "site-header__brand-name",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, __jsx("img", {
+      src: "/the-fine-web.png",
+      alt: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    })))), __jsx("div", {
+      class: "site-header__list-item-wrapper",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, __jsx("li", {
+      className: "site-header__nav-list-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      href: "/portfolio",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "site-header__listitem",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 73
+      },
+      __self: this
+    }, "Portfolio"))), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      href: "/contact",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77
+      },
+      __self: this
+    }, __jsx("a", {
+      className: "site-header__listitem",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78
+      },
+      __self: this
+    }, "Contact"))))))));
+  }
+
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);

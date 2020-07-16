@@ -390,7 +390,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Website_mycard__1AWUN:hover {\n  transition: transform 400ms ease-in-out;\n  transform: translateY(-7px); }\n\n.Website_innerCard__1gS6M:hover {\n  box-shadow: 2px 2px 10px 10px var(--boxShadowGrey); }\n\n.Website_cardImg__3aGfb {\n  height: 100%; }\n\n.Website_cardText__3a_Z0 {\n  font-size: 16px;\n  color: var(--secondaryText); }\n\n.Website_cardTitle__1cc4j {\n  font-size: 20px; }\n\n.Website_Card__3Zo-r {\n  width: 22rem;\n  textalign: center;\n  boxshadow: 2px 2px 5px 5px var(--boxShadowGrey);\n  margin: 20px;\n  border-radius: 0.55em; }\n", "",{"version":3,"sources":["Website.module.scss"],"names":[],"mappings":"AAAA;EACE,uCAAuC;EACvC,2BAA2B,EAAA;;AAG7B;EACE,kDAAkD,EAAA;;AAGpD;EACE,YAAY,EAAA;;AAGd;EACE,eAAe;EACf,2BAA2B,EAAA;;AAG7B;EACE,eAAe,EAAA;;AAGjB;EACE,YAAY;EACZ,iBAAiB;EACjB,+CAA+C;EAC/C,YAAY;EACZ,qBAAqB,EAAA","file":"Website.module.scss","sourcesContent":[".mycard:hover {\n  transition: transform 400ms ease-in-out;\n  transform: translateY(-7px);\n}\n\n.innerCard:hover {\n  box-shadow: 2px 2px 10px 10px var(--boxShadowGrey);\n}\n\n.cardImg {\n  height: 100%;\n}\n\n.cardText {\n  font-size: 16px;\n  color: var(--secondaryText);\n}\n\n.cardTitle {\n  font-size: 20px;\n}\n\n.Card {\n  width: 22rem;\n  textalign: center;\n  boxshadow: 2px 2px 5px 5px var(--boxShadowGrey);\n  margin: 20px;\n  border-radius: 0.55em;\n}\n"]}]);
+exports.push([module.i, ".Website_mycard__1AWUN:hover {\n  transition: transform 400ms ease-in-out;\n  transform: translateY(-5px); }\n\n.Website_innerCard__1gS6M:hover {\n  box-shadow: 2px 2px 10px 10px var(--boxShadowGrey); }\n\n.Website_cardImg__3aGfb {\n  height: 100%; }\n\n.Website_cardText__3a_Z0 {\n  font-size: 16px;\n  color: var(--secondaryText); }\n\n.Website_cardTitle__1cc4j {\n  font-size: 20px; }\n\n.Website_Card__3Zo-r {\n  width: 22rem;\n  textalign: center;\n  boxshadow: 2px 2px 5px 5px var(--boxShadowGrey);\n  margin: 20px;\n  border-radius: 0.55em; }\n  .Website_Card__3Zo-r:hover {\n    cursor: pointer; }\n\n.Website_cardBtn__1yQAm {\n  color: var(--secondaryRed);\n  border: 1px solid var(--secondaryRed); }\n  .Website_cardBtn__1yQAm:hover {\n    background-color: var(--secondaryRed);\n    border: 1px solid var(--secondaryRed); }\n", "",{"version":3,"sources":["Website.module.scss"],"names":[],"mappings":"AAAA;EACE,uCAAuC;EAEvC,2BAA2B,EAAA;;AAG7B;EACE,kDAAkD,EAAA;;AAGpD;EACE,YAAY,EAAA;;AAGd;EACE,eAAe;EACf,2BAA2B,EAAA;;AAG7B;EACE,eAAe,EAAA;;AAGjB;EACE,YAAY;EAEZ,iBAAiB;EACjB,+CAA+C;EAC/C,YAAY;EACZ,qBAAqB,EAAA;EANvB;IASI,eAAe,EAAA;;AAInB;EACE,0BAA0B;EAC1B,qCAAqC,EAAA;EAFvC;IAKI,qCAAqC;IACrC,qCAAqC,EAAA","file":"Website.module.scss","sourcesContent":[".mycard:hover {\n  transition: transform 400ms ease-in-out;\n  //   transform: translateY(-7px);\n  transform: translateY(-5px);\n}\n\n.innerCard:hover {\n  box-shadow: 2px 2px 10px 10px var(--boxShadowGrey);\n}\n\n.cardImg {\n  height: 100%;\n}\n\n.cardText {\n  font-size: 16px;\n  color: var(--secondaryText);\n}\n\n.cardTitle {\n  font-size: 20px;\n}\n\n.Card {\n  width: 22rem;\n  //   height: 10%;\n  textalign: center;\n  boxshadow: 2px 2px 5px 5px var(--boxShadowGrey);\n  margin: 20px;\n  border-radius: 0.55em;\n\n  &:hover {\n    cursor: pointer;\n  }\n}\n\n.cardBtn {\n  color: var(--secondaryRed);\n  border: 1px solid var(--secondaryRed);\n\n  &:hover {\n    background-color: var(--secondaryRed);\n    border: 1px solid var(--secondaryRed);\n  }\n}\n"]}]);
 // Exports
 exports.locals = {
 	"mycard": "Website_mycard__1AWUN",
@@ -398,7 +398,8 @@ exports.locals = {
 	"cardImg": "Website_cardImg__3aGfb",
 	"cardText": "Website_cardText__3a_Z0",
 	"cardTitle": "Website_cardTitle__1cc4j",
-	"Card": "Website_Card__3Zo-r"
+	"Card": "Website_Card__3Zo-r",
+	"cardBtn": "Website_cardBtn__1yQAm"
 };
 
 /***/ }),
@@ -412,10 +413,11 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".portfolio_Portfolio__websites__2rPvN {\n  list-style-type: none;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n  margin: 60px auto;\n  padding: 40px 0px;\n  font-size: 1.5rem;\n  width: 90%; }\n\n.portfolio_Portfolio__heading__3RS8x {\n  border: 1px solid #000;\n  background-color: #1f062c;\n  background-image: url(\"/domenico-loia-hGV2TfOh0ns-unsplash.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n  background-blend-mode: screen;\n  -webkit-filter: grayscale(40%);\n          filter: grayscale(40%);\n  width: 100vw;\n  height: 400px;\n  display: flex;\n  align-items: center;\n  justify-content: center; }\n\n.portfolio_Portfolio__title__dcCcs {\n  color: var(--secondaryRed);\n  font-weight: 700;\n  font-size: 4rem; }\n\n.portfolio_Portfolio__subheading__1pb3A {\n  color: var(--secondaryRed); }\n\n.portfolio_Portfolio__headerWrapper__13Jft {\n  background-color: rgba(255, 255, 255, 0.7);\n  padding: 20px;\n  border-radius: 5px;\n  text-align: center; }\n\n.portfolio_websitesWrapper__24lIA {\n  text-align: center; }\n\n.portfolio_wrapperHeading__1AmFl {\n  color: #d81159;\n  margin-top: 60px;\n  font-size: 2rem; }\n", "",{"version":3,"sources":["portfolio.module.scss"],"names":[],"mappings":"AACE;EACE,qBAAqB;EACrB,aAAa;EACb,eAAe;EACf,6BAA6B;EAC7B,iBAAiB;EACjB,iBAAiB;EACjB,iBAAiB;EACjB,UAAU,EAAA;;AAGZ;EACE,sBAAsB;EAEtB,yBAAyB;EACzB,gEAAgE;EAChE,4BAA4B;EAC5B,sBAAsB;EACtB,2BAA2B;EAC3B,6BAA6B;EAC7B,8BAAsB;UAAtB,sBAAsB;EACtB,YAAY;EACZ,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,uBAAuB,EAAA;;AAGzB;EAEE,0BAA0B;EAC1B,gBAAgB;EAChB,eAAe,EAAA;;AAKjB;EAEE,0BAA0B,EAAA;;AAK5B;EACE,0CAA0C;EAC1C,aAAa;EACb,kBAAkB;EAClB,kBAAkB,EAAA;;AAKtB;EAEE,kBAAkB,EAAA;;AAGpB;EACE,cAAc;EACd,gBAAgB;EAChB,eAAe,EAAA","file":"portfolio.module.scss","sourcesContent":[".Portfolio {\n  &__websites {\n    list-style-type: none;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin: 60px auto;\n    padding: 40px 0px;\n    font-size: 1.5rem;\n    width: 90%;\n  }\n\n  &__heading {\n    border: 1px solid #000;\n    // background-color: #4a1962;\n    background-color: #1f062c;\n    background-image: url(\"/domenico-loia-hGV2TfOh0ns-unsplash.jpg\");\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    background-blend-mode: screen;\n    filter: grayscale(40%);\n    width: 100vw;\n    height: 400px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  &__title {\n    // color: #d81159;\n    color: var(--secondaryRed);\n    font-weight: 700;\n    font-size: 4rem;\n    // -webkit-text-stroke-width: 1px;\n    // -webkit-text-stroke-color: black;\n  }\n\n  &__subheading {\n    // color: #d81159;\n    color: var(--secondaryRed);\n    // -webkit-text-stroke-width: 0.5px;\n    // -webkit-text-stroke-color: black;\n  }\n\n  &__headerWrapper {\n    background-color: rgba(255, 255, 255, 0.7);\n    padding: 20px;\n    border-radius: 5px;\n    text-align: center;\n    // border: 10px solid #000;\n  }\n}\n\n.websitesWrapper {\n  //   border: 1px solid #000;\n  text-align: center;\n}\n\n.wrapperHeading {\n  color: #d81159;\n  margin-top: 60px;\n  font-size: 2rem;\n}\n"]}]);
+exports.push([module.i, ".portfolio_Portfolio__websites__2rPvN {\n  list-style-type: none;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-around;\n  margin: 60px auto;\n  padding: 40px 0px;\n  font-size: 1.5rem;\n  width: 90%; }\n\n.portfolio_Portfolio__horizontalRow__kiyvM {\n  width: 65vw;\n  height: 1.2px;\n  margin: 0 auto;\n  background-color: var(--secondaryText); }\n\n.portfolio_Portfolio__heading__3RS8x {\n  background-color: #1f062c;\n  background-image: url(\"/domenico-loia-hGV2TfOh0ns-unsplash.jpg\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n  background-blend-mode: screen;\n  width: 100vw;\n  height: 400px;\n  display: flex;\n  align-items: center;\n  justify-content: center; }\n\n.portfolio_Portfolio__title__dcCcs {\n  color: var(--secondaryRed);\n  font-weight: 700;\n  font-size: 4rem;\n  font-family: \"TTNorms-Extra-Bold.otf\";\n  text-shadow: -2px 2px 2px #5e3a3a63; }\n\n.portfolio_Portfolio__subheading__1pb3A {\n  color: var(--secondaryRed);\n  font-family: \"TTNorms-ExtraBoldItalic.otf\";\n  font-size: 2rem; }\n\n.portfolio_Portfolio__headerWrapper__13Jft {\n  background-color: rgba(255, 255, 255, 0.9);\n  padding: 20px;\n  padding: 2% 10px;\n  border-radius: 5px;\n  text-align: center; }\n\n.portfolio_websitesWrapper__24lIA {\n  text-align: center; }\n\n.portfolio_wrapperHeading__1AmFl {\n  color: #d81159;\n  color: #3f224d;\n  margin-top: 60px;\n  font-size: 4rem;\n  font-weight: 900;\n  font-family: \"TTNorms-Bold.otf\";\n  font-family: \"TTNorms-Extra-Bold.otf\"; }\n", "",{"version":3,"sources":["portfolio.module.scss"],"names":[],"mappings":"AACE;EACE,qBAAqB;EACrB,aAAa;EACb,eAAe;EACf,6BAA6B;EAC7B,iBAAiB;EACjB,iBAAiB;EACjB,iBAAiB;EACjB,UAAU,EAAA;;AAGZ;EAEE,WAAW;EACX,aAAa;EACb,cAAc;EACd,sCAAsC,EAAA;;AAGxC;EAGE,yBAAyB;EACzB,gEAAgE;EAChE,4BAA4B;EAC5B,sBAAsB;EACtB,2BAA2B;EAC3B,6BAA6B;EAE7B,YAAY;EACZ,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,uBAAuB,EAAA;;AAGzB;EAEE,0BAA0B;EAE1B,gBAAgB;EAChB,eAAe;EACf,qCAAqC;EACrC,mCAAmC,EAAA;;AAMrC;EAEE,0BAA0B;EAC1B,0CAA0C;EAC1C,eAAe,EAAA;;AAKjB;EACE,0CAA0C;EAC1C,aAAa;EACb,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB,EAAA;;AAMtB;EAEE,kBAAkB,EAAA;;AAGpB;EACE,cAAc;EACd,cAAc;EACd,gBAAgB;EAChB,eAAe;EACf,gBAAgB;EAIhB,+BAA+B;EAC/B,qCAAqC,EAAA","file":"portfolio.module.scss","sourcesContent":[".Portfolio {\n  &__websites {\n    list-style-type: none;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    margin: 60px auto;\n    padding: 40px 0px;\n    font-size: 1.5rem;\n    width: 90%;\n  }\n\n  &__horizontalRow {\n    // color: var(--secondaryText);\n    width: 65vw;\n    height: 1.2px;\n    margin: 0 auto;\n    background-color: var(--secondaryText);\n  }\n\n  &__heading {\n    // border: 1px solid #000;\n    // background-color: #4a1962;\n    background-color: #1f062c;\n    background-image: url(\"/domenico-loia-hGV2TfOh0ns-unsplash.jpg\");\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-position: center;\n    background-blend-mode: screen;\n    // filter: grayscale(70%);\n    width: 100vw;\n    height: 400px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  &__title {\n    // color: #d81159;\n    color: var(--secondaryRed);\n    // color: #3f224d;\n    font-weight: 700;\n    font-size: 4rem;\n    font-family: \"TTNorms-Extra-Bold.otf\";\n    text-shadow: -2px 2px 2px #5e3a3a63;\n\n    // -webkit-text-stroke-width: 1px;\n    // -webkit-text-stroke-color: black;\n  }\n\n  &__subheading {\n    // color: #d81159;\n    color: var(--secondaryRed);\n    font-family: \"TTNorms-ExtraBoldItalic.otf\";\n    font-size: 2rem;\n    // -webkit-text-stroke-width: 0.5px;\n    // -webkit-text-stroke-color: black;\n  }\n\n  &__headerWrapper {\n    background-color: rgba(255, 255, 255, 0.9);\n    padding: 20px;\n    padding: 2% 10px;\n    border-radius: 5px;\n    text-align: center;\n\n    // border: 10px solid #000;\n  }\n}\n\n.websitesWrapper {\n  //   border: 1px solid #000;\n  text-align: center;\n}\n\n.wrapperHeading {\n  color: #d81159;\n  color: #3f224d;\n  margin-top: 60px;\n  font-size: 4rem;\n  font-weight: 900;\n  //   width: 300px;\n  //   margin: 60px auto;\n  //   border-bottom: 5px solid var(--neonGreen);\n  font-family: \"TTNorms-Bold.otf\";\n  font-family: \"TTNorms-Extra-Bold.otf\";\n}\n"]}]);
 // Exports
 exports.locals = {
 	"Portfolio__websites": "portfolio_Portfolio__websites__2rPvN",
+	"Portfolio__horizontalRow": "portfolio_Portfolio__horizontalRow__kiyvM",
 	"Portfolio__heading": "portfolio_Portfolio__heading__3RS8x",
 	"Portfolio__title": "portfolio_Portfolio__title__dcCcs",
 	"Portfolio__subheading": "portfolio_Portfolio__subheading__1pb3A",
@@ -2395,46 +2397,25 @@ function Portfolio(props) {
       lineNumber: 8
     },
     __self: this
-  }, __jsx("div", {
-    "class": _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__headerWrapper,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__title,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "PORTFOLIO"), __jsx("p", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__subheading,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "Custom websites and web apps"))), __jsx("div", {
+  }), __jsx("div", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.websitesWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 17
     },
     __self: this
   }, __jsx("h2", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.wrapperHeading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 18
     },
     __self: this
   }, "Websites"), __jsx("ul", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__websites,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
   }, props.sites.map(function (site) {
@@ -2442,29 +2423,36 @@ function Portfolio(props) {
       website: site,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 21
       },
       __self: this
     });
   }))), __jsx("div", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__horizontalRow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx("div", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.websitesWrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, __jsx("h2", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.wrapperHeading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }, "Web Apps"), __jsx("ul", {
     className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__websites,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }, props.apps.map(function (site) {
@@ -2472,7 +2460,7 @@ function Portfolio(props) {
       website: site,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 30
       },
       __self: this
     });
@@ -2481,35 +2469,35 @@ function Portfolio(props) {
 
 Portfolio.defaultProps = {
   sites: [{
-    name: "Beauty Site",
-    img: "/website1.jpg",
-    link: "http://localhost:8888/Beauty/",
+    name: "Gregg Fine Dev",
+    img: "/website1.png",
+    link: "https://greggfinedev.com/",
+    description: "The web development site of JavaScript programmer Gregg Fine"
+  }, {
+    name: "Hidden Tiger Music Inc.",
+    img: "/website2.png",
+    link: "http://hiddentigermusic.com/",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }, {
-    name: "Cosmetics Site",
-    img: "/website2.jpg",
-    link: "http://localhost:8888/Beauty/",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }, {
-    name: "Restaurant Site",
+    name: "Synth Explorer",
     img: "/website3.png",
-    link: "http://localhost:8888/Beauty/",
+    link: "https://greggfine.github.io/synth-explorer-2020/#!/home",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }],
   apps: [{
-    name: "Ear Trainer",
-    img: "/website1.jpg",
-    link: "http://localhost:8888/Beauty/",
+    name: "Jazz Guitar Game",
+    img: "/website4.png",
+    link: "https://www.greggfineguitar.com",
+    description: "Guess the name of the Jazz guitarist you are listening to."
+  }, {
+    name: "Rhythmic Ear Trainer",
+    img: "/website5.png",
+    link: "https://greggfine.github.io/subdivision-app/",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }, {
-    name: "Cosmetics Site",
-    img: "/website2.jpg",
-    link: "http://localhost:8888/Beauty/",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }, {
-    name: "Restaurant Site",
-    img: "/website3.png",
-    link: "http://localhost:8888/Beauty/",
+    name: "Searchable Music Library",
+    img: "/website6.png",
+    link: "https://immense-atoll-44421.herokuapp.com/search",
     description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
   }]
 };

@@ -125,7 +125,7 @@ function Index() {
       lineNumber: 7
     },
     __self: this
-  }, __jsx("div", {
+  }), __jsx("div", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__headerWrap,
     __source: {
       fileName: _jsxFileName,
@@ -152,122 +152,136 @@ function Index() {
       lineNumber: 13
     },
     __self: this
-  }, "WEBSITES THAT GET RESULTS"))), __jsx("section", {
+  }, "WEBSITES THAT GET RESULTS")), __jsx("section", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__about,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 15
     },
     __self: this
   }, __jsx("h1", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__whatwedo,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Gregg Fine provides website design & marketing strategies", " ", __jsx("span", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__highlightParent,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Gregg Fine provides website design & marketing strategies tailored to you"), __jsx("p", {
+  }, "tailored to you", __jsx("div", {
+    className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__highlight,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }))), __jsx("p", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Hero__text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: this
   }, "I provide reliable and personal website building, redesign and maintenance services to nonprofits and small businesses. My websites are based on WordPress, a powerful open-source content management system. Your website will be tailored to your organization\u2019s needs and you will be getting rock-solid, one-on-one service. Whether you\u2019re just starting out or already established, let us here at Anna Young Design help your business achieve its full potential. From bold and colorful logo and brand designs, to sleek, professional looking web pages, Anna Young Design is ready and able to provide everything you need to get potential customers paying attention to what you and your company have to offer.")), __jsx("section", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.cardGrid,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }, __jsx("div", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }, __jsx("img", {
-    src: "/mobile-icon.png",
+    src: "/web-icon-gravit.png",
     alt: "",
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.cardIcon,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }), __jsx("h2", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.serviceCardTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }, "Website Design & Development"), __jsx("p", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.secondaryCardContent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, "We create truly customized websites, everything from beautiful, eye-catching and elegant designs to sleek, professional web pages that are sure to get you noticed.")), __jsx("div", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     },
     __self: this
   }, __jsx("img", {
-    src: "/mobile-icon.png",
+    src: "/seo-icon-gravit.png",
     alt: "",
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.cardIcon,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }), __jsx("h2", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.serviceCardTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     },
     __self: this
   }, "SEO"), __jsx("p", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.secondaryCardContent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }, "Our innovative SEO strategies, as well as our wealth of knowledge regarding search algorithms will enable you to rise to the very top of the search rankings.")), __jsx("div", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.serviceCard,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 60
     },
     __self: this
   }, __jsx("img", {
-    src: "/mobile-icon.png",
+    src: "/email-icon-gravit.png",
     alt: "",
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.cardIcon,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
   }), __jsx("h2", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.serviceCardTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 66
     },
     __self: this
   }, "Email Marketing"), __jsx("p", {
     className: _index_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.secondaryCardContent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 67
     },
     __self: this
   }, "We can help you reach out in the best possible way through our email marketing expertise. Retaining valuable customers and keeping clients abreast of your company\u2019s latest goings-on."))));
@@ -290,6 +304,8 @@ NOTES: Link provides an onClick function around whatever it's wrapping
 // Exports
 module.exports = {
 	"Hero": "index_Hero__37DBn",
+	"Hero__highlightParent": "index_Hero__highlightParent__1p5AS",
+	"Hero__highlight": "index_Hero__highlight__3MUwR",
 	"Hero__about": "index_Hero__about__2jUlL",
 	"Hero__whatwedo": "index_Hero__whatwedo__2yJ82",
 	"Hero__button": "index_Hero__button__2bbcr",
