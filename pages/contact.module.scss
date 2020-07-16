@@ -115,7 +115,7 @@
     flex-direction: column;
     position: relative;
     filter: grayscale(80%);
-    width: 480px;
+    // width: 480px;
     height: 280px;
     overflow: hidden;
   }
@@ -146,6 +146,10 @@
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
+    }
+
+    &__colorDiv {
+      width: 480px;
     }
   }
 }

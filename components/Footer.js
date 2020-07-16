@@ -4,7 +4,7 @@ export default () => (
   <footer className={styles.Footer}>
     <div className={styles.Footer__logoWrapper}>
       {/* <h3 className={styles.Footer__header}>The Fine Web</h3> */}
-      <img src="/the-fine-web.png" alt="" style={{ width: "70%" }} />
+      <img className={styles.Footer__image} src="/the-fine-web.png" alt="" />
     </div>
 
     {/* <div class="svg-wrapper"> */}

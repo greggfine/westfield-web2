@@ -8,6 +8,14 @@
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   //   border: 10px solid #000;
 
+  &__image {
+    width: 90%;
+
+    @media (min-width: 960px) {
+      width: 70%;
+    }
+  }
+
   &__circleDecoration,
   &__circleDecoration2 {
     width: 2rem;

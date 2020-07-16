@@ -54,6 +54,7 @@
     background-color: #8283821c;
     text-align: center;
     clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 80%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, -50% 80%);
     padding-bottom: 50px;
     margin-top: 60px;
     // background-image: url("/green-lines.jpeg");
@@ -70,11 +71,13 @@
     color: #19222b;
     color: #3b244d;
     font-weight: 700;
-    padding-top: 100px;
-    line-height: 50px;
+    // padding-top: 100px;
+    line-height: 40px;
     margin-bottom: 30px;
     margin-top: 30px;
     font-family: "TTNorms-Medium.otf";
+    padding: 100px 10px 0;
+    font-size: 2rem;
   }
 
   &__button {
@@ -95,9 +98,10 @@
   &__headerWrap {
     // position: absolute;
     // width: 76%;
-    width: 400px;
+    // width: 400px;
+    // width: 100%;
     bottom: 20%;
-    padding-left: 10px;
+    // padding-left: 10px;
     padding-top: 15px;
     // background-color: rgba(255, 255, 255, 0.7);
     // display: none;
@@ -105,13 +109,18 @@
 
   &__heading {
     max-width: 700px;
-    text-align: left;
-    padding-left: 20px;
+
+    text-align: center;
+    padding-left: 10px;
     padding-top: 10px;
     font-size: 1.8rem;
     font-weight: 800;
     color: rgb(51, 51, 51);
-    font-family: "TTNorms-Extra-Bold.otf";
+    font-family: "TTNorms-Bold.otf";
+
+    @media (min-width: 960px) {
+      text-align: left;
+    }
   }
 
   &__subheading {
@@ -143,9 +152,11 @@
     // color: var(--mainPurple);
     animation: animated-text 3s steps(30, end) 1s 1 alternate both;
     animation-iteration-count: infinite;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-left: 70px;
     max-width: 90%;
-    font-family: "TTNorms-ExtraBoldItalic.otf";
+    // font-family: "TTNorms-ExtraBoldItalic.otf";
+    font-family: "TTNorms-Extra-Bold.otf";
   }
 
   @keyframes animated-text {
@@ -210,7 +221,6 @@
     background-position: 0 -10px;
     &__headerWrap {
       //   max-width: 40%;
-      width: 850px;
       width: 900px;
       bottom: 10%;
       padding-left: 10px;
@@ -238,6 +248,8 @@
     &__whatwedo {
       max-width: 960px;
       margin: 0 auto 30px;
+      font-size: 3rem;
+      line-height: 55px;
     }
 
     @keyframes animated-text {

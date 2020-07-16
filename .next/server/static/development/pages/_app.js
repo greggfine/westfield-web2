@@ -125,11 +125,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   },
   __self: undefined
 }, __jsx("img", {
+  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__image,
   src: "/the-fine-web.png",
   alt: "",
-  style: {
-    width: "70%"
-  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -218,6 +216,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // Exports
 module.exports = {
 	"Footer": "Footer_Footer__2cf9C",
+	"Footer__image": "Footer_Footer__image__NKthu",
 	"Footer__circleDecoration": "Footer_Footer__circleDecoration__3dmF2",
 	"Footer__circleDecoration2": "Footer_Footer__circleDecoration2__1eWgu",
 	"Footer__box": "Footer_Footer__box__3wRBr",
