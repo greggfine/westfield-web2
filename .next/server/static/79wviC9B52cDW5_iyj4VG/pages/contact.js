@@ -88,27 +88,30 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/contact.js":
-/*!**************************!*\
-  !*** ./pages/contact.js ***!
-  \**************************/
-/*! exports provided: default */
+/***/ 2:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("ALdH");
+
+
+/***/ }),
+
+/***/ "ALdH":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("cDcd");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("zr5I");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _contact_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contact.module.scss */ "./pages/contact.module.scss");
+/* harmony import */ var _contact_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("Wcpz");
 /* harmony import */ var _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_contact_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/contact.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -197,49 +200,19 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   };
 
   return __jsx("main", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormMain,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormMain
   }, __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.formWrapper,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.formWrapper
   }, __jsx("h1", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.formTitle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.formTitle
   }, "Let's Talk About Your Project!"), __jsx("p", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.subMessage,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.subMessage
   }, "Have an exciting project in mind? Or maybe would like to improve your current setup? We\u2019d be happy to discuss it with you. Let\u2019s get in touch!"), __jsx("form", {
     onSubmit: handleOnSubmit,
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactForm,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactForm
   }, __jsx("label", {
     htmlFor: "name",
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel
   }, "Name"), __jsx("input", {
     id: "name",
     type: "name",
@@ -247,20 +220,10 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     onChange: handleOnChange,
     required: true,
     value: inputs.name,
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormInput,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormInput
   }), __jsx("label", {
     htmlFor: "email",
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel
   }, "Email"), __jsx("input", {
     id: "email",
     type: "email",
@@ -268,141 +231,48 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     onChange: handleOnChange,
     required: true,
     value: inputs.email,
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormInput,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormInput
   }), __jsx("label", {
     htmlFor: "message",
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormLabel
   }, "Message"), __jsx("textarea", {
     id: "message",
     name: "message",
     onChange: handleOnChange,
     required: true,
     value: inputs.message,
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormTextArea,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormTextArea
   }), __jsx("button", {
     type: "submit",
     disabled: status.submitting,
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormBtn,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contactFormBtn
   }, !status.submitting ? //   ? !status.submitted ? "Submit" : "Submitted"
   !status.submitted ? "Send a message" : "Message sent!" : "Submitting...")), status.info.error && __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.error,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136
-    },
-    __self: undefined
-  }, "Error: ", status.info.msg), !status.info.error && status.info.msg && __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138
-    },
-    __self: undefined
-  }, status.info.msg)), __jsx("div", {
-    class: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bottomWrapper,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.error
+  }, "Error: ", status.info.msg), !status.info.error && status.info.msg && __jsx("p", null, status.info.msg)), __jsx("div", {
+    class: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__bottomWrapper
   }, __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__additional,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141
-    },
-    __self: undefined
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 142
-    },
-    __self: undefined
-  }, "NEW YORK | NEW JERSEY"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 143
-    },
-    __self: undefined
-  }, "522 Summit Ave. Westfield, NJ 10012"), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 144
-    },
-    __self: undefined
-  }, "(917)355-4217")), __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDiv,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__additional
+  }, __jsx("p", null, "NEW YORK | NEW JERSEY"), __jsx("p", null, "522 Summit Ave. Westfield, NJ 10012"), __jsx("p", null, "(917)355-4217")), __jsx("div", {
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDiv
   }, __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDivItem,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDivItem
   }, __jsx("img", {
     src: "/gregg-secondary.jpg",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148
-    },
-    __self: undefined
+    alt: ""
   }))), __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDiv,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 151
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDiv
   }, __jsx("div", {
-    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDivItem,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 152
-    },
-    __self: undefined
+    className: _contact_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Contact__colorDivItem
   }, __jsx("img", {
     src: "/domenico-loia-hGV2TfOh0ns-unsplash.jpg",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 153
-    },
-    __self: undefined
+    alt: ""
   })))));
 });
 
 /***/ }),
 
-/***/ "./pages/contact.module.scss":
-/*!***********************************!*\
-  !*** ./pages/contact.module.scss ***!
-  \***********************************/
-/*! no static exports found */
+/***/ "Wcpz":
 /***/ (function(module, exports) {
 
 // Exports
@@ -425,39 +295,18 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6:
-/*!********************************!*\
-  !*** multi ./pages/contact.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! /Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/contact.js */"./pages/contact.js");
-
-
-/***/ }),
-
-/***/ "axios":
-/*!************************!*\
-  !*** external "axios" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("axios");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
+/***/ "cDcd":
 /***/ (function(module, exports) {
 
 module.exports = require("react");
 
+/***/ }),
+
+/***/ "zr5I":
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=contact.js.map
