@@ -88,79 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/Jumbo.js":
-/*!*****************************!*\
-  !*** ./components/Jumbo.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Jumbotron__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Jumbotron */ "react-bootstrap/Jumbotron");
-/* harmony import */ var react_bootstrap_Jumbotron__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Jumbotron__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Container */ "react-bootstrap/Container");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Jumbo.js";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-const Jumbo = ({
-  headingText
-}) => __jsx("div", {
-  className: "jsx-184610099" + " " + "Jumbo",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
-}, __jsx(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3___default.a, {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx("h1", {
-  className: "jsx-184610099" + " " + "jumbotron-heading",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, headingText), __jsx("p", {
-  className: "jsx-184610099" + " " + "jumbotron-text",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, "We've designed websites for the community for the past decade"), __jsx("p", {
-  className: "jsx-184610099",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-})), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "184610099",
-  __self: undefined
-}, ".Jumbo.jsx-184610099{height:450px;background-color:#eee;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.jumbotron-heading.jsx-184610099{text-align:center;}.jumbotron-text.jsx-184610099{text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9IVE11c2ljL0Rlc2t0b3AvUFJPSkVDVFMvd2VzdGZpZWxkLXdlYi9jb21wb25lbnRzL0p1bWJvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWFPLEFBR3NCLEFBTUssQUFHQSxhQVJJLEtBTXhCLEFBR0EsaUJBUmUsMEVBQ00sNkZBQ3JCIiwiZmlsZSI6Ii9Vc2Vycy9IVE11c2ljL0Rlc2t0b3AvUFJPSkVDVFMvd2VzdGZpZWxkLXdlYi9jb21wb25lbnRzL0p1bWJvLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEp1bWJvdHJvbiBmcm9tIFwicmVhY3QtYm9vdHN0cmFwL0p1bWJvdHJvblwiO1xuaW1wb3J0IENvbnRhaW5lciBmcm9tIFwicmVhY3QtYm9vdHN0cmFwL0NvbnRhaW5lclwiO1xuXG5jb25zdCBKdW1ibyA9ICh7IGhlYWRpbmdUZXh0IH0pID0+IChcbiAgPGRpdiBjbGFzc05hbWU9XCJKdW1ib1wiPlxuICAgIDxDb250YWluZXI+XG4gICAgICA8aDEgY2xhc3NOYW1lPVwianVtYm90cm9uLWhlYWRpbmdcIj57aGVhZGluZ1RleHR9PC9oMT5cbiAgICAgIDxwIGNsYXNzTmFtZT1cImp1bWJvdHJvbi10ZXh0XCI+XG4gICAgICAgIFdlJ3ZlIGRlc2lnbmVkIHdlYnNpdGVzIGZvciB0aGUgY29tbXVuaXR5IGZvciB0aGUgcGFzdCBkZWNhZGVcbiAgICAgIDwvcD5cbiAgICAgIDxwPjwvcD5cbiAgICA8L0NvbnRhaW5lcj5cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgIC5KdW1ibyB7XG4gICAgICAgIGhlaWdodDogNDUwcHg7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNlZWU7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICB9XG4gICAgICAuanVtYm90cm9uLWhlYWRpbmcge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG4gICAgICAuanVtYm90cm9uLXRleHQge1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICB9XG4gICAgYH1cbiAgICA8L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEp1bWJvO1xuIl19 */\n/*@ sourceURL=/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Jumbo.js */"));
-
-/* harmony default export */ __webpack_exports__["default"] = (Jumbo);
-
-/***/ }),
 
 /***/ "./components/Website.js":
 /*!*******************************!*\
@@ -179,6 +110,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Website_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Website.module.scss */ "./components/Website.module.scss");
 /* harmony import */ var _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Website_module_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_scrollmagic__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-scrollmagic */ "react-scrollmagic");
+/* harmony import */ var react_scrollmagic__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_scrollmagic__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Website.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -186,13 +119,31 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 const Site = ({
   website
 }) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.mycard,
+  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__myCard,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx(react_scrollmagic__WEBPACK_IMPORTED_MODULE_4__["Controller"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx(react_scrollmagic__WEBPACK_IMPORTED_MODULE_4__["Scene"], {
+  duration: 1500,
+  reverse: false,
+  triggerHook: 0.7,
+  classToggle: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__cardTrans,
+  offset: 10,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -200,56 +151,56 @@ const Site = ({
   key: website.name,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx("div", {
-  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.innerCard,
+  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__innerCard,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Img, {
   variant: "top",
   src: website.img,
-  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.cardImg,
+  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__cardImg,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 19
   },
   __self: undefined
 }), __jsx(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Body, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 24
   },
   __self: undefined
 }, __jsx("h4", {
-  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.cardTitle,
+  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__cardTitle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 25
   },
   __self: undefined
 }, website.name), __jsx("p", {
-  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.cardText,
+  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__cardText,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 28
   },
   __self: undefined
 }, website.description), __jsx(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
   variant: "outline-primary",
   href: website.link,
   target: "_blank",
-  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.cardBtn,
+  className: _Website_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Card__cardBtn,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 31
   },
   __self: undefined
-}, "VIEW WEBSITE"))))));
+}, "VIEW WEBSITE"))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Site);
 
@@ -264,13 +215,14 @@ const Site = ({
 
 // Exports
 module.exports = {
-	"mycard": "Website_mycard__1AWUN",
-	"innerCard": "Website_innerCard__1gS6M",
-	"cardImg": "Website_cardImg__3aGfb",
-	"cardText": "Website_cardText__3a_Z0",
-	"cardTitle": "Website_cardTitle__1cc4j",
 	"Card": "Website_Card__3Zo-r",
-	"cardBtn": "Website_cardBtn__1yQAm"
+	"Card__cardTrans": "Website_Card__cardTrans__1oKTW",
+	"Card__myCard": "Website_Card__myCard__3me9C",
+	"Card__innerCard": "Website_Card__innerCard__oJj2D",
+	"Card__cardImg": "Website_Card__cardImg__mVvOp",
+	"Card__cardTitle": "Website_Card__cardTitle__1ZsRD",
+	"Card__cardText": "Website_Card__cardText__1LMqt",
+	"Card__cardBtn": "Website_Card__cardBtn__JsFjZ"
 };
 
 /***/ }),
@@ -287,9 +239,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Website__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Website */ "./components/Website.js");
-/* harmony import */ var _components_Jumbo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Jumbo */ "./components/Jumbo.js");
-/* harmony import */ var _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./portfolio.module.scss */ "./pages/portfolio.module.scss");
-/* harmony import */ var _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./portfolio.module.scss */ "./pages/portfolio.module.scss");
+/* harmony import */ var _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_scrollmagic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-scrollmagic */ "react-scrollmagic");
+/* harmony import */ var react_scrollmagic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_scrollmagic__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _websites_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../websites.json */ "./websites.json");
+var _websites_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../websites.json */ "./websites.json", 1);
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/pages/portfolio.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -297,121 +252,105 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 function Portfolio(props) {
   return __jsx("div", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("div", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__heading,
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), __jsx("div", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.websitesWrapper,
+  }, __jsx("div", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__heading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 9
+    },
+    __self: this
+  }), __jsx("div", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__websitesWrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
     },
     __self: this
   }, __jsx("h2", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.wrapperHeading,
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__wrapperHeading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 12
     },
     __self: this
   }, "Websites"), __jsx("ul", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__websites,
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__websites,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, _websites_json__WEBPACK_IMPORTED_MODULE_4__.sites.map(site => __jsx(_components_Website__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    website: site,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })))), __jsx(react_scrollmagic__WEBPACK_IMPORTED_MODULE_3__["Controller"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, props.sites.map(site => __jsx(_components_Website__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    website: site,
+  }, __jsx(react_scrollmagic__WEBPACK_IMPORTED_MODULE_3__["Scene"], {
+    duration: 1500,
+    reverse: true,
+    triggerHook: 0.7,
+    classToggle: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__horizontalRow__trans,
+    offset: 10,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
-  })))), __jsx("div", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__horizontalRow,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }), __jsx("div", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.websitesWrapper,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx("h2", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.wrapperHeading,
+  }, __jsx("div", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__horizontalRow,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "Web Apps"), __jsx("ul", {
-    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.Portfolio__websites,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, props.apps.map(site => __jsx(_components_Website__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    website: site,
+  }))), __jsx("div", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__websitesWrapper,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
+  }, __jsx("h2", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__wrapperHeading,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Web Apps"), __jsx("ul", {
+    className: _portfolio_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Portfolio__websites,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, _websites_json__WEBPACK_IMPORTED_MODULE_4__.apps.map(site => __jsx(_components_Website__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    website: site,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
   }))), ";"));
 }
 
-Portfolio.defaultProps = {
-  sites: [{
-    name: "Gregg Fine Dev",
-    img: "/website1.png",
-    link: "https://greggfinedev.com/",
-    description: "The web development site of JavaScript programmer Gregg Fine"
-  }, {
-    name: "Hidden Tiger Music Inc.",
-    img: "/website2.png",
-    link: "http://hiddentigermusic.com/",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }, {
-    name: "Synth Explorer",
-    img: "/website3.png",
-    link: "https://greggfine.github.io/synth-explorer-2020/#!/home",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }],
-  apps: [{
-    name: "Jazz Guitar Game",
-    img: "/website4.png",
-    link: "https://www.greggfineguitar.com",
-    description: "Guess the name of the Jazz guitarist you are listening to."
-  }, {
-    name: "Rhythmic Ear Trainer",
-    img: "/website5.png",
-    link: "https://greggfine.github.io/subdivision-app/",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }, {
-    name: "Searchable Music Library",
-    img: "/website6.png",
-    link: "https://immense-atoll-44421.herokuapp.com/search",
-    description: "Our restaurant serves the freshest seafood daily. Contact us for specials"
-  }]
-};
 /* harmony default export */ __webpack_exports__["default"] = (Portfolio);
 
 /***/ }),
@@ -427,17 +366,29 @@ Portfolio.defaultProps = {
 module.exports = {
 	"Portfolio__websites": "portfolio_Portfolio__websites__2rPvN",
 	"Portfolio__horizontalRow": "portfolio_Portfolio__horizontalRow__kiyvM",
+	"Portfolio__horizontalRow__trans": "portfolio_Portfolio__horizontalRow__trans__Q5gmK",
 	"Portfolio__heading": "portfolio_Portfolio__heading__3RS8x",
 	"Portfolio__title": "portfolio_Portfolio__title__dcCcs",
 	"Portfolio__subheading": "portfolio_Portfolio__subheading__1pb3A",
 	"Portfolio__headerWrapper": "portfolio_Portfolio__headerWrapper__13Jft",
-	"websitesWrapper": "portfolio_websitesWrapper__24lIA",
-	"wrapperHeading": "portfolio_wrapperHeading__1AmFl"
+	"Portfolio__websitesWrapper": "portfolio_Portfolio__websitesWrapper__3nkVU",
+	"Portfolio__wrapperHeading": "portfolio_Portfolio__wrapperHeading__3jLI2"
 };
 
 /***/ }),
 
-/***/ 4:
+/***/ "./websites.json":
+/*!***********************!*\
+  !*** ./websites.json ***!
+  \***********************/
+/*! exports provided: sites, apps, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"sites\":[{\"name\":\"Gregg Fine Dev\",\"img\":\"/website1.png\",\"link\":\"https://greggfinedev.com/\",\"description\":\"The web development site of JavaScript programmer Gregg Fine\"},{\"name\":\"Hidden Tiger Music Inc.\",\"img\":\"/website2.png\",\"link\":\"http://hiddentigermusic.com/\",\"description\":\"Our restaurant serves the freshest seafood daily. Contact us for specials\"},{\"name\":\"Synth Explorer\",\"img\":\"/website3.png\",\"link\":\"https://greggfine.github.io/synth-explorer-2020/#!/home\",\"description\":\"Our restaurant serves the freshest seafood daily. Contact us for specials\"}],\"apps\":[{\"name\":\"Jazz Guitar Game\",\"img\":\"/website4.png\",\"link\":\"https://www.greggfineguitar.com\",\"description\":\"Guess the name of the Jazz guitarist you are listening to.\"},{\"name\":\"Rhythmic Ear Trainer\",\"img\":\"/website5.png\",\"link\":\"https://greggfine.github.io/subdivision-app/\",\"description\":\"Our restaurant serves the freshest seafood daily. Contact us for specials\"},{\"name\":\"Searchable Music Library\",\"img\":\"/website6.png\",\"link\":\"https://immense-atoll-44421.herokuapp.com/search\",\"description\":\"Our restaurant serves the freshest seafood daily. Contact us for specials\"}]}");
+
+/***/ }),
+
+/***/ 5:
 /*!**********************************!*\
   !*** multi ./pages/portfolio.js ***!
   \**********************************/
@@ -482,36 +433,14 @@ module.exports = require("react-bootstrap/Card");
 
 /***/ }),
 
-/***/ "react-bootstrap/Container":
-/*!********************************************!*\
-  !*** external "react-bootstrap/Container" ***!
-  \********************************************/
+/***/ "react-scrollmagic":
+/*!************************************!*\
+  !*** external "react-scrollmagic" ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-bootstrap/Container");
-
-/***/ }),
-
-/***/ "react-bootstrap/Jumbotron":
-/*!********************************************!*\
-  !*** external "react-bootstrap/Jumbotron" ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Jumbotron");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
+module.exports = require("react-scrollmagic");
 
 /***/ })
 

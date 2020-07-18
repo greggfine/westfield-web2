@@ -14,6 +14,7 @@ class MyDocument extends Document {
             name="viewport"
             content="initial-scale=1.0, width=device-width"
           />
+          <meta charset="UTF-8" />
           <title>Gregg Fine Web Dev</title>
           <link
             rel="stylesheet"

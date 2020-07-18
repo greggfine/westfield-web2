@@ -6,7 +6,6 @@
   padding: 100px;
   position: relative;
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-  //   border: 10px solid #000;
 
   &__image {
     width: 90%;
@@ -22,8 +21,6 @@
     height: 2rem;
     border-radius: 50%;
     background-color: #01e471;
-    // display: block;
-    // transform: translate(940px, -35px);
     position: absolute;
     top: 44%;
     left: 70%;
@@ -34,7 +31,6 @@
     height: 1.2rem;
     top: 51%;
     left: 80%;
-    // transform: translate(1070px, -25px);
   }
 
   &__box {
@@ -91,10 +87,6 @@
     text-align: center;
     font-size: 2.5rem;
     margin-top: 60px;
-    // border-bottom: 7px solid var(--neonGreen);
-    // padding: 40px 20px 20px;
-    // position: relative;
-    // top: 5px;
   }
 }
 
@@ -115,8 +107,9 @@
     &__inner {
       border-top: 1px solid #65587a;
       text-align: left;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-direction: row;
+      align-items: baseline;
     }
 
     &__header {

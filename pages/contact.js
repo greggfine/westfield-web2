@@ -64,11 +64,11 @@ export default () => {
   return (
     <main className={styles.contactFormMain}>
       <div className={styles.formWrapper}>
-        <h1 className={styles.formTitle}>Let's Talk About Your Project!</h1>
+        <h1 className={styles.formTitle}>Let's Discuss Your Project!</h1>
         <p className={styles.subMessage}>
-          Have an exciting project in mind? Or maybe would like to improve your
-          current setup? We’d be happy to discuss it with you. Let’s get in
-          touch!
+          Ready to get started on your new website or app? Or maybe you're
+          looking to optimize and redesign your current site? Let's start a
+          conversation. I look forward to hearing from you!
         </p>
         <form onSubmit={handleOnSubmit} className={styles.contactForm}>
           <label htmlFor="name" className={styles.contactFormLabel}>
@@ -83,19 +83,6 @@ export default () => {
             value={inputs.name}
             className={styles.contactFormInput}
           />
-          {/* <label htmlFor="phone" className={styles.contactFormLabel}>
-            Phone
-          </label>
-          <input
-            id="phone"
-            type="phone"
-            name="_replyto"
-            onChange={handleOnChange}
-            required
-            value={inputs.phone}
-            className={styles.contactFormInput}
-          /> */}
-
           <label htmlFor="email" className={styles.contactFormLabel}>
             Email
           </label>
@@ -125,8 +112,7 @@ export default () => {
             className={styles.contactFormBtn}
           >
             {!status.submitting
-              ? //   ? !status.submitted ? "Submit" : "Submitted"
-                !status.submitted
+              ? !status.submitted
                 ? "Send a message"
                 : "Message sent!"
               : "Submitting..."}
@@ -139,7 +125,7 @@ export default () => {
       </div>
       <div class={styles.Contact__bottomWrapper}>
         <div className={styles.Contact__additional}>
-          <p>NEW YORK | NEW JERSEY</p>
+          <p>NEW JERSEY</p>
           <p>522 Summit Ave. Westfield, NJ 10012</p>
           <p>(917)355-4217</p>
         </div>

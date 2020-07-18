@@ -1,11 +1,8 @@
-import Navbar from "react-bootstrap/Navbar";
+// import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
 import styles from "./Navigation.module.scss";
 import React from "react";
-
 import Link from "next/link";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -14,8 +11,24 @@ class Navigation extends React.Component {
     this.state = {
       isOpen: true,
       isSideMenuOpen: false,
+      hasScrolled: false,
     };
   }
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 20) {
+        this.setState({
+          hasScrolled: true,
+        });
+      }
+      if (window.scrollY < 20) {
+        this.setState({
+          hasScrolled: false,
+        });
+      }
+    });
+  }
+
   handleClick = () => {
     this.setState({
       isOpen: !this.state.isOpen,
@@ -24,7 +37,9 @@ class Navigation extends React.Component {
   };
   render() {
     return (
-      <header className="site-header">
+      <header
+        className={this.state.hasScrolled ? "site-header" : "site-header-init"}
+      >
         <div
           className={
             this.state.isOpen
@@ -44,6 +59,11 @@ class Navigation extends React.Component {
           }
         >
           <ul className="side-nav-list-items">
+            <Link href="/">
+              <a className="site-header__listitem" onClick={this.handleClick}>
+                Home
+              </a>
+            </Link>
             <Link href="/portfolio">
               <a className="site-header__listitem" onClick={this.handleClick}>
                 Portfolio
@@ -61,13 +81,23 @@ class Navigation extends React.Component {
             <ul className="site-header__nav-list">
               <div className="site-header__brand-wrapper">
                 <Link href="/">
-                  <h1 className="site-header__brand-name">
-                    {/* <strong>The Fine Web</strong> */}
-                    <img src="/the-fine-web.png" alt="" />
-                  </h1>
+                  <div
+                    className={
+                      this.state.hasScrolled
+                        ? "site-header__brand-name"
+                        : "site-header__brand-name-init"
+                    }
+                  >
+                    <div className="site-header__brand-wrapper__line"></div>
+                    <div className="site-header__brand-name__the">The</div>
+                    <div className="site-header__brand-name__fine-web">
+                      Fine Web
+                    </div>
+                    {/* <img src="/the-fine-web.png" alt="" /> */}
+                  </div>
                 </Link>
               </div>
-              <div class="site-header__list-item-wrapper">
+              <div className="site-header__list-item-wrapper">
                 <li className="site-header__nav-list-item">
                   <Link href="/portfolio">
                     <a className="site-header__listitem">Portfolio</a>

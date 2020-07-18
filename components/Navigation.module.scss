@@ -1,61 +1,61 @@
-.Nav {
-  background-color: var(--mainPurple);
-  background: var(--purpleGradient);
-  margin-bottom: 20px;
+// .Nav {
+//   background-color: var(--mainPurple);
+//   background: var(--purpleGradient);
+//   margin-bottom: 20px;
 
-  &__logo,
-  &__listitem {
-    font-size: 1.5rem;
-    color: var(--mainWhite);
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: 200ms;
-    border-bottom: none;
-  }
+//   &__logo,
+//   &__listitem {
+//     font-size: 1.5rem;
+//     color: var(--mainWhite);
+//     text-decoration: none;
+//     letter-spacing: 1px;
+//     transition: 200ms;
+//     border-bottom: none;
+//   }
 
-  &__logo:hover {
-    text-decoration: none;
-    color: var(--mainWhite);
-  }
-  &__listitem:hover {
-    text-decoration: none;
-    color: var(--mainWhite);
-    border-bottom: 1px solid var(--neonGreen);
-    width: 100px;
-  }
-}
+//   &__logo:hover {
+//     text-decoration: none;
+//     color: var(--mainWhite);
+//   }
+//   &__listitem:hover {
+//     text-decoration: none;
+//     color: var(--mainWhite);
+//     border-bottom: 1px solid var(--neonGreen);
+//     width: 100px;
+//   }
+// }
 
-@media (min-width: 530px) {
-  .Nav {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0px;
+// @media (min-width: 530px) {
+//   .Nav {
+//     display: flex;
+//     justify-content: space-around;
+//     margin-bottom: 0px;
 
-    &__brand {
-      padding-left: 50px;
-    }
-    &__logo,
-    &__listitem {
-      color: var(--mainWhite);
-      font-size: 1.5rem;
-      text-decoration: none;
-      letter-spacing: 1px;
-      transition: 200ms;
-      border-bottom: none;
-      font-family: "TTNorms-Medium.otf", "Arial", sans-serif;
-    }
+//     &__brand {
+//       padding-left: 50px;
+//     }
+//     &__logo,
+//     &__listitem {
+//       color: var(--mainWhite);
+//       font-size: 1.5rem;
+//       text-decoration: none;
+//       letter-spacing: 1px;
+//       transition: 200ms;
+//       border-bottom: none;
+//       font-family: "TTNorms-Medium.otf", "Arial", sans-serif;
+//     }
 
-    &__listitem:hover {
-      text-decoration: none;
-      color: var(--mainWhite);
-      border-bottom: 1px solid var(--neonGreen);
-      width: auto;
-    }
+//     &__listitem:hover {
+//       text-decoration: none;
+//       color: var(--mainWhite);
+//       border-bottom: 1px solid var(--neonGreen);
+//       width: auto;
+//     }
 
-    &__listitems {
-      display: flex;
-      justify-content: space-evenly;
-      width: 300px;
-    }
-  }
-}
+//     &__listitems {
+//       display: flex;
+//       justify-content: space-evenly;
+//       width: 300px;
+//     }
+//   }
+// }

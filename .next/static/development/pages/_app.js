@@ -38,28 +38,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   })), __jsx("div", {
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__inner,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 9
     },
     __self: this
   }, __jsx("p", {
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__copyright,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 10
     },
     __self: this
   }, "\xA92020 The Fine Web"), __jsx("div", {
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 11
     },
     __self: this
   }, __jsx("a", {
@@ -68,14 +68,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 12
     },
     __self: this
   }, __jsx("i", {
     className: "fa fa-twitter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 17
     },
     __self: this
   })), __jsx("a", {
@@ -84,14 +84,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 19
     },
     __self: this
   }, __jsx("i", {
     className: "fa fa-youtube",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 24
     },
     __self: this
   })), __jsx("a", {
@@ -100,14 +100,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__socialLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 26
     },
     __self: this
   }, __jsx("i", {
     className: "fa fa-instagram",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 31
     },
     __self: this
   })))));
@@ -192,17 +192,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
 /* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
-/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
-/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Navigation.module.scss */ "./components/Navigation.module.scss");
-/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Navigation.module.scss */ "./components/Navigation.module.scss");
+/* harmony import */ var _Navigation_module_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Navigation_module_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
 
 
 
@@ -211,10 +207,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/HTMusic/Desktop/PROJECTS/westfield-web/components/Navigation.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_11___default.a.createElement;
-
-
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
+// import Navbar from "react-bootstrap/Navbar";
 
 
 
@@ -239,19 +233,39 @@ var Navigation = /*#__PURE__*/function (_React$Component) {
 
     _this.state = {
       isOpen: true,
-      isSideMenuOpen: false
+      isSideMenuOpen: false,
+      hasScrolled: false
     };
     return _this;
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Navigation, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 20) {
+          _this2.setState({
+            hasScrolled: true
+          });
+        }
+
+        if (window.scrollY < 20) {
+          _this2.setState({
+            hasScrolled: false
+          });
+        }
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       return __jsx("header", {
-        className: "site-header",
+        className: this.state.hasScrolled ? "site-header" : "site-header-init",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 40
         },
         __self: this
       }, __jsx("div", {
@@ -260,14 +274,14 @@ var Navigation = /*#__PURE__*/function (_React$Component) {
         onClick: this.handleClick,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 43
         },
         __self: this
       }, __jsx("div", {
         className: "site-header__menu-icon__middle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 52
         },
         __self: this
       })), __jsx("div", {
@@ -275,112 +289,48 @@ var Navigation = /*#__PURE__*/function (_React$Component) {
         className: this.state.isSideMenuOpen ? "side-nav open-side-menu" : "side-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 55
         },
         __self: this
       }, __jsx("ul", {
         className: "side-nav-list-items",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/portfolio",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, __jsx("a", {
-        className: "site-header__listitem",
-        onClick: this.handleClick,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, __jsx("a", {
-        className: "site-header__listitem",
-        onClick: this.handleClick,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }, "Contact")))), __jsx("div", {
-        className: "content-sizer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, __jsx("nav", {
-        className: "site-header__nav",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }, __jsx("ul", {
-        className: "site-header__nav-list",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }, __jsx("div", {
-        className: "site-header__brand-wrapper",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
         },
         __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/",
+      }, __jsx("a", {
+        className: "site-header__listitem",
+        onClick: this.handleClick,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
         },
         __self: this
-      }, __jsx("h1", {
-        className: "site-header__brand-name",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }, __jsx("img", {
-        src: "/the-fine-web.png",
-        alt: "",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      })))), __jsx("div", {
-        "class": "site-header__list-item-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
-      }, __jsx("li", {
-        className: "site-header__nav-list-item",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/portfolio",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }, __jsx("a", {
+        className: "site-header__listitem",
+        onClick: this.handleClick,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }, "Portfolio")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/contact",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 72
@@ -388,29 +338,121 @@ var Navigation = /*#__PURE__*/function (_React$Component) {
         __self: this
       }, __jsx("a", {
         className: "site-header__listitem",
+        onClick: this.handleClick,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 73
         },
         __self: this
-      }, "Portfolio"))), __jsx("li", {
+      }, "Contact")))), __jsx("div", {
+        className: "content-sizer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 79
         },
         __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        href: "/contact",
+      }, __jsx("nav", {
+        className: "site-header__nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 80
+        },
+        __self: this
+      }, __jsx("ul", {
+        className: "site-header__nav-list",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "site-header__brand-wrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      }, __jsx("div", {
+        className: this.state.hasScrolled ? "site-header__brand-name" : "site-header__brand-name-init",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "site-header__brand-wrapper__line",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }), __jsx("div", {
+        className: "site-header__brand-name__the",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, "The"), __jsx("div", {
+        className: "site-header__brand-name__fine-web",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, "Fine Web")))), __jsx("div", {
+        className: "site-header__list-item-wrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100
+        },
+        __self: this
+      }, __jsx("li", {
+        className: "site-header__nav-list-item",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/portfolio",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102
         },
         __self: this
       }, __jsx("a", {
         className: "site-header__listitem",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 103
+        },
+        __self: this
+      }, "Portfolio"))), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/contact",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }, __jsx("a", {
+        className: "site-header__listitem",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108
         },
         __self: this
       }, "Contact"))))))));
@@ -418,7 +460,7 @@ var Navigation = /*#__PURE__*/function (_React$Component) {
   }]);
 
   return Navigation;
-}(react__WEBPACK_IMPORTED_MODULE_11___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigation);
 
@@ -1450,7 +1492,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Footer_Footer__2cf9C {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);\n          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%); }\n  .Footer_Footer__image__NKthu {\n    width: 90%; }\n    @media (min-width: 960px) {\n      .Footer_Footer__image__NKthu {\n        width: 70%; } }\n  .Footer_Footer__circleDecoration__3dmF2, .Footer_Footer__circleDecoration2__1eWgu {\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    background-color: #01e471;\n    position: absolute;\n    top: 44%;\n    left: 70%; }\n  .Footer_Footer__circleDecoration2__1eWgu {\n    width: 1.2rem;\n    height: 1.2rem;\n    top: 51%;\n    left: 80%; }\n  .Footer_Footer__box__3wRBr {\n    border: 4px solid var(--neonGreen);\n    border: 8px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.4;\n    width: 237px;\n    width: 337px;\n    height: 120px;\n    position: absolute;\n    top: -40px;\n    left: -60px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn);\n    transform: rotate3d(2.4, -0.9, -0.7, -3.3turn); }\n  .Footer_Footer__logoWrapper__32YX6 {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 0px; }\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px; }\n  .Footer_Footer__social__1GwyK i {\n    font-size: 1.7rem;\n    margin-right: 20px; }\n  .Footer_Footer__socialLink__3ZIMn {\n    color: #fff;\n    transition: color 500ms; }\n    .Footer_Footer__socialLink__3ZIMn:hover {\n      color: #aaa;\n      color: var(--neonGreen); }\n  .Footer_Footer__copyright__E0mY4 {\n    margin-bottom: 30px !important; }\n  .Footer_Footer__header__1SWp3 {\n    text-align: center;\n    font-size: 2.5rem;\n    margin-top: 60px; }\n\n@media (min-width: 960px) {\n  .Footer_Footer__circleDecoration__3dmF2 {\n    top: 40%;\n    left: 65%; }\n  .Footer_Footer__circleDecoration2__1eWgu {\n    top: 46%;\n    left: 73%; }\n  .Footer_Footer__copyright__E0mY4 {\n    font-size: 1.2rem; }\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    justify-content: space-between;\n    flex-direction: row; }\n  .Footer_Footer__header__1SWp3 {\n    font-size: 2.5rem;\n    margin-bottom: 60px; }\n  .Footer_Footer__logoWrapper__32YX6 {\n    width: 400px; }\n  .Footer_Footer__social__1GwyK i {\n    font-size: 2rem;\n    margin-right: 30px; } }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,6BAA6B;EAC7B,iCAAiC;EACjC,uBAAuB;EACvB,kBAAkB;EAClB,cAAc;EACd,kBAAkB;EAClB,4DAAoD;UAApD,oDAAoD,EAAA;EAGpD;IACE,UAAU,EAAA;IAEV;MAHF;QAII,UAAU,EAAA,EAEb;EAED;IAEE,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,yBAAyB;IAGzB,kBAAkB;IAClB,QAAQ;IACR,SAAS,EAAA;EAGX;IACE,aAAa;IACb,cAAc;IACd,QAAQ;IACR,SAAS,EAAA;EAIX;IACE,kCAAkC;IAClC,kCAAkC;IAClC,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,aAAa;IACb,kBAAkB;IAClB,UAAU;IACV,WAAW;IACX,4CAA4C;IAC5C,8CAA8C,EAAA;EAGhD;IACE,kBAAkB;IAClB,YAAY;IACZ,kBAAkB,EAAA;EAGpB;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,iBAAiB,EAAA;EAGlB;IAEG,iBAAiB;IACjB,kBAAkB,EAAA;EAGtB;IACE,WAAW;IACX,uBAAuB,EAAA;IAFxB;MAKG,WAAW;MACX,uBAAuB,EAAA;EAI3B;IACE,8BAA8B,EAAA;EAGhC;IACE,kBAAkB;IAClB,iBAAiB;IACjB,gBAAgB,EAAA;;AAQpB;EAEI;IACE,QAAQ;IACR,SAAS,EAAA;EAGX;IACE,QAAQ;IACR,SAAS,EAAA;EAEX;IACE,iBAAiB,EAAA;EAEnB;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,8BAA8B;IAC9B,mBAAmB,EAAA;EAGrB;IACE,iBAAiB;IACjB,mBAAmB,EAAA;EAGrB;IACE,YAAY,EAAA;EAEb;IAEG,eAAe;IACf,kBAAkB,EAAA,EACnB","file":"Footer.module.scss","sourcesContent":[".Footer {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);\n  //   border: 10px solid #000;\n\n  &__image {\n    width: 90%;\n\n    @media (min-width: 960px) {\n      width: 70%;\n    }\n  }\n\n  &__circleDecoration,\n  &__circleDecoration2 {\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    background-color: #01e471;\n    // display: block;\n    // transform: translate(940px, -35px);\n    position: absolute;\n    top: 44%;\n    left: 70%;\n  }\n\n  &__circleDecoration2 {\n    width: 1.2rem;\n    height: 1.2rem;\n    top: 51%;\n    left: 80%;\n    // transform: translate(1070px, -25px);\n  }\n\n  &__box {\n    border: 4px solid var(--neonGreen);\n    border: 8px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.4;\n    width: 237px;\n    width: 337px;\n    height: 120px;\n    position: absolute;\n    top: -40px;\n    left: -60px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn);\n    transform: rotate3d(2.4, -0.9, -0.7, -3.3turn);\n  }\n\n  &__logoWrapper {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 0px;\n  }\n\n  &__inner {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px;\n  }\n\n  &__social {\n    i {\n      font-size: 1.7rem;\n      margin-right: 20px;\n    }\n  }\n  &__socialLink {\n    color: #fff;\n    transition: color 500ms;\n\n    &:hover {\n      color: #aaa;\n      color: var(--neonGreen);\n    }\n  }\n\n  &__copyright {\n    margin-bottom: 30px !important;\n  }\n\n  &__header {\n    text-align: center;\n    font-size: 2.5rem;\n    margin-top: 60px;\n    // border-bottom: 7px solid var(--neonGreen);\n    // padding: 40px 20px 20px;\n    // position: relative;\n    // top: 5px;\n  }\n}\n\n@media (min-width: 960px) {\n  .Footer {\n    &__circleDecoration {\n      top: 40%;\n      left: 65%;\n    }\n\n    &__circleDecoration2 {\n      top: 46%;\n      left: 73%;\n    }\n    &__copyright {\n      font-size: 1.2rem;\n    }\n    &__inner {\n      border-top: 1px solid #65587a;\n      text-align: left;\n      justify-content: space-between;\n      flex-direction: row;\n    }\n\n    &__header {\n      font-size: 2.5rem;\n      margin-bottom: 60px;\n    }\n\n    &__logoWrapper {\n      width: 400px;\n    }\n    &__social {\n      i {\n        font-size: 2rem;\n        margin-right: 30px;\n      }\n    }\n  }\n}\n"]}]);
+exports.push([module.i, ".Footer_Footer__2cf9C {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);\n          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%); }\n  .Footer_Footer__image__NKthu {\n    width: 90%; }\n    @media (min-width: 960px) {\n      .Footer_Footer__image__NKthu {\n        width: 70%; } }\n  .Footer_Footer__circleDecoration__3dmF2, .Footer_Footer__circleDecoration2__1eWgu {\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    background-color: #01e471;\n    position: absolute;\n    top: 44%;\n    left: 70%; }\n  .Footer_Footer__circleDecoration2__1eWgu {\n    width: 1.2rem;\n    height: 1.2rem;\n    top: 51%;\n    left: 80%; }\n  .Footer_Footer__box__3wRBr {\n    border: 4px solid var(--neonGreen);\n    border: 8px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.4;\n    width: 237px;\n    width: 337px;\n    height: 120px;\n    position: absolute;\n    top: -40px;\n    left: -60px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn);\n    transform: rotate3d(2.4, -0.9, -0.7, -3.3turn); }\n  .Footer_Footer__logoWrapper__32YX6 {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 0px; }\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px; }\n  .Footer_Footer__social__1GwyK i {\n    font-size: 1.7rem;\n    margin-right: 20px; }\n  .Footer_Footer__socialLink__3ZIMn {\n    color: #fff;\n    transition: color 500ms; }\n    .Footer_Footer__socialLink__3ZIMn:hover {\n      color: #aaa;\n      color: var(--neonGreen); }\n  .Footer_Footer__copyright__E0mY4 {\n    margin-bottom: 30px !important; }\n  .Footer_Footer__header__1SWp3 {\n    text-align: center;\n    font-size: 2.5rem;\n    margin-top: 60px; }\n\n@media (min-width: 960px) {\n  .Footer_Footer__circleDecoration__3dmF2 {\n    top: 40%;\n    left: 65%; }\n  .Footer_Footer__circleDecoration2__1eWgu {\n    top: 46%;\n    left: 73%; }\n  .Footer_Footer__copyright__E0mY4 {\n    font-size: 1.2rem; }\n  .Footer_Footer__inner__1B1gQ {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    justify-content: space-around;\n    flex-direction: row;\n    align-items: baseline; }\n  .Footer_Footer__header__1SWp3 {\n    font-size: 2.5rem;\n    margin-bottom: 60px; }\n  .Footer_Footer__logoWrapper__32YX6 {\n    width: 400px; }\n  .Footer_Footer__social__1GwyK i {\n    font-size: 2rem;\n    margin-right: 30px; } }\n", "",{"version":3,"sources":["Footer.module.scss"],"names":[],"mappings":"AAAA;EACE,6BAA6B;EAC7B,iCAAiC;EACjC,uBAAuB;EACvB,kBAAkB;EAClB,cAAc;EACd,kBAAkB;EAClB,4DAAoD;UAApD,oDAAoD,EAAA;EAEpD;IACE,UAAU,EAAA;IAEV;MAHF;QAII,UAAU,EAAA,EAEb;EAED;IAEE,WAAW;IACX,YAAY;IACZ,kBAAkB;IAClB,yBAAyB;IACzB,kBAAkB;IAClB,QAAQ;IACR,SAAS,EAAA;EAGX;IACE,aAAa;IACb,cAAc;IACd,QAAQ;IACR,SAAS,EAAA;EAGX;IACE,kCAAkC;IAClC,kCAAkC;IAClC,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,aAAa;IACb,kBAAkB;IAClB,UAAU;IACV,WAAW;IACX,4CAA4C;IAC5C,8CAA8C,EAAA;EAGhD;IACE,kBAAkB;IAClB,YAAY;IACZ,kBAAkB,EAAA;EAGpB;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,iBAAiB,EAAA;EAGlB;IAEG,iBAAiB;IACjB,kBAAkB,EAAA;EAGtB;IACE,WAAW;IACX,uBAAuB,EAAA;IAFxB;MAKG,WAAW;MACX,uBAAuB,EAAA;EAI3B;IACE,8BAA8B,EAAA;EAGhC;IACE,kBAAkB;IAClB,iBAAiB;IACjB,gBAAgB,EAAA;;AAIpB;EAEI;IACE,QAAQ;IACR,SAAS,EAAA;EAGX;IACE,QAAQ;IACR,SAAS,EAAA;EAEX;IACE,iBAAiB,EAAA;EAEnB;IACE,6BAA6B;IAC7B,gBAAgB;IAChB,6BAA6B;IAC7B,mBAAmB;IACnB,qBAAqB,EAAA;EAGvB;IACE,iBAAiB;IACjB,mBAAmB,EAAA;EAGrB;IACE,YAAY,EAAA;EAEb;IAEG,eAAe;IACf,kBAAkB,EAAA,EACnB","file":"Footer.module.scss","sourcesContent":[".Footer {\n  background: var(--mainPurple);\n  background: var(--purpleGradient);\n  color: var(--mainWhite);\n  text-align: center;\n  padding: 100px;\n  position: relative;\n  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);\n\n  &__image {\n    width: 90%;\n\n    @media (min-width: 960px) {\n      width: 70%;\n    }\n  }\n\n  &__circleDecoration,\n  &__circleDecoration2 {\n    width: 2rem;\n    height: 2rem;\n    border-radius: 50%;\n    background-color: #01e471;\n    position: absolute;\n    top: 44%;\n    left: 70%;\n  }\n\n  &__circleDecoration2 {\n    width: 1.2rem;\n    height: 1.2rem;\n    top: 51%;\n    left: 80%;\n  }\n\n  &__box {\n    border: 4px solid var(--neonGreen);\n    border: 8px solid var(--neonGreen);\n    border-right: none;\n    opacity: 0.4;\n    width: 237px;\n    width: 337px;\n    height: 120px;\n    position: absolute;\n    top: -40px;\n    left: -60px;\n    transform: rotate3d(1.9, -0.8, -0.7, -1turn);\n    transform: rotate3d(2.4, -0.9, -0.7, -3.3turn);\n  }\n\n  &__logoWrapper {\n    position: relative;\n    width: 200px;\n    margin: 0 auto 0px;\n  }\n\n  &__inner {\n    border-top: 1px solid #65587a;\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 30px;\n  }\n\n  &__social {\n    i {\n      font-size: 1.7rem;\n      margin-right: 20px;\n    }\n  }\n  &__socialLink {\n    color: #fff;\n    transition: color 500ms;\n\n    &:hover {\n      color: #aaa;\n      color: var(--neonGreen);\n    }\n  }\n\n  &__copyright {\n    margin-bottom: 30px !important;\n  }\n\n  &__header {\n    text-align: center;\n    font-size: 2.5rem;\n    margin-top: 60px;\n  }\n}\n\n@media (min-width: 960px) {\n  .Footer {\n    &__circleDecoration {\n      top: 40%;\n      left: 65%;\n    }\n\n    &__circleDecoration2 {\n      top: 46%;\n      left: 73%;\n    }\n    &__copyright {\n      font-size: 1.2rem;\n    }\n    &__inner {\n      border-top: 1px solid #65587a;\n      text-align: left;\n      justify-content: space-around;\n      flex-direction: row;\n      align-items: baseline;\n    }\n\n    &__header {\n      font-size: 2.5rem;\n      margin-bottom: 60px;\n    }\n\n    &__logoWrapper {\n      width: 400px;\n    }\n    &__social {\n      i {\n        font-size: 2rem;\n        margin-right: 30px;\n      }\n    }\n  }\n}\n"]}]);
 // Exports
 exports.locals = {
 	"Footer": "Footer_Footer__2cf9C",
@@ -1477,15 +1519,8 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".Navigation_Nav__3EIaX {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px; }\n  .Navigation_Nav__logo__2nhlN, .Navigation_Nav__listitem__2_NFA {\n    font-size: 1.5rem;\n    color: var(--mainWhite);\n    text-decoration: none;\n    letter-spacing: 1px;\n    transition: 200ms;\n    border-bottom: none; }\n  .Navigation_Nav__logo__2nhlN:hover {\n    text-decoration: none;\n    color: var(--mainWhite); }\n  .Navigation_Nav__listitem__2_NFA:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n    border-bottom: 1px solid var(--neonGreen);\n    width: 100px; }\n\n@media (min-width: 530px) {\n  .Navigation_Nav__3EIaX {\n    display: flex;\n    justify-content: space-around;\n    margin-bottom: 0px; }\n    .Navigation_Nav__brand__7_p_X {\n      padding-left: 50px; }\n    .Navigation_Nav__logo__2nhlN, .Navigation_Nav__listitem__2_NFA {\n      color: var(--mainWhite);\n      font-size: 1.5rem;\n      text-decoration: none;\n      letter-spacing: 1px;\n      transition: 200ms;\n      border-bottom: none;\n      font-family: \"TTNorms-Medium.otf\", \"Arial\", sans-serif; }\n    .Navigation_Nav__listitem__2_NFA:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 1px solid var(--neonGreen);\n      width: auto; }\n    .Navigation_Nav__listitems__28RmA {\n      display: flex;\n      justify-content: space-evenly;\n      width: 300px; } }\n", "",{"version":3,"sources":["Navigation.module.scss"],"names":[],"mappings":"AAAA;EACE,mCAAmC;EACnC,iCAAiC;EACjC,mBAAmB,EAAA;EAEnB;IAEE,iBAAiB;IACjB,uBAAuB;IACvB,qBAAqB;IACrB,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB,EAAA;EAGrB;IACE,qBAAqB;IACrB,uBAAuB,EAAA;EAEzB;IACE,qBAAqB;IACrB,uBAAuB;IACvB,yCAAyC;IACzC,YAAY,EAAA;;AAIhB;EACE;IACE,aAAa;IACb,6BAA6B;IAC7B,kBAAkB,EAAA;IAElB;MACE,kBAAkB,EAAA;IAEpB;MAEE,uBAAuB;MACvB,iBAAiB;MACjB,qBAAqB;MACrB,mBAAmB;MACnB,iBAAiB;MACjB,mBAAmB;MACnB,sDAAsD,EAAA;IAGxD;MACE,qBAAqB;MACrB,uBAAuB;MACvB,yCAAyC;MACzC,WAAW,EAAA;IAGb;MACE,aAAa;MACb,6BAA6B;MAC7B,YAAY,EAAA,EACb","file":"Navigation.module.scss","sourcesContent":[".Nav {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px;\n\n  &__logo,\n  &__listitem {\n    font-size: 1.5rem;\n    color: var(--mainWhite);\n    text-decoration: none;\n    letter-spacing: 1px;\n    transition: 200ms;\n    border-bottom: none;\n  }\n\n  &__logo:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n  }\n  &__listitem:hover {\n    text-decoration: none;\n    color: var(--mainWhite);\n    border-bottom: 1px solid var(--neonGreen);\n    width: 100px;\n  }\n}\n\n@media (min-width: 530px) {\n  .Nav {\n    display: flex;\n    justify-content: space-around;\n    margin-bottom: 0px;\n\n    &__brand {\n      padding-left: 50px;\n    }\n    &__logo,\n    &__listitem {\n      color: var(--mainWhite);\n      font-size: 1.5rem;\n      text-decoration: none;\n      letter-spacing: 1px;\n      transition: 200ms;\n      border-bottom: none;\n      font-family: \"TTNorms-Medium.otf\", \"Arial\", sans-serif;\n    }\n\n    &__listitem:hover {\n      text-decoration: none;\n      color: var(--mainWhite);\n      border-bottom: 1px solid var(--neonGreen);\n      width: auto;\n    }\n\n    &__listitems {\n      display: flex;\n      justify-content: space-evenly;\n      width: 300px;\n    }\n  }\n}\n"]}]);
-// Exports
-exports.locals = {
-	"Nav": "Navigation_Nav__3EIaX",
-	"Nav__logo": "Navigation_Nav__logo__2nhlN",
-	"Nav__listitem": "Navigation_Nav__listitem__2_NFA",
-	"Nav__brand": "Navigation_Nav__brand__7_p_X",
-	"Nav__listitems": "Navigation_Nav__listitems__28RmA"
-};
+exports.push([module.i, "", "",{"version":3,"sources":[],"names":[],"mappings":"","file":"Navigation.module.scss"}]);
+
 
 /***/ }),
 
@@ -1501,7 +1536,7 @@ exports = module.exports = __webpack_require__(/*! ./node_modules/css-loader/dis
 
 exports.push([module.i, "@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);"]);
 // Module
-exports.push([module.i, ":root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63; }\n\n@font-face {\n  font-family: \"Exo2-Regular\";\n  src: url(\"/fonts/Exo2-Regular.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"PlayfairDisplaySC-Bold\";\n  src: url(\"/fonts/PlayfairDisplaySC-Bold.ttf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"IBMPlexSans-Bold\";\n  src: url(\"/fonts/IBMPlexSans-Bold.ttf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"sofiapro-light.otf\";\n  src: url(\"/fonts/sofiapro-light.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Bold.otf\";\n  src: url(\"/fonts/TTNorms-Bold.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Extra-Bold.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBold.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Regular.otf\";\n  src: url(\"/fonts/TTNorms-Regular.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-ExtraBoldItalic.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBoldItalic.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\"); }\n\nbody {\n  font-family: \"TTNorms-Regular.otf\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column; }\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1; }\n\n.container {\n  padding-left: 0px; }\n\n.site-header {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px;\n  position: relative;\n  border-bottom: 2px solid #e7e7e7c7;\n  font-family: \"TTNorms-Bold.otf\"; }\n  .site-header__listitem {\n    position: relative;\n    transition: color 500ms;\n    letter-spacing: 1.3px; }\n    .site-header__listitem::after {\n      content: \"\";\n      position: absolute;\n      bottom: -10px;\n      left: 0;\n      width: 100%;\n      height: 0.2rem;\n      transition: transform 0.2s;\n      transform: scaleX(0);\n      transform-origin: left top; }\n    .site-header__listitem:hover::after {\n      transform: scaleX(1); }\n    @media (min-width: 960px) {\n      .site-header__listitem:hover {\n        text-decoration: none; }\n      .site-header__listitem:hover::after {\n        background-color: var(--neonGreen); } }\n  .site-header__list-item-wrapper {\n    display: flex;\n    justify-content: space-around;\n    width: 250px; }\n  .site-header__brand-name {\n    color: #fff;\n    font-size: 1.5rem;\n    padding: 0;\n    margin: 0;\n    font-family: Arial;\n    letter-spacing: 2px; }\n    .site-header__brand-name img {\n      width: 60%;\n      transform: translateX(60px); }\n      @media (min-width: 960px) {\n        .site-header__brand-name img {\n          width: 25%;\n          transform: translateX(0px); } }\n    .site-header__brand-name:hover {\n      cursor: pointer; }\n    @media (max-width: 960px) {\n      .site-header__brand-name {\n        font-size: 1rem;\n        visibility: visible; } }\n  .site-header__brand {\n    color: #fff;\n    margin: 0;\n    padding: 0;\n    position: relative;\n    display: none; }\n  .site-header__brand--logo {\n    padding-right: 10px;\n    width: 70px;\n    height: 70px; }\n  .site-header__menu-icon {\n    position: absolute;\n    right: 80px;\n    width: 25px;\n    height: 18px;\n    top: 50%;\n    transform: translateY(-50%); }\n    .site-header__menu-icon:hover {\n      cursor: pointer; }\n    .site-header__menu-icon--close-x::before {\n      transform: rotate(45deg); }\n    .site-header__menu-icon--close-x .site-header__menu-icon__middle {\n      opacity: 0; }\n    .site-header__menu-icon--close-x::after {\n      transform: rotate(-45deg) translateY(1px); }\n    .site-header__menu-icon::before {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 0;\n      transform-origin: 0 0;\n      transition: 300ms ease-out; }\n    .site-header__menu-icon__middle {\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 8px;\n      transition: 300ms ease-out; }\n    .site-header__menu-icon::after {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      bottom: 0;\n      transform-origin: 0 100%;\n      transition: 300ms ease-out; }\n    @media (min-width: 960px) {\n      .site-header__menu-icon {\n        display: none; } }\n  .site-header__nav-active {\n    text-decoration: underline; }\n  .site-header__nav-list {\n    padding: 0;\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    justify-content: space-around;\n    align-items: center; }\n    @media (max-width: 960px) {\n      .site-header__nav-list {\n        visibility: hidden; } }\n  .site-header__nav-list-item {\n    list-style-type: none; }\n  .site-header nav ul li a,\n  .site-header li {\n    color: #fff;\n    font-size: 1.2rem;\n    font-weight: bold; }\n\n.side-nav {\n  background-color: var(--secondaryRed);\n  opacity: 0.97;\n  width: 0;\n  height: 100%;\n  position: fixed;\n  top: 92px;\n  right: 0px;\n  overflow-x: hidden;\n  padding-top: 60px;\n  transition: 0.4s;\n  z-index: 1; }\n  @media (min-width: 960px) {\n    .side-nav {\n      display: none; } }\n\n.side-nav a {\n  padding: 10px 10px 10px 30px;\n  text-decoration: none;\n  font-size: 22px;\n  color: #eee;\n  display: block;\n  transition: 0.3s; }\n  .side-nav a:hover {\n    color: #fff; }\n\n.open-side-menu {\n  width: 300px;\n  width: 80%; }\n\n.btn-close {\n  color: #000;\n  background-color: #fff;\n  position: absolute;\n  top: 60px;\n  left: 15px;\n  font-size: 36px;\n  padding: 5px 10px;\n  border-radius: 5px; }\n\n.side-nav-list-items {\n  padding: 0;\n  width: 50%;\n  margin-left: 50%; }\n  .side-nav-list-items a {\n    text-align: right;\n    border-bottom: 3px solid #fff;\n    padding-right: 50px; }\n    .side-nav-list-items a:hover {\n      border-bottom: 3px solid var(--neonGreen); }\n\n.svg-wrapper {\n  position: relative;\n  top: 0%;\n  transform: translateY(-150%);\n  margin: 0 auto;\n  width: 320px;\n  transform: rotate(-3deg); }\n\n.shape {\n  stroke-dasharray: 140 540;\n  stroke-dashoffset: -474;\n  stroke-width: 8px;\n  fill: transparent;\n  stroke: var(--neonGreen);\n  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;\n  transform: translateY(-60px); }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAGA;EACE,qBAAa;EACb;;;;GAAiB;EAKjB,oBAAY;EACZ,oBAAY;EACZ,qBAAgB;EAChB,qBAAgB;EAChB,kBAAU;EACV,uBAAe,EAAA;;AAGjB;EACE,2BAA2B;EAC3B,sDAAsD,EAAA;;AAGxD;EACE,qCAAqC;EACrC,gEAAgE,EAAA;;AAElE;EACE,+BAA+B;EAC/B,0DAA0D,EAAA;;AAE5D;EACE,iCAAiC;EACjC,wDAAwD,EAAA;;AAE1D;EACE,+BAA+B;EAC/B,sDAAsD,EAAA;;AAGxD;EACE,qCAAqC;EACrC,2DAA2D,EAAA;;AAE7D;EACE,iCAAiC;EACjC,wDAAwD,EAAA;;AAE1D;EACE,kCAAkC;EAClC,yDAAyD,EAAA;;AAE3D;EACE,0CAA0C;EAC1C,iEAAiE,EAAA;;AAEnE;EACE,iCAAiC;EACjC,wDAAwD,EAAA;;AAG1D;EAME,uDAAuD;EAEvD,aAAa;EACb,sBAAsB,EAAA;;AAGxB;EACE,iBAAiB;EACjB,YAAY,EAAA;;AAGd;EACE,iBAAiB,EAAA;;AAInB;EACE,mCAAmC;EACnC,iCAAiC;EACjC,mBAAmB;EACnB,kBAAkB;EAElB,kCAAkC;EAClC,+BAA+B,EAAA;EAE/B;IACE,kBAAkB;IAClB,uBAAuB;IACvB,qBAAqB,EAAA;IAHtB;MAMG,WAAW;MAEX,kBAAkB;MAClB,aAAa;MACb,OAAO;MACP,WAAW;MACX,cAAc;MAGd,0BAA0B;MAC1B,oBAAoB;MACpB,0BAA0B,EAAA;IAjB7B;MAqBG,oBAAoB,EAAA;IAEtB;MAvBD;QAyBK,qBAAqB,EAAA;MAzB1B;QA8BK,kCAAkC,EAAA,EACnC;EAIL;IAEE,aAAa;IACb,6BAA6B;IAC7B,YAAY,EAAA;EAQd;IACE,WAAW;IACX,iBAAiB;IACjB,UAAU;IACV,SAAS;IACT,kBAAkB;IAClB,mBAAmB,EAAA;IANpB;MASG,UAAU;MACV,2BAA2B,EAAA;MAE3B;QAZH;UAaK,UAAU;UACV,0BAA0B,EAAA,EAE7B;IAhBF;MAmBG,eAAe,EAAA;IAEjB;MArBF;QAsBI,eAAe;QACf,mBAAmB,EAAA,EAEtB;EAED;IACE,WAAW;IACX,SAAS;IACT,UAAU;IACV,kBAAkB;IAClB,aAAa,EAAA;EAGf;IACE,mBAAmB;IACnB,WAAW;IACX,YAAY,EAAA;EAGd;IACE,kBAAkB;IAClB,WAAW;IACX,WAAW;IACX,YAAY;IACZ,QAAQ;IACR,2BAA2B,EAAA;IAN5B;MASG,eAAe,EAAA;IAGhB;MAEG,wBAAwB,EAAA;IAF3B;MAKG,UAAU,EAAA;IALb;MAQG,yCAAyC,EAAA;IApB9C;MAyBG,WAAW;MACX,sBAAsB;MACtB,kBAAkB;MAClB,WAAW;MACX,WAAW;MACX,MAAM;MACN,qBAAqB;MACrB,0BAA0B,EAAA;IAG5B;MACE,sBAAsB;MACtB,kBAAkB;MAClB,WAAW;MACX,WAAW;MACX,QAAQ;MACR,0BAA0B,EAAA;IAzC7B;MA6CG,WAAW;MACX,sBAAsB;MACtB,kBAAkB;MAClB,WAAW;MACX,WAAW;MACX,SAAS;MACT,wBAAwB;MACxB,0BAA0B,EAAA;IAG5B;MAvDF;QAwDI,aAAa,EAAA,EAEhB;EAED;IACE,0BAA0B,EAAA;EAG5B;IACE,UAAU;IACV,SAAS;IACT,qBAAqB;IACrB,aAAa;IACb,6BAA6B;IAC7B,mBAAmB,EAAA;IAEnB;MARF;QASI,kBAAkB,EAAA,EAErB;EAED;IACE,qBAAqB,EAAA;EA/KzB;;IAqLI,WAAW;IAEX,iBAAiB;IACjB,iBAAiB,EAAA;;AAOrB;EACE,qCAAqC;EACrC,aAAa;EACb,QAAQ;EACR,YAAY;EACZ,eAAe;EACf,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,iBAAiB;EACjB,gBAAgB;EAChB,UAAU,EAAA;EAEV;IAbF;MAcI,aAAa,EAAA,EAEhB;;AAED;EACE,4BAA4B;EAC5B,qBAAqB;EACrB,eAAe;EACf,WAAW;EACX,cAAc;EACd,gBAAgB,EAAA;EANlB;IASI,WAAW,EAAA;;AAKf;EACE,YAAY;EACZ,UAAU,EAAA;;AAGZ;EACE,WAAW;EACX,sBAAsB;EACtB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,eAAe;EACf,iBAAiB;EACjB,kBAAkB,EAAA;;AAGpB;EACE,UAAU;EACV,UAAU;EACV,gBAAgB,EAAA;EAHlB;IAMI,iBAAiB;IACjB,6BAA6B;IAC7B,mBAAmB,EAAA;IARvB;MAWM,yCAAyC,EAAA;;AAK/C;EACE,kBAAkB;EAClB,OAAO;EACP,4BAA4B;EAC5B,cAAc;EACd,YAAY;EACZ,wBAAwB,EAAA;;AAE1B;EACE,yBAAyB;EACzB,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,wBAAwB;EACxB,sEAAsE;EACtE,4BAA4B,EAAA","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n// @import \"base/baseline\";\n\n:root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63;\n}\n\n@font-face {\n  font-family: \"Exo2-Regular\";\n  src: url(\"/fonts/Exo2-Regular.otf\") format(\"opentype\");\n}\n\n@font-face {\n  font-family: \"PlayfairDisplaySC-Bold\";\n  src: url(\"/fonts/PlayfairDisplaySC-Bold.ttf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"IBMPlexSans-Bold\";\n  src: url(\"/fonts/IBMPlexSans-Bold.ttf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"sofiapro-light.otf\";\n  src: url(\"/fonts/sofiapro-light.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Bold.otf\";\n  src: url(\"/fonts/TTNorms-Bold.otf\") format(\"opentype\");\n}\n\n@font-face {\n  font-family: \"TTNorms-Extra-Bold.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBold.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Regular.otf\";\n  src: url(\"/fonts/TTNorms-Regular.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-ExtraBoldItalic.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBoldItalic.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\");\n}\n\nbody {\n  //   font-family: \"CaslonGraD\", \"Arial\", sans-serif;\n  //   font-family: \"PlayfairDisplaySC-Bold\", \"Arial\", sans-serif;\n  //   font-family: \"IBMPlexSans-Bold\", \"Arial\", sans-serif;\n  //   font-family: \"Exo2-Regular\", \"Arial\", sans-serif;\n  //   font-family: \"sofiapro-light.otf\", \"Arial\", sans-serif;\n  font-family: \"TTNorms-Regular.otf\", \"Arial\", sans-serif;\n  //   font-weight: 900;\n  display: flex;\n  flex-direction: column;\n}\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\n.container {\n  padding-left: 0px;\n}\n\n// NAV STYLES\n.site-header {\n  background-color: var(--mainPurple);\n  background: var(--purpleGradient);\n  margin-bottom: 20px;\n  position: relative;\n  //   font-family: Tahoma;\n  border-bottom: 2px solid #e7e7e7c7;\n  font-family: \"TTNorms-Bold.otf\";\n\n  &__listitem {\n    position: relative;\n    transition: color 500ms;\n    letter-spacing: 1.3px;\n\n    &::after {\n      content: \"\";\n      //   color: white;\n      position: absolute;\n      bottom: -10px;\n      left: 0;\n      width: 100%;\n      height: 0.2rem;\n\n      //   background-color: var(--secondaryRed);\n      transition: transform 0.2s;\n      transform: scaleX(0);\n      transform-origin: left top;\n    }\n\n    &:hover::after {\n      transform: scaleX(1);\n    }\n    @media (min-width: 960px) {\n      &:hover {\n        text-decoration: none;\n        // color: var(--neonGreen);\n        // color: var(--secondaryRed);\n      }\n      &:hover::after {\n        background-color: var(--neonGreen);\n      }\n    }\n  }\n\n  &__list-item-wrapper {\n    // @media (min-width: 960px) {\n    display: flex;\n    justify-content: space-around;\n    width: 250px;\n    // }\n  }\n\n  &__brand-wrapper {\n    // padding: 20px;\n  }\n\n  &__brand-name {\n    color: #fff;\n    font-size: 1.5rem;\n    padding: 0;\n    margin: 0;\n    font-family: Arial;\n    letter-spacing: 2px;\n\n    img {\n      width: 60%;\n      transform: translateX(60px);\n\n      @media (min-width: 960px) {\n        width: 25%;\n        transform: translateX(0px);\n      }\n    }\n\n    &:hover {\n      cursor: pointer;\n    }\n    @media (max-width: 960px) {\n      font-size: 1rem;\n      visibility: visible;\n    }\n  }\n\n  &__brand {\n    color: #fff;\n    margin: 0;\n    padding: 0;\n    position: relative;\n    display: none;\n  }\n\n  &__brand--logo {\n    padding-right: 10px;\n    width: 70px;\n    height: 70px;\n  }\n\n  &__menu-icon {\n    position: absolute;\n    right: 80px;\n    width: 25px;\n    height: 18px;\n    top: 50%;\n    transform: translateY(-50%);\n\n    &:hover {\n      cursor: pointer;\n    }\n\n    &--close-x {\n      &::before {\n        transform: rotate(45deg);\n      }\n      .site-header__menu-icon__middle {\n        opacity: 0;\n      }\n      &::after {\n        transform: rotate(-45deg) translateY(1px);\n      }\n    }\n\n    &::before {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 0;\n      transform-origin: 0 0;\n      transition: 300ms ease-out;\n    }\n\n    &__middle {\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 8px;\n      transition: 300ms ease-out;\n    }\n\n    &::after {\n      content: \"\";\n      background-color: #fff;\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      bottom: 0;\n      transform-origin: 0 100%;\n      transition: 300ms ease-out;\n    }\n\n    @media (min-width: 960px) {\n      display: none;\n    }\n  }\n\n  &__nav-active {\n    text-decoration: underline;\n  }\n\n  &__nav-list {\n    padding: 0;\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    // border: 10px solid #000;\n    @media (max-width: 960px) {\n      visibility: hidden;\n    }\n  }\n\n  &__nav-list-item {\n    list-style-type: none;\n  }\n\n  nav ul li a,\n  li {\n    // padding: 30px;\n    color: #fff;\n\n    font-size: 1.2rem;\n    font-weight: bold;\n    &:hover {\n      //   text-decoration: underline;\n    }\n  }\n}\n\n.side-nav {\n  background-color: var(--secondaryRed);\n  opacity: 0.97;\n  width: 0;\n  height: 100%;\n  position: fixed;\n  top: 92px;\n  right: 0px;\n  overflow-x: hidden;\n  padding-top: 60px;\n  transition: 0.4s;\n  z-index: 1;\n\n  @media (min-width: 960px) {\n    display: none;\n  }\n}\n\n.side-nav a {\n  padding: 10px 10px 10px 30px;\n  text-decoration: none;\n  font-size: 22px;\n  color: #eee;\n  display: block;\n  transition: 0.3s;\n\n  &:hover {\n    color: #fff;\n    // border-bottom: 4px solid var(--neonGreen);\n  }\n}\n\n.open-side-menu {\n  width: 300px;\n  width: 80%;\n}\n\n.btn-close {\n  color: #000;\n  background-color: #fff;\n  position: absolute;\n  top: 60px;\n  left: 15px;\n  font-size: 36px;\n  padding: 5px 10px;\n  border-radius: 5px;\n}\n\n.side-nav-list-items {\n  padding: 0;\n  width: 50%;\n  margin-left: 50%;\n\n  a {\n    text-align: right;\n    border-bottom: 3px solid #fff;\n    padding-right: 50px;\n\n    &:hover {\n      border-bottom: 3px solid var(--neonGreen);\n    }\n  }\n}\n\n.svg-wrapper {\n  position: relative;\n  top: 0%;\n  transform: translateY(-150%);\n  margin: 0 auto;\n  width: 320px;\n  transform: rotate(-3deg);\n}\n.shape {\n  stroke-dasharray: 140 540;\n  stroke-dashoffset: -474;\n  stroke-width: 8px;\n  fill: transparent;\n  stroke: var(--neonGreen);\n  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;\n  transform: translateY(-60px);\n}\n"]}]);
+exports.push([module.i, ":root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63; }\n\n@font-face {\n  font-family: \"TTNorms-Regular.otf\";\n  src: url(\"/fonts/TTNorms-Regular.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Bold.otf\";\n  src: url(\"/fonts/TTNorms-Bold.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-Extra-Bold.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBold.otf\") format(\"opentype\"); }\n\n@font-face {\n  font-family: \"TTNorms-ExtraBoldItalic.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBoldItalic.otf\") format(\"opentype\"); }\n\nbody {\n  font-family: \"TTNorms-Regular.otf\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column;\n  box-sizing: border-box; }\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1; }\n\n.container {\n  padding-left: 0px; }\n\n.site-header-init {\n  position: relative; }\n\n.site-header {\n  transition: all 0.65s ease-in-out;\n  background-color: var(--mainPurple);\n  background-color: rgba(74, 25, 98, 0.9);\n  margin-bottom: 20px;\n  position: -webkit-sticky;\n  position: sticky;\n  z-index: 1;\n  top: 0;\n  border-bottom: 2px solid #e7e7e7c7;\n  font-family: \"TTNorms-Bold.otf\"; }\n  .site-header__listitem {\n    position: relative;\n    transition: color 500ms;\n    letter-spacing: 1.3px;\n    color: var(--mainPurple);\n    font-size: 1.1rem;\n    font-weight: 700;\n    font-family: \"TTNorms-Extra-Bold.otf\"; }\n    .site-header__listitem::after {\n      content: \"\";\n      position: absolute;\n      bottom: -10px;\n      left: 0;\n      width: 100%;\n      height: 0.2rem;\n      transition: transform 0.2s;\n      transform: scaleX(0);\n      transform-origin: left top; }\n    .site-header__listitem:hover::after {\n      transform: scaleX(1); }\n    @media (min-width: 960px) {\n      .site-header__listitem:hover {\n        text-decoration: none;\n        color: var(--mainPurple); }\n      .site-header__listitem:hover::after {\n        background-color: var(--neonGreen); } }\n  .site-header__list-item-wrapper {\n    display: flex;\n    justify-content: space-around;\n    width: 250px; }\n  .site-header__brand-wrapper:hover {\n    cursor: pointer; }\n  .site-header__brand-wrapper__line {\n    height: 3px;\n    width: 40px;\n    background-color: var(--neonGreen);\n    transform: rotate(90deg);\n    position: relative;\n    top: 27px;\n    left: -26px; }\n  .site-header__brand-name-init {\n    color: var(--mainPurple);\n    font-size: 1.5rem;\n    font-weight: 700;\n    line-height: 1;\n    padding: 10px 0 10px; }\n    .site-header__brand-name-init__fine-web {\n      font-weight: 700; }\n  .site-header__brand-name {\n    color: #fff;\n    font-size: 1.5rem;\n    padding: 10px 0 10px;\n    margin: 0;\n    font-family: Arial;\n    letter-spacing: 2px;\n    line-height: 1; }\n    .site-header__brand-name img {\n      width: 60%;\n      transform: translateX(60px); }\n      @media (min-width: 960px) {\n        .site-header__brand-name img {\n          width: 25%;\n          transform: translateX(0px); } }\n    .site-header__brand-name:hover {\n      cursor: pointer; }\n    @media (max-width: 960px) {\n      .site-header__brand-name {\n        font-size: 1rem;\n        visibility: visible; } }\n  .site-header__brand {\n    color: #fff;\n    margin: 0;\n    padding: 0;\n    position: relative;\n    display: none; }\n  .site-header__brand--logo {\n    padding-right: 10px;\n    width: 70px;\n    height: 70px; }\n  .site-header__menu-icon {\n    position: absolute;\n    right: 80px;\n    width: 25px;\n    height: 18px;\n    top: 50%;\n    transform: translateY(-50%); }\n    .site-header__menu-icon:hover {\n      cursor: pointer; }\n    .site-header__menu-icon--close-x::before {\n      transform: rotate(45deg); }\n    .site-header__menu-icon--close-x .site-header__menu-icon__middle {\n      opacity: 0; }\n    .site-header__menu-icon--close-x::after {\n      transform: rotate(-45deg) translateY(1px); }\n    .site-header__menu-icon::before {\n      content: \"\";\n      background-color: #fff;\n      background-color: var(--mainPurple);\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 0;\n      transform-origin: 0 0;\n      transition: 300ms ease-out; }\n    .site-header__menu-icon__middle {\n      background-color: #fff;\n      background-color: var(--mainPurple);\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 8px;\n      transition: 300ms ease-out; }\n    .site-header__menu-icon::after {\n      content: \"\";\n      background-color: #fff;\n      background-color: var(--mainPurple);\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      bottom: 0;\n      transform-origin: 0 100%;\n      transition: 300ms ease-out; }\n    @media (min-width: 960px) {\n      .site-header__menu-icon {\n        display: none; } }\n  .site-header__nav-active {\n    text-decoration: underline; }\n  .site-header__nav-list {\n    padding: 0;\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    justify-content: space-around;\n    align-items: center; }\n    @media (max-width: 960px) {\n      .site-header__nav-list {\n        visibility: hidden; } }\n  .site-header__nav-list-item {\n    list-style-type: none; }\n  .site-header nav ul li a,\n  .site-header li {\n    color: #fff;\n    font-size: 1.2rem;\n    font-weight: bold; }\n\n.side-nav {\n  background-color: var(--secondaryRed);\n  opacity: 0.97;\n  width: 0;\n  height: 100%;\n  position: fixed;\n  top: 71px;\n  right: 0px;\n  overflow-x: hidden;\n  padding-top: 60px;\n  transition: 0.4s;\n  z-index: 1; }\n  @media (min-width: 960px) {\n    .side-nav {\n      display: none; } }\n\n.side-nav a {\n  padding: 10px 10px 10px 30px;\n  text-decoration: none;\n  font-size: 22px;\n  color: #eee;\n  display: block;\n  transition: 0.3s; }\n  .side-nav a:hover {\n    color: #fff; }\n\n.open-side-menu {\n  width: 300px;\n  width: 80%; }\n\n.btn-close {\n  color: #000;\n  background-color: #fff;\n  position: absolute;\n  top: 60px;\n  left: 15px;\n  font-size: 36px;\n  padding: 5px 10px;\n  border-radius: 5px; }\n\n.side-nav-list-items {\n  padding: 0;\n  width: 50%;\n  margin-left: 50%; }\n  .side-nav-list-items a {\n    text-align: right;\n    border-bottom: 3px solid #fff;\n    padding-right: 50px; }\n    .side-nav-list-items a:hover {\n      border-bottom: 3px solid var(--neonGreen); }\n\n.svg-wrapper {\n  position: relative;\n  top: 0%;\n  transform: translateY(-150%);\n  margin: 0 auto;\n  width: 320px;\n  transform: rotate(-3deg); }\n\n.shape {\n  stroke-dasharray: 140 540;\n  stroke-dashoffset: -474;\n  stroke-width: 8px;\n  fill: transparent;\n  stroke: var(--neonGreen);\n  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;\n  transform: translateY(-60px); }\n", "",{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAEA;EACE,qBAAa;EACb;;;;GAAiB;EAKjB,oBAAY;EACZ,oBAAY;EACZ,qBAAgB;EAChB,qBAAgB;EAChB,kBAAU;EACV,uBAAe,EAAA;;AAGjB;EACE,kCAAkC;EAClC,yDAAyD,EAAA;;AAE3D;EACE,iCAAiC;EACjC,wDAAwD,EAAA;;AAG1D;EACE,+BAA+B;EAC/B,sDAAsD,EAAA;;AAGxD;EACE,qCAAqC;EACrC,2DAA2D,EAAA;;AAE7D;EACE,0CAA0C;EAC1C,iEAAiE,EAAA;;AAGnE;EACE,uDAAuD;EACvD,aAAa;EACb,sBAAsB;EACtB,sBAAsB,EAAA;;AAGxB;EACE,iBAAiB;EACjB,YAAY,EAAA;;AAGd;EACE,iBAAiB,EAAA;;AAGnB;EACE,kBAAkB,EAAA;;AAIpB;EACE,iCAAiC;EACjC,mCAAmC;EACnC,uCAAuC;EACvC,mBAAmB;EACnB,wBAAgB;EAAhB,gBAAgB;EAChB,UAAU;EACV,MAAM;EACN,kCAAkC;EAClC,+BAA+B,EAAA;EAE/B;IACE,kBAAkB;IAClB,uBAAuB;IACvB,qBAAqB;IACrB,wBAAwB;IACxB,iBAAiB;IACjB,gBAAgB;IAChB,qCAAqC,EAAA;IAPtC;MAUG,WAAW;MACX,kBAAkB;MAClB,aAAa;MACb,OAAO;MACP,WAAW;MACX,cAAc;MACd,0BAA0B;MAC1B,oBAAoB;MACpB,0BAA0B,EAAA;IAlB7B;MAsBG,oBAAoB,EAAA;IAEtB;MAxBD;QA0BK,qBAAqB;QACrB,wBAAwB,EAAA;MA3B7B;QA8BK,kCAAkC,EAAA,EACnC;EAIL;IACE,aAAa;IACb,6BAA6B;IAC7B,YAAY,EAAA;EAGb;IAEG,eAAe,EAAA;EAInB;IACE,WAAW;IACX,WAAW;IACX,kCAAkC;IAClC,wBAAwB;IACxB,kBAAkB;IAClB,SAAS;IACT,WAAW,EAAA;EAGb;IACE,wBAAwB;IACxB,iBAAiB;IACjB,gBAAgB;IAChB,cAAc;IACd,oBAAoB,EAAA;IAEpB;MACE,gBAAgB,EAAA;EAIpB;IACE,WAAW;IACX,iBAAiB;IACjB,oBAAoB;IACpB,SAAS;IACT,kBAAkB;IAClB,mBAAmB;IACnB,cAAc,EAAA;IAPf;MAUG,UAAU;MACV,2BAA2B,EAAA;MAE3B;QAbH;UAcK,UAAU;UACV,0BAA0B,EAAA,EAE7B;IAjBF;MAoBG,eAAe,EAAA;IAEjB;MAtBF;QAuBI,eAAe;QACf,mBAAmB,EAAA,EAEtB;EAED;IACE,WAAW;IACX,SAAS;IACT,UAAU;IACV,kBAAkB;IAClB,aAAa,EAAA;EAGf;IACE,mBAAmB;IACnB,WAAW;IACX,YAAY,EAAA;EAGd;IACE,kBAAkB;IAClB,WAAW;IACX,WAAW;IACX,YAAY;IACZ,QAAQ;IACR,2BAA2B,EAAA;IAN5B;MASG,eAAe,EAAA;IAGhB;MAEG,wBAAwB,EAAA;IAF3B;MAKG,UAAU,EAAA;IALb;MAQG,yCAAyC,EAAA;IApB9C;MAyBG,WAAW;MACX,sBAAsB;MACtB,mCAAmC;MACnC,kBAAkB;MAClB,WAAW;MACX,WAAW;MACX,MAAM;MACN,qBAAqB;MACrB,0BAA0B,EAAA;IAG5B;MACE,sBAAsB;MACtB,mCAAmC;MACnC,kBAAkB;MAClB,WAAW;MACX,WAAW;MACX,QAAQ;MACR,0BAA0B,EAAA;IA3C7B;MA+CG,WAAW;MACX,sBAAsB;MACtB,mCAAmC;MACnC,kBAAkB;MAClB,WAAW;MACX,WAAW;MACX,SAAS;MACT,wBAAwB;MACxB,0BAA0B,EAAA;IAG5B;MA1DF;QA2DI,aAAa,EAAA,EAEhB;EAED;IACE,0BAA0B,EAAA;EAG5B;IACE,UAAU;IACV,SAAS;IACT,qBAAqB;IACrB,aAAa;IACb,6BAA6B;IAC7B,mBAAmB,EAAA;IACnB;MAPF;QAQI,kBAAkB,EAAA,EAErB;EAED;IACE,qBAAqB,EAAA;EA1MzB;;IA+MI,WAAW;IACX,iBAAiB;IACjB,iBAAiB,EAAA;;AAIrB;EACE,qCAAqC;EACrC,aAAa;EACb,QAAQ;EACR,YAAY;EACZ,eAAe;EACf,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,iBAAiB;EACjB,gBAAgB;EAChB,UAAU,EAAA;EAEV;IAbF;MAcI,aAAa,EAAA,EAEhB;;AAED;EACE,4BAA4B;EAC5B,qBAAqB;EACrB,eAAe;EACf,WAAW;EACX,cAAc;EACd,gBAAgB,EAAA;EANlB;IASI,WAAW,EAAA;;AAIf;EACE,YAAY;EACZ,UAAU,EAAA;;AAGZ;EACE,WAAW;EACX,sBAAsB;EACtB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,eAAe;EACf,iBAAiB;EACjB,kBAAkB,EAAA;;AAGpB;EACE,UAAU;EACV,UAAU;EACV,gBAAgB,EAAA;EAHlB;IAMI,iBAAiB;IACjB,6BAA6B;IAC7B,mBAAmB,EAAA;IARvB;MAWM,yCAAyC,EAAA;;AAK/C;EACE,kBAAkB;EAClB,OAAO;EACP,4BAA4B;EAC5B,cAAc;EACd,YAAY;EACZ,wBAAwB,EAAA;;AAE1B;EACE,yBAAyB;EACzB,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;EACjB,wBAAwB;EACxB,sEAAsE;EACtE,4BAA4B,EAAA","file":"style.scss","sourcesContent":["@import url(\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\");\n\n:root {\n  --mainPurple: #4a1962;\n  --purpleGradient: linear-gradient(\n    23deg,\n    rgba(74, 25, 98, 1) 54%,\n    rgba(33, 6, 64, 1) 100%\n  );\n  --mainWhite: #ffffff;\n  --neonGreen: #00e06d;\n  --secondaryText: #666;\n  --boxShadowGrey: #eee;\n  --mainRed: #d81159;\n  --secondaryRed: #db1f63;\n}\n\n@font-face {\n  font-family: \"TTNorms-Regular.otf\";\n  src: url(\"/fonts/TTNorms-Regular.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-Medium.otf\";\n  src: url(\"/fonts/TTNorms-Medium.otf\") format(\"opentype\");\n}\n\n@font-face {\n  font-family: \"TTNorms-Bold.otf\";\n  src: url(\"/fonts/TTNorms-Bold.otf\") format(\"opentype\");\n}\n\n@font-face {\n  font-family: \"TTNorms-Extra-Bold.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBold.otf\") format(\"opentype\");\n}\n@font-face {\n  font-family: \"TTNorms-ExtraBoldItalic.otf\";\n  src: url(\"/fonts/TTNorms-ExtraBoldItalic.otf\") format(\"opentype\");\n}\n\nbody {\n  font-family: \"TTNorms-Regular.otf\", \"Arial\", sans-serif;\n  display: flex;\n  flex-direction: column;\n  box-sizing: border-box;\n}\n\nmain {\n  min-height: 100vh;\n  flex-grow: 1;\n}\n\n.container {\n  padding-left: 0px;\n}\n\n.site-header-init {\n  position: relative;\n}\n\n// NAV STYLES\n.site-header {\n  transition: all 0.65s ease-in-out;\n  background-color: var(--mainPurple);\n  background-color: rgba(74, 25, 98, 0.9);\n  margin-bottom: 20px;\n  position: sticky;\n  z-index: 1;\n  top: 0;\n  border-bottom: 2px solid #e7e7e7c7;\n  font-family: \"TTNorms-Bold.otf\";\n\n  &__listitem {\n    position: relative;\n    transition: color 500ms;\n    letter-spacing: 1.3px;\n    color: var(--mainPurple);\n    font-size: 1.1rem;\n    font-weight: 700;\n    font-family: \"TTNorms-Extra-Bold.otf\";\n\n    &::after {\n      content: \"\";\n      position: absolute;\n      bottom: -10px;\n      left: 0;\n      width: 100%;\n      height: 0.2rem;\n      transition: transform 0.2s;\n      transform: scaleX(0);\n      transform-origin: left top;\n    }\n\n    &:hover::after {\n      transform: scaleX(1);\n    }\n    @media (min-width: 960px) {\n      &:hover {\n        text-decoration: none;\n        color: var(--mainPurple);\n      }\n      &:hover::after {\n        background-color: var(--neonGreen);\n      }\n    }\n  }\n\n  &__list-item-wrapper {\n    display: flex;\n    justify-content: space-around;\n    width: 250px;\n  }\n\n  &__brand-wrapper {\n    &:hover {\n      cursor: pointer;\n    }\n  }\n\n  &__brand-wrapper__line {\n    height: 3px;\n    width: 40px;\n    background-color: var(--neonGreen);\n    transform: rotate(90deg);\n    position: relative;\n    top: 27px;\n    left: -26px;\n  }\n\n  &__brand-name-init {\n    color: var(--mainPurple);\n    font-size: 1.5rem;\n    font-weight: 700;\n    line-height: 1;\n    padding: 10px 0 10px;\n\n    &__fine-web {\n      font-weight: 700;\n    }\n  }\n\n  &__brand-name {\n    color: #fff;\n    font-size: 1.5rem;\n    padding: 10px 0 10px;\n    margin: 0;\n    font-family: Arial;\n    letter-spacing: 2px;\n    line-height: 1;\n\n    img {\n      width: 60%;\n      transform: translateX(60px);\n\n      @media (min-width: 960px) {\n        width: 25%;\n        transform: translateX(0px);\n      }\n    }\n\n    &:hover {\n      cursor: pointer;\n    }\n    @media (max-width: 960px) {\n      font-size: 1rem;\n      visibility: visible;\n    }\n  }\n\n  &__brand {\n    color: #fff;\n    margin: 0;\n    padding: 0;\n    position: relative;\n    display: none;\n  }\n\n  &__brand--logo {\n    padding-right: 10px;\n    width: 70px;\n    height: 70px;\n  }\n\n  &__menu-icon {\n    position: absolute;\n    right: 80px;\n    width: 25px;\n    height: 18px;\n    top: 50%;\n    transform: translateY(-50%);\n\n    &:hover {\n      cursor: pointer;\n    }\n\n    &--close-x {\n      &::before {\n        transform: rotate(45deg);\n      }\n      .site-header__menu-icon__middle {\n        opacity: 0;\n      }\n      &::after {\n        transform: rotate(-45deg) translateY(1px);\n      }\n    }\n\n    &::before {\n      content: \"\";\n      background-color: #fff;\n      background-color: var(--mainPurple);\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 0;\n      transform-origin: 0 0;\n      transition: 300ms ease-out;\n    }\n\n    &__middle {\n      background-color: #fff;\n      background-color: var(--mainPurple);\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      top: 8px;\n      transition: 300ms ease-out;\n    }\n\n    &::after {\n      content: \"\";\n      background-color: #fff;\n      background-color: var(--mainPurple);\n      position: absolute;\n      width: 25px;\n      height: 2px;\n      bottom: 0;\n      transform-origin: 0 100%;\n      transition: 300ms ease-out;\n    }\n\n    @media (min-width: 960px) {\n      display: none;\n    }\n  }\n\n  &__nav-active {\n    text-decoration: underline;\n  }\n\n  &__nav-list {\n    padding: 0;\n    margin: 0;\n    list-style-type: none;\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    @media (max-width: 960px) {\n      visibility: hidden;\n    }\n  }\n\n  &__nav-list-item {\n    list-style-type: none;\n  }\n\n  nav ul li a,\n  li {\n    color: #fff;\n    font-size: 1.2rem;\n    font-weight: bold;\n  }\n}\n\n.side-nav {\n  background-color: var(--secondaryRed);\n  opacity: 0.97;\n  width: 0;\n  height: 100%;\n  position: fixed;\n  top: 71px;\n  right: 0px;\n  overflow-x: hidden;\n  padding-top: 60px;\n  transition: 0.4s;\n  z-index: 1;\n\n  @media (min-width: 960px) {\n    display: none;\n  }\n}\n\n.side-nav a {\n  padding: 10px 10px 10px 30px;\n  text-decoration: none;\n  font-size: 22px;\n  color: #eee;\n  display: block;\n  transition: 0.3s;\n\n  &:hover {\n    color: #fff;\n  }\n}\n\n.open-side-menu {\n  width: 300px;\n  width: 80%;\n}\n\n.btn-close {\n  color: #000;\n  background-color: #fff;\n  position: absolute;\n  top: 60px;\n  left: 15px;\n  font-size: 36px;\n  padding: 5px 10px;\n  border-radius: 5px;\n}\n\n.side-nav-list-items {\n  padding: 0;\n  width: 50%;\n  margin-left: 50%;\n\n  a {\n    text-align: right;\n    border-bottom: 3px solid #fff;\n    padding-right: 50px;\n\n    &:hover {\n      border-bottom: 3px solid var(--neonGreen);\n    }\n  }\n}\n\n.svg-wrapper {\n  position: relative;\n  top: 0%;\n  transform: translateY(-150%);\n  margin: 0 auto;\n  width: 320px;\n  transform: rotate(-3deg);\n}\n.shape {\n  stroke-dasharray: 140 540;\n  stroke-dashoffset: -474;\n  stroke-width: 8px;\n  fill: transparent;\n  stroke: var(--neonGreen);\n  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;\n  transform: translateY(-60px);\n}\n"]}]);
 
 
 /***/ }),
@@ -1607,287 +1642,6 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "./node_modules/dom-helpers/esm/addEventListener.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/addEventListener.js ***!
-  \**********************************************************/
-/*! exports provided: optionsSupported, onceSupported, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "optionsSupported", function() { return optionsSupported; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "onceSupported", function() { return onceSupported; });
-/* harmony import */ var _canUseDOM__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./canUseDOM */ "./node_modules/dom-helpers/esm/canUseDOM.js");
-/* eslint-disable no-return-assign */
-
-var optionsSupported = false;
-var onceSupported = false;
-
-try {
-  var options = {
-    get passive() {
-      return optionsSupported = true;
-    },
-
-    get once() {
-      // eslint-disable-next-line no-multi-assign
-      return onceSupported = optionsSupported = true;
-    }
-
-  };
-
-  if (_canUseDOM__WEBPACK_IMPORTED_MODULE_0__["default"]) {
-    window.addEventListener('test', options, options);
-    window.removeEventListener('test', options, true);
-  }
-} catch (e) {
-  /* */
-}
-
-/**
- * An `addEventListener` ponyfill, supports the `once` option
- */
-function addEventListener(node, eventName, handler, options) {
-  if (options && typeof options !== 'boolean' && !onceSupported) {
-    var once = options.once,
-        capture = options.capture;
-    var wrappedHandler = handler;
-
-    if (!onceSupported && once) {
-      wrappedHandler = handler.__once || function onceHandler(event) {
-        this.removeEventListener(eventName, onceHandler, capture);
-        handler.call(this, event);
-      };
-
-      handler.__once = wrappedHandler;
-    }
-
-    node.addEventListener(eventName, wrappedHandler, optionsSupported ? options : capture);
-  }
-
-  node.addEventListener(eventName, handler, options);
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (addEventListener);
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/camelize.js":
-/*!**************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/camelize.js ***!
-  \**************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return camelize; });
-var rHyphen = /-(.)/g;
-function camelize(string) {
-  return string.replace(rHyphen, function (_, chr) {
-    return chr.toUpperCase();
-  });
-}
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/canUseDOM.js":
-/*!***************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/canUseDOM.js ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (!!(typeof window !== 'undefined' && window.document && window.document.createElement));
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/css.js":
-/*!*********************************************!*\
-  !*** ./node_modules/dom-helpers/esm/css.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _getComputedStyle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getComputedStyle */ "./node_modules/dom-helpers/esm/getComputedStyle.js");
-/* harmony import */ var _hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hyphenateStyle */ "./node_modules/dom-helpers/esm/hyphenateStyle.js");
-/* harmony import */ var _isTransform__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./isTransform */ "./node_modules/dom-helpers/esm/isTransform.js");
-
-
-
-
-function style(node, property) {
-  var css = '';
-  var transforms = '';
-
-  if (typeof property === 'string') {
-    return node.style.getPropertyValue(Object(_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(property)) || Object(_getComputedStyle__WEBPACK_IMPORTED_MODULE_0__["default"])(node).getPropertyValue(Object(_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(property));
-  }
-
-  Object.keys(property).forEach(function (key) {
-    var value = property[key];
-
-    if (!value && value !== 0) {
-      node.style.removeProperty(Object(_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(key));
-    } else if (Object(_isTransform__WEBPACK_IMPORTED_MODULE_2__["default"])(key)) {
-      transforms += key + "(" + value + ") ";
-    } else {
-      css += Object(_hyphenateStyle__WEBPACK_IMPORTED_MODULE_1__["default"])(key) + ": " + value + ";";
-    }
-  });
-
-  if (transforms) {
-    css += "transform: " + transforms + ";";
-  }
-
-  node.style.cssText += ";" + css;
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (style);
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/getComputedStyle.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/getComputedStyle.js ***!
-  \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return getComputedStyle; });
-/* harmony import */ var _ownerWindow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ownerWindow */ "./node_modules/dom-helpers/esm/ownerWindow.js");
-
-function getComputedStyle(node, psuedoElement) {
-  return Object(_ownerWindow__WEBPACK_IMPORTED_MODULE_0__["default"])(node).getComputedStyle(node, psuedoElement);
-}
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/hyphenate.js":
-/*!***************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/hyphenate.js ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return hyphenate; });
-var rUpper = /([A-Z])/g;
-function hyphenate(string) {
-  return string.replace(rUpper, '-$1').toLowerCase();
-}
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/hyphenateStyle.js":
-/*!********************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/hyphenateStyle.js ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return hyphenateStyleName; });
-/* harmony import */ var _hyphenate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hyphenate */ "./node_modules/dom-helpers/esm/hyphenate.js");
-/**
- * Copyright 2013-2014, Facebook, Inc.
- * All rights reserved.
- * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/hyphenateStyleName.js
- */
-
-var msPattern = /^ms-/;
-function hyphenateStyleName(string) {
-  return Object(_hyphenate__WEBPACK_IMPORTED_MODULE_0__["default"])(string).replace(msPattern, '-ms-');
-}
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/isTransform.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/isTransform.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return isTransform; });
-var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
-function isTransform(value) {
-  return !!(value && supportedTransforms.test(value));
-}
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/listen.js":
-/*!************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/listen.js ***!
-  \************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _addEventListener__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addEventListener */ "./node_modules/dom-helpers/esm/addEventListener.js");
-/* harmony import */ var _removeEventListener__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./removeEventListener */ "./node_modules/dom-helpers/esm/removeEventListener.js");
-
-
-
-function listen(node, eventName, handler, options) {
-  Object(_addEventListener__WEBPACK_IMPORTED_MODULE_0__["default"])(node, eventName, handler, options);
-  return function () {
-    Object(_removeEventListener__WEBPACK_IMPORTED_MODULE_1__["default"])(node, eventName, handler, options);
-  };
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (listen);
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/ownerDocument.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/ownerDocument.js ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ownerDocument; });
-function ownerDocument(node) {
-  return node && node.ownerDocument || document;
-}
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/ownerWindow.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/ownerWindow.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ownerWindow; });
-/* harmony import */ var _ownerDocument__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ownerDocument */ "./node_modules/dom-helpers/esm/ownerDocument.js");
-
-function ownerWindow(node) {
-  var doc = Object(_ownerDocument__WEBPACK_IMPORTED_MODULE_0__["default"])(node);
-  return doc && doc.defaultView || window;
-}
-
-/***/ }),
-
 /***/ "./node_modules/dom-helpers/esm/querySelectorAll.js":
 /*!**********************************************************!*\
   !*** ./node_modules/dom-helpers/esm/querySelectorAll.js ***!
@@ -1902,93 +1656,6 @@ var toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);
 function qsa(element, selector) {
   return toArray(element.querySelectorAll(selector));
 }
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/removeEventListener.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/removeEventListener.js ***!
-  \*************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-function removeEventListener(node, eventName, handler, options) {
-  var capture = options && typeof options !== 'boolean' ? options.capture : options;
-  node.removeEventListener(eventName, handler, capture);
-
-  if (handler.__once) {
-    node.removeEventListener(eventName, handler.__once, capture);
-  }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (removeEventListener);
-
-/***/ }),
-
-/***/ "./node_modules/dom-helpers/esm/transitionEnd.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/dom-helpers/esm/transitionEnd.js ***!
-  \*******************************************************/
-/*! exports provided: TRANSITION_SUPPORTED, parseDuration, emulateTransitionEnd, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TRANSITION_SUPPORTED", function() { return TRANSITION_SUPPORTED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parseDuration", function() { return parseDuration; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "emulateTransitionEnd", function() { return emulateTransitionEnd; });
-/* harmony import */ var _canUseDOM__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./canUseDOM */ "./node_modules/dom-helpers/esm/canUseDOM.js");
-/* harmony import */ var _css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css */ "./node_modules/dom-helpers/esm/css.js");
-/* harmony import */ var _listen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./listen */ "./node_modules/dom-helpers/esm/listen.js");
-
-
-
-var TRANSITION_SUPPORTED = _canUseDOM__WEBPACK_IMPORTED_MODULE_0__["default"] && 'ontransitionend' in window;
-function parseDuration(node) {
-  var str = Object(_css__WEBPACK_IMPORTED_MODULE_1__["default"])(node, 'transitionDuration') || '';
-  var mult = str.indexOf('ms') === -1 ? 1000 : 1;
-  return parseFloat(str) * mult;
-}
-
-function triggerTransitionEnd(element) {
-  var evt = document.createEvent('HTMLEvents');
-  evt.initEvent('transitionend', true, true);
-  element.dispatchEvent(evt);
-}
-
-function emulateTransitionEnd(element, duration, padding) {
-  if (padding === void 0) {
-    padding = 5;
-  }
-
-  var called = false;
-  var handle = setTimeout(function () {
-    if (!called) triggerTransitionEnd(element);
-  }, duration + padding);
-  var remove = Object(_listen__WEBPACK_IMPORTED_MODULE_2__["default"])(element, 'transitionend', function () {
-    called = true;
-  }, {
-    once: true
-  });
-  return function () {
-    clearTimeout(handle);
-    remove();
-  };
-}
-
-function transitionEnd(element, handler, duration) {
-  if (!TRANSITION_SUPPORTED) {
-    return emulateTransitionEnd(element, 0, 0);
-  }
-
-  if (duration == null) duration = parseDuration(element) || 0;
-  emulateTransitionEnd(element, duration);
-  return Object(_listen__WEBPACK_IMPORTED_MODULE_2__["default"])(element, 'transitionend', handler);
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (transitionEnd);
 
 /***/ }),
 
@@ -5423,209 +5090,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/react-bootstrap/esm/Collapse.js":
-/*!******************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/Collapse.js ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var dom_helpers_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! dom-helpers/css */ "./node_modules/dom-helpers/esm/css.js");
-/* harmony import */ var dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! dom-helpers/transitionEnd */ "./node_modules/dom-helpers/esm/transitionEnd.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-transition-group/Transition */ "./node_modules/react-transition-group/esm/Transition.js");
-/* harmony import */ var _createChainedFunction__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./createChainedFunction */ "./node_modules/react-bootstrap/esm/createChainedFunction.js");
-/* harmony import */ var _triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./triggerBrowserReflow */ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js");
-
-
-
-
-var _collapseStyles;
-
-
-
-
-
-
-
-
-var MARGINS = {
-  height: ['marginTop', 'marginBottom'],
-  width: ['marginLeft', 'marginRight']
-};
-
-function getDimensionValue(dimension, elem) {
-  var offset = "offset" + dimension[0].toUpperCase() + dimension.slice(1);
-  var value = elem[offset];
-  var margins = MARGINS[dimension];
-  return value + parseInt(Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_4__["default"])(elem, margins[0]), 10) + parseInt(Object(dom_helpers_css__WEBPACK_IMPORTED_MODULE_4__["default"])(elem, margins[1]), 10);
-}
-
-var collapseStyles = (_collapseStyles = {}, _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_7__["EXITED"]] = 'collapse', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_7__["EXITING"]] = 'collapsing', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_7__["ENTERING"]] = 'collapsing', _collapseStyles[react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_7__["ENTERED"]] = 'collapse show', _collapseStyles);
-var defaultProps = {
-  in: false,
-  timeout: 300,
-  mountOnEnter: false,
-  unmountOnExit: false,
-  appear: false,
-  dimension: 'height',
-  getDimensionValue: getDimensionValue
-};
-
-var Collapse =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__["default"])(Collapse, _React$Component);
-
-  function Collapse() {
-    var _this;
-
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
-
-    _this.handleEnter = function (elem) {
-      elem.style[_this.getDimension()] = '0';
-    };
-
-    _this.handleEntering = function (elem) {
-      var dimension = _this.getDimension();
-
-      elem.style[dimension] = _this._getScrollDimensionValue(elem, dimension);
-    };
-
-    _this.handleEntered = function (elem) {
-      elem.style[_this.getDimension()] = null;
-    };
-
-    _this.handleExit = function (elem) {
-      var dimension = _this.getDimension();
-
-      elem.style[dimension] = _this.props.getDimensionValue(dimension, elem) + "px";
-      Object(_triggerBrowserReflow__WEBPACK_IMPORTED_MODULE_9__["default"])(elem);
-    };
-
-    _this.handleExiting = function (elem) {
-      elem.style[_this.getDimension()] = null;
-    };
-
-    return _this;
-  }
-
-  var _proto = Collapse.prototype;
-
-  _proto.getDimension = function getDimension() {
-    return typeof this.props.dimension === 'function' ? this.props.dimension() : this.props.dimension;
-  }
-  /* -- Expanding -- */
-  ;
-
-  // for testing
-  _proto._getScrollDimensionValue = function _getScrollDimensionValue(elem, dimension) {
-    var scroll = "scroll" + dimension[0].toUpperCase() + dimension.slice(1);
-    return elem[scroll] + "px";
-  };
-
-  _proto.render = function render() {
-    var _this2 = this;
-
-    var _this$props = this.props,
-        onEnter = _this$props.onEnter,
-        onEntering = _this$props.onEntering,
-        onEntered = _this$props.onEntered,
-        onExit = _this$props.onExit,
-        onExiting = _this$props.onExiting,
-        className = _this$props.className,
-        children = _this$props.children,
-        props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_this$props, ["onEnter", "onEntering", "onEntered", "onExit", "onExiting", "className", "children"]);
-
-    delete props.dimension;
-    delete props.getDimensionValue;
-    var handleEnter = Object(_createChainedFunction__WEBPACK_IMPORTED_MODULE_8__["default"])(this.handleEnter, onEnter);
-    var handleEntering = Object(_createChainedFunction__WEBPACK_IMPORTED_MODULE_8__["default"])(this.handleEntering, onEntering);
-    var handleEntered = Object(_createChainedFunction__WEBPACK_IMPORTED_MODULE_8__["default"])(this.handleEntered, onEntered);
-    var handleExit = Object(_createChainedFunction__WEBPACK_IMPORTED_MODULE_8__["default"])(this.handleExit, onExit);
-    var handleExiting = Object(_createChainedFunction__WEBPACK_IMPORTED_MODULE_8__["default"])(this.handleExiting, onExiting);
-    return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_transition_group_Transition__WEBPACK_IMPORTED_MODULE_7__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      addEndListener: dom_helpers_transitionEnd__WEBPACK_IMPORTED_MODULE_5__["default"]
-    }, props, {
-      "aria-expanded": props.role ? props.in : null,
-      onEnter: handleEnter,
-      onEntering: handleEntering,
-      onEntered: handleEntered,
-      onExit: handleExit,
-      onExiting: handleExiting
-    }), function (state, innerProps) {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.cloneElement(children, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, innerProps, {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(className, children.props.className, collapseStyles[state], _this2.getDimension() === 'width' && 'width')
-      }));
-    });
-  };
-
-  return Collapse;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-Collapse.defaultProps = defaultProps;
-/* harmony default export */ __webpack_exports__["default"] = (Collapse);
-
-/***/ }),
-
-/***/ "./node_modules/react-bootstrap/esm/Container.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/Container.js ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
-
-
-
-
-
-var defaultProps = {
-  fluid: false
-};
-var Container = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (_ref, ref) {
-  var bsPrefix = _ref.bsPrefix,
-      fluid = _ref.fluid,
-      _ref$as = _ref.as,
-      Component = _ref$as === void 0 ? 'div' : _ref$as,
-      className = _ref.className,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["bsPrefix", "fluid", "as", "className"]);
-
-  var prefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__["useBootstrapPrefix"])(bsPrefix, 'container');
-  var suffix = typeof fluid === 'string' ? "-" + fluid : '-fluid';
-  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    ref: ref
-  }, props, {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, fluid ? "" + prefix + suffix : prefix)
-  }));
-});
-Container.displayName = 'Container';
-Container.defaultProps = defaultProps;
-/* harmony default export */ __webpack_exports__["default"] = (Container);
-
-/***/ }),
-
 /***/ "./node_modules/react-bootstrap/esm/Nav.js":
 /*!*************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/Nav.js ***!
@@ -5825,195 +5289,6 @@ NavLink.defaultProps = defaultProps;
 
 /***/ }),
 
-/***/ "./node_modules/react-bootstrap/esm/Navbar.js":
-/*!****************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/Navbar.js ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var uncontrollable__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! uncontrollable */ "./node_modules/uncontrollable/esm/index.js");
-/* harmony import */ var _createWithBsPrefix__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./createWithBsPrefix */ "./node_modules/react-bootstrap/esm/createWithBsPrefix.js");
-/* harmony import */ var _NavbarBrand__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NavbarBrand */ "./node_modules/react-bootstrap/esm/NavbarBrand.js");
-/* harmony import */ var _NavbarCollapse__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./NavbarCollapse */ "./node_modules/react-bootstrap/esm/NavbarCollapse.js");
-/* harmony import */ var _NavbarToggle__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./NavbarToggle */ "./node_modules/react-bootstrap/esm/NavbarToggle.js");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
-/* harmony import */ var _NavbarContext__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./NavbarContext */ "./node_modules/react-bootstrap/esm/NavbarContext.js");
-/* harmony import */ var _SelectableContext__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SelectableContext */ "./node_modules/react-bootstrap/esm/SelectableContext.js");
-
-
-
-
-
-
-
-
-
-
-
-
-var defaultProps = {
-  expand: true,
-  variant: 'light',
-  collapseOnSelect: false
-};
-var Navbar = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (props, ref) {
-  var _useUncontrolled = Object(uncontrollable__WEBPACK_IMPORTED_MODULE_4__["useUncontrolled"])(props, {
-    expanded: 'onToggle'
-  }),
-      bsPrefix = _useUncontrolled.bsPrefix,
-      expand = _useUncontrolled.expand,
-      variant = _useUncontrolled.variant,
-      bg = _useUncontrolled.bg,
-      fixed = _useUncontrolled.fixed,
-      sticky = _useUncontrolled.sticky,
-      className = _useUncontrolled.className,
-      children = _useUncontrolled.children,
-      _useUncontrolled$as = _useUncontrolled.as,
-      Component = _useUncontrolled$as === void 0 ? 'nav' : _useUncontrolled$as,
-      expanded = _useUncontrolled.expanded,
-      _onToggle = _useUncontrolled.onToggle,
-      onSelect = _useUncontrolled.onSelect,
-      collapseOnSelect = _useUncontrolled.collapseOnSelect,
-      controlledProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_useUncontrolled, ["bsPrefix", "expand", "variant", "bg", "fixed", "sticky", "className", "children", "as", "expanded", "onToggle", "onSelect", "collapseOnSelect"]);
-
-  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_9__["useBootstrapPrefix"])(bsPrefix, 'navbar');
-  var handleCollapse = Object(react__WEBPACK_IMPORTED_MODULE_3__["useCallback"])(function () {
-    if (onSelect) onSelect.apply(void 0, arguments);
-
-    if (collapseOnSelect && expanded) {
-      _onToggle(false);
-    }
-  }, [onSelect, collapseOnSelect, expanded, _onToggle]); // will result in some false positives but that seems better
-  // than false negatives. strict `undefined` check allows explicit
-  // "nulling" of the role if the user really doesn't want one
-
-  if (controlledProps.role === undefined && Component !== 'nav') {
-    controlledProps.role = 'navigation';
-  }
-
-  var expandClass = bsPrefix + "-expand";
-  if (typeof expand === 'string') expandClass = expandClass + "-" + expand;
-  var navbarContext = Object(react__WEBPACK_IMPORTED_MODULE_3__["useMemo"])(function () {
-    return {
-      onToggle: function onToggle() {
-        return _onToggle(!expanded);
-      },
-      bsPrefix: bsPrefix,
-      expanded: expanded
-    };
-  }, [bsPrefix, expanded, _onToggle]);
-  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_NavbarContext__WEBPACK_IMPORTED_MODULE_10__["default"].Provider, {
-    value: navbarContext
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_SelectableContext__WEBPACK_IMPORTED_MODULE_11__["default"].Provider, {
-    value: handleCollapse
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-    ref: ref
-  }, controlledProps, {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix, expand && expandClass, variant && bsPrefix + "-" + variant, bg && "bg-" + bg, sticky && "sticky-" + sticky, fixed && "fixed-" + fixed)
-  }), children)));
-});
-Navbar.defaultProps = defaultProps;
-Navbar.displayName = 'Navbar';
-Navbar.Brand = _NavbarBrand__WEBPACK_IMPORTED_MODULE_6__["default"];
-Navbar.Toggle = _NavbarToggle__WEBPACK_IMPORTED_MODULE_8__["default"];
-Navbar.Collapse = _NavbarCollapse__WEBPACK_IMPORTED_MODULE_7__["default"];
-Navbar.Text = Object(_createWithBsPrefix__WEBPACK_IMPORTED_MODULE_5__["default"])('navbar-text', {
-  Component: 'span'
-});
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
-
-/***/ }),
-
-/***/ "./node_modules/react-bootstrap/esm/NavbarBrand.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/NavbarBrand.js ***!
-  \*********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
-
-
-
-
-
-var NavbarBrand = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (_ref, ref) {
-  var bsPrefix = _ref.bsPrefix,
-      className = _ref.className,
-      as = _ref.as,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["bsPrefix", "className", "as"]);
-
-  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__["useBootstrapPrefix"])(bsPrefix, 'navbar-brand');
-  var Component = as || (props.href ? 'a' : 'span');
-  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
-    ref: ref,
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix)
-  }));
-});
-NavbarBrand.displayName = 'NavbarBrand';
-/* harmony default export */ __webpack_exports__["default"] = (NavbarBrand);
-
-/***/ }),
-
-/***/ "./node_modules/react-bootstrap/esm/NavbarCollapse.js":
-/*!************************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/NavbarCollapse.js ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Collapse */ "./node_modules/react-bootstrap/esm/Collapse.js");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
-/* harmony import */ var _NavbarContext__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./NavbarContext */ "./node_modules/react-bootstrap/esm/NavbarContext.js");
-
-
-
-
-
-
-var NavbarCollapse = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (_ref, ref) {
-  var children = _ref.children,
-      bsPrefix = _ref.bsPrefix,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "bsPrefix"]);
-
-  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_4__["useBootstrapPrefix"])(bsPrefix, 'navbar-collapse');
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_NavbarContext__WEBPACK_IMPORTED_MODULE_5__["default"].Consumer, null, function (context) {
-    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Collapse__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      in: !!(context && context.expanded)
-    }, props), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      ref: ref,
-      className: bsPrefix
-    }, children));
-  });
-});
-NavbarCollapse.displayName = 'NavbarCollapse';
-/* harmony default export */ __webpack_exports__["default"] = (NavbarCollapse);
-
-/***/ }),
-
 /***/ "./node_modules/react-bootstrap/esm/NavbarContext.js":
 /*!***********************************************************!*\
   !*** ./node_modules/react-bootstrap/esm/NavbarContext.js ***!
@@ -6027,74 +5302,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(null));
-
-/***/ }),
-
-/***/ "./node_modules/react-bootstrap/esm/NavbarToggle.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/NavbarToggle.js ***!
-  \**********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @restart/hooks/useEventCallback */ "./node_modules/@restart/hooks/esm/useEventCallback.js");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
-/* harmony import */ var _NavbarContext__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NavbarContext */ "./node_modules/react-bootstrap/esm/NavbarContext.js");
-
-
-
-
-
-
-
-var defaultProps = {
-  label: 'Toggle navigation'
-};
-var NavbarToggle = react__WEBPACK_IMPORTED_MODULE_3___default.a.forwardRef(function (_ref, ref) {
-  var bsPrefix = _ref.bsPrefix,
-      className = _ref.className,
-      children = _ref.children,
-      label = _ref.label,
-      _ref$as = _ref.as,
-      Component = _ref$as === void 0 ? 'button' : _ref$as,
-      onClick = _ref.onClick,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["bsPrefix", "className", "children", "label", "as", "onClick"]);
-
-  bsPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__["useBootstrapPrefix"])(bsPrefix, 'navbar-toggler');
-
-  var _ref2 = Object(react__WEBPACK_IMPORTED_MODULE_3__["useContext"])(_NavbarContext__WEBPACK_IMPORTED_MODULE_6__["default"]) || {},
-      onToggle = _ref2.onToggle,
-      expanded = _ref2.expanded;
-
-  var handleClick = Object(_restart_hooks_useEventCallback__WEBPACK_IMPORTED_MODULE_4__["default"])(function (e) {
-    if (onClick) onClick(e);
-    if (onToggle) onToggle();
-  });
-
-  if (Component === 'button') {
-    props.type = 'button';
-  }
-
-  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
-    ref: ref,
-    onClick: handleClick,
-    "aria-label": label,
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, bsPrefix, !expanded && 'collapsed')
-  }), children || react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: bsPrefix + "-icon"
-  }));
-});
-NavbarToggle.displayName = 'NavbarToggle';
-NavbarToggle.defaultProps = defaultProps;
-/* harmony default export */ __webpack_exports__["default"] = (NavbarToggle);
 
 /***/ }),
 
@@ -6336,93 +5543,6 @@ function createChainedFunction() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (createChainedFunction);
-
-/***/ }),
-
-/***/ "./node_modules/react-bootstrap/esm/createWithBsPrefix.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/createWithBsPrefix.js ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return createWithBsPrefix; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var dom_helpers_camelize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! dom-helpers/camelize */ "./node_modules/dom-helpers/esm/camelize.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./node_modules/react-bootstrap/esm/ThemeProvider.js");
-
-
-
-
-
-
-
-var pascalCase = function pascalCase(str) {
-  return str[0].toUpperCase() + Object(dom_helpers_camelize__WEBPACK_IMPORTED_MODULE_3__["default"])(str).slice(1);
-};
-
-function createWithBsPrefix(prefix, _temp) {
-  var _ref = _temp === void 0 ? {} : _temp,
-      _ref$displayName = _ref.displayName,
-      displayName = _ref$displayName === void 0 ? pascalCase(prefix) : _ref$displayName,
-      _ref$Component = _ref.Component,
-      Component = _ref$Component === void 0 ? 'div' : _ref$Component,
-      defaultProps = _ref.defaultProps;
-
-  var BsComponent = react__WEBPACK_IMPORTED_MODULE_4___default.a.forwardRef( // eslint-disable-next-line react/prop-types
-  function (_ref2, ref) {
-    var className = _ref2.className,
-        bsPrefix = _ref2.bsPrefix,
-        _ref2$as = _ref2.as,
-        Tag = _ref2$as === void 0 ? Component : _ref2$as,
-        props = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, ["className", "bsPrefix", "as"]);
-
-    var resolvedPrefix = Object(_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__["useBootstrapPrefix"])(bsPrefix, prefix);
-    return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(Tag, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
-      ref: ref,
-      className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(className, resolvedPrefix)
-    }, props));
-  });
-  BsComponent.defaultProps = defaultProps;
-  BsComponent.displayName = displayName;
-  return BsComponent;
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-bootstrap/esm/triggerBrowserReflow.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/react-bootstrap/esm/triggerBrowserReflow.js ***!
-  \******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return triggerBrowserReflow; });
-// reading a dimension prop will cause the browser to recalculate,
-// which will let our animations work
-function triggerBrowserReflow(node) {
-  node.offsetHeight; // eslint-disable-line no-unused-expressions
-}
-
-/***/ }),
-
-/***/ "./node_modules/react-dom/index.js":
-/*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_0fb095e325d7ebf261c3 ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_0fb095e325d7ebf261c3 */ "dll-reference dll_0fb095e325d7ebf261c3"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -6851,684 +5971,6 @@ function polyfill(Component) {
 
 
 
-
-/***/ }),
-
-/***/ "./node_modules/react-transition-group/esm/Transition.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/react-transition-group/esm/Transition.js ***!
-  \***************************************************************/
-/*! exports provided: UNMOUNTED, EXITED, ENTERING, ENTERED, EXITING, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UNMOUNTED", function() { return UNMOUNTED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EXITED", function() { return EXITED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ENTERING", function() { return ENTERING; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ENTERED", function() { return ENTERED; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EXITING", function() { return EXITING; });
-/* harmony import */ var _babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/objectWithoutPropertiesLoose */ "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inheritsLoose */ "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./config */ "./node_modules/react-transition-group/esm/config.js");
-/* harmony import */ var _utils_PropTypes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utils/PropTypes */ "./node_modules/react-transition-group/esm/utils/PropTypes.js");
-/* harmony import */ var _TransitionGroupContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./TransitionGroupContext */ "./node_modules/react-transition-group/esm/TransitionGroupContext.js");
-
-
-
-
-
-
-
-
-var UNMOUNTED = 'unmounted';
-var EXITED = 'exited';
-var ENTERING = 'entering';
-var ENTERED = 'entered';
-var EXITING = 'exiting';
-/**
- * The Transition component lets you describe a transition from one component
- * state to another _over time_ with a simple declarative API. Most commonly
- * it's used to animate the mounting and unmounting of a component, but can also
- * be used to describe in-place transition states as well.
- *
- * ---
- *
- * **Note**: `Transition` is a platform-agnostic base component. If you're using
- * transitions in CSS, you'll probably want to use
- * [`CSSTransition`](https://reactcommunity.org/react-transition-group/css-transition)
- * instead. It inherits all the features of `Transition`, but contains
- * additional features necessary to play nice with CSS transitions (hence the
- * name of the component).
- *
- * ---
- *
- * By default the `Transition` component does not alter the behavior of the
- * component it renders, it only tracks "enter" and "exit" states for the
- * components. It's up to you to give meaning and effect to those states. For
- * example we can add styles to a component when it enters or exits:
- *
- * ```jsx
- * import { Transition } from 'react-transition-group';
- *
- * const duration = 300;
- *
- * const defaultStyle = {
- *   transition: `opacity ${duration}ms ease-in-out`,
- *   opacity: 0,
- * }
- *
- * const transitionStyles = {
- *   entering: { opacity: 1 },
- *   entered:  { opacity: 1 },
- *   exiting:  { opacity: 0 },
- *   exited:  { opacity: 0 },
- * };
- *
- * const Fade = ({ in: inProp }) => (
- *   <Transition in={inProp} timeout={duration}>
- *     {state => (
- *       <div style={{
- *         ...defaultStyle,
- *         ...transitionStyles[state]
- *       }}>
- *         I'm a fade Transition!
- *       </div>
- *     )}
- *   </Transition>
- * );
- * ```
- *
- * There are 4 main states a Transition can be in:
- *  - `'entering'`
- *  - `'entered'`
- *  - `'exiting'`
- *  - `'exited'`
- *
- * Transition state is toggled via the `in` prop. When `true` the component
- * begins the "Enter" stage. During this stage, the component will shift from
- * its current transition state, to `'entering'` for the duration of the
- * transition and then to the `'entered'` stage once it's complete. Let's take
- * the following example (we'll use the
- * [useState](https://reactjs.org/docs/hooks-reference.html#usestate) hook):
- *
- * ```jsx
- * function App() {
- *   const [inProp, setInProp] = useState(false);
- *   return (
- *     <div>
- *       <Transition in={inProp} timeout={500}>
- *         {state => (
- *           // ...
- *         )}
- *       </Transition>
- *       <button onClick={() => setInProp(true)}>
- *         Click to Enter
- *       </button>
- *     </div>
- *   );
- * }
- * ```
- *
- * When the button is clicked the component will shift to the `'entering'` state
- * and stay there for 500ms (the value of `timeout`) before it finally switches
- * to `'entered'`.
- *
- * When `in` is `false` the same thing happens except the state moves from
- * `'exiting'` to `'exited'`.
- */
-
-var Transition =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__["default"])(Transition, _React$Component);
-
-  function Transition(props, context) {
-    var _this;
-
-    _this = _React$Component.call(this, props, context) || this;
-    var parentGroup = context; // In the context of a TransitionGroup all enters are really appears
-
-    var appear = parentGroup && !parentGroup.isMounting ? props.enter : props.appear;
-    var initialStatus;
-    _this.appearStatus = null;
-
-    if (props.in) {
-      if (appear) {
-        initialStatus = EXITED;
-        _this.appearStatus = ENTERING;
-      } else {
-        initialStatus = ENTERED;
-      }
-    } else {
-      if (props.unmountOnExit || props.mountOnEnter) {
-        initialStatus = UNMOUNTED;
-      } else {
-        initialStatus = EXITED;
-      }
-    }
-
-    _this.state = {
-      status: initialStatus
-    };
-    _this.nextCallback = null;
-    return _this;
-  }
-
-  Transition.getDerivedStateFromProps = function getDerivedStateFromProps(_ref, prevState) {
-    var nextIn = _ref.in;
-
-    if (nextIn && prevState.status === UNMOUNTED) {
-      return {
-        status: EXITED
-      };
-    }
-
-    return null;
-  }; // getSnapshotBeforeUpdate(prevProps) {
-  //   let nextStatus = null
-  //   if (prevProps !== this.props) {
-  //     const { status } = this.state
-  //     if (this.props.in) {
-  //       if (status !== ENTERING && status !== ENTERED) {
-  //         nextStatus = ENTERING
-  //       }
-  //     } else {
-  //       if (status === ENTERING || status === ENTERED) {
-  //         nextStatus = EXITING
-  //       }
-  //     }
-  //   }
-  //   return { nextStatus }
-  // }
-
-
-  var _proto = Transition.prototype;
-
-  _proto.componentDidMount = function componentDidMount() {
-    this.updateStatus(true, this.appearStatus);
-  };
-
-  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
-    var nextStatus = null;
-
-    if (prevProps !== this.props) {
-      var status = this.state.status;
-
-      if (this.props.in) {
-        if (status !== ENTERING && status !== ENTERED) {
-          nextStatus = ENTERING;
-        }
-      } else {
-        if (status === ENTERING || status === ENTERED) {
-          nextStatus = EXITING;
-        }
-      }
-    }
-
-    this.updateStatus(false, nextStatus);
-  };
-
-  _proto.componentWillUnmount = function componentWillUnmount() {
-    this.cancelNextCallback();
-  };
-
-  _proto.getTimeouts = function getTimeouts() {
-    var timeout = this.props.timeout;
-    var exit, enter, appear;
-    exit = enter = appear = timeout;
-
-    if (timeout != null && typeof timeout !== 'number') {
-      exit = timeout.exit;
-      enter = timeout.enter; // TODO: remove fallback for next major
-
-      appear = timeout.appear !== undefined ? timeout.appear : enter;
-    }
-
-    return {
-      exit: exit,
-      enter: enter,
-      appear: appear
-    };
-  };
-
-  _proto.updateStatus = function updateStatus(mounting, nextStatus) {
-    if (mounting === void 0) {
-      mounting = false;
-    }
-
-    if (nextStatus !== null) {
-      // nextStatus will always be ENTERING or EXITING.
-      this.cancelNextCallback();
-      var node = react_dom__WEBPACK_IMPORTED_MODULE_4___default.a.findDOMNode(this);
-
-      if (nextStatus === ENTERING) {
-        this.performEnter(node, mounting);
-      } else {
-        this.performExit(node);
-      }
-    } else if (this.props.unmountOnExit && this.state.status === EXITED) {
-      this.setState({
-        status: UNMOUNTED
-      });
-    }
-  };
-
-  _proto.performEnter = function performEnter(node, mounting) {
-    var _this2 = this;
-
-    var enter = this.props.enter;
-    var appearing = this.context ? this.context.isMounting : mounting;
-    var timeouts = this.getTimeouts();
-    var enterTimeout = appearing ? timeouts.appear : timeouts.enter; // no enter animation skip right to ENTERED
-    // if we are mounting and running this it means appear _must_ be set
-
-    if (!mounting && !enter || _config__WEBPACK_IMPORTED_MODULE_5__["default"].disabled) {
-      this.safeSetState({
-        status: ENTERED
-      }, function () {
-        _this2.props.onEntered(node);
-      });
-      return;
-    }
-
-    this.props.onEnter(node, appearing);
-    this.safeSetState({
-      status: ENTERING
-    }, function () {
-      _this2.props.onEntering(node, appearing);
-
-      _this2.onTransitionEnd(node, enterTimeout, function () {
-        _this2.safeSetState({
-          status: ENTERED
-        }, function () {
-          _this2.props.onEntered(node, appearing);
-        });
-      });
-    });
-  };
-
-  _proto.performExit = function performExit(node) {
-    var _this3 = this;
-
-    var exit = this.props.exit;
-    var timeouts = this.getTimeouts(); // no exit animation skip right to EXITED
-
-    if (!exit || _config__WEBPACK_IMPORTED_MODULE_5__["default"].disabled) {
-      this.safeSetState({
-        status: EXITED
-      }, function () {
-        _this3.props.onExited(node);
-      });
-      return;
-    }
-
-    this.props.onExit(node);
-    this.safeSetState({
-      status: EXITING
-    }, function () {
-      _this3.props.onExiting(node);
-
-      _this3.onTransitionEnd(node, timeouts.exit, function () {
-        _this3.safeSetState({
-          status: EXITED
-        }, function () {
-          _this3.props.onExited(node);
-        });
-      });
-    });
-  };
-
-  _proto.cancelNextCallback = function cancelNextCallback() {
-    if (this.nextCallback !== null) {
-      this.nextCallback.cancel();
-      this.nextCallback = null;
-    }
-  };
-
-  _proto.safeSetState = function safeSetState(nextState, callback) {
-    // This shouldn't be necessary, but there are weird race conditions with
-    // setState callbacks and unmounting in testing, so always make sure that
-    // we can cancel any pending setState callbacks after we unmount.
-    callback = this.setNextCallback(callback);
-    this.setState(nextState, callback);
-  };
-
-  _proto.setNextCallback = function setNextCallback(callback) {
-    var _this4 = this;
-
-    var active = true;
-
-    this.nextCallback = function (event) {
-      if (active) {
-        active = false;
-        _this4.nextCallback = null;
-        callback(event);
-      }
-    };
-
-    this.nextCallback.cancel = function () {
-      active = false;
-    };
-
-    return this.nextCallback;
-  };
-
-  _proto.onTransitionEnd = function onTransitionEnd(node, timeout, handler) {
-    this.setNextCallback(handler);
-    var doesNotHaveTimeoutOrListener = timeout == null && !this.props.addEndListener;
-
-    if (!node || doesNotHaveTimeoutOrListener) {
-      setTimeout(this.nextCallback, 0);
-      return;
-    }
-
-    if (this.props.addEndListener) {
-      this.props.addEndListener(node, this.nextCallback);
-    }
-
-    if (timeout != null) {
-      setTimeout(this.nextCallback, timeout);
-    }
-  };
-
-  _proto.render = function render() {
-    var status = this.state.status;
-
-    if (status === UNMOUNTED) {
-      return null;
-    }
-
-    var _this$props = this.props,
-        children = _this$props.children,
-        childProps = Object(_babel_runtime_helpers_esm_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0__["default"])(_this$props, ["children"]); // filter props for Transtition
-
-
-    delete childProps.in;
-    delete childProps.mountOnEnter;
-    delete childProps.unmountOnExit;
-    delete childProps.appear;
-    delete childProps.enter;
-    delete childProps.exit;
-    delete childProps.timeout;
-    delete childProps.addEndListener;
-    delete childProps.onEnter;
-    delete childProps.onEntering;
-    delete childProps.onEntered;
-    delete childProps.onExit;
-    delete childProps.onExiting;
-    delete childProps.onExited;
-
-    if (typeof children === 'function') {
-      // allows for nested Transitions
-      return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_TransitionGroupContext__WEBPACK_IMPORTED_MODULE_7__["default"].Provider, {
-        value: null
-      }, children(status, childProps));
-    }
-
-    var child = react__WEBPACK_IMPORTED_MODULE_3___default.a.Children.only(children);
-    return (// allows for nested Transitions
-      react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_TransitionGroupContext__WEBPACK_IMPORTED_MODULE_7__["default"].Provider, {
-        value: null
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.cloneElement(child, childProps))
-    );
-  };
-
-  return Transition;
-}(react__WEBPACK_IMPORTED_MODULE_3___default.a.Component);
-
-Transition.contextType = _TransitionGroupContext__WEBPACK_IMPORTED_MODULE_7__["default"];
-Transition.propTypes =  true ? {
-  /**
-   * A `function` child can be used instead of a React element. This function is
-   * called with the current transition status (`'entering'`, `'entered'`,
-   * `'exiting'`, `'exited'`), which can be used to apply context
-   * specific props to a component.
-   *
-   * ```jsx
-   * <Transition in={this.state.in} timeout={150}>
-   *   {state => (
-   *     <MyComponent className={`fade fade-${state}`} />
-   *   )}
-   * </Transition>
-   * ```
-   */
-  children: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.element.isRequired]).isRequired,
-
-  /**
-   * Show the component; triggers the enter or exit states
-   */
-  in: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-
-  /**
-   * By default the child component is mounted immediately along with
-   * the parent `Transition` component. If you want to "lazy mount" the component on the
-   * first `in={true}` you can set `mountOnEnter`. After the first enter transition the component will stay
-   * mounted, even on "exited", unless you also specify `unmountOnExit`.
-   */
-  mountOnEnter: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-
-  /**
-   * By default the child component stays mounted after it reaches the `'exited'` state.
-   * Set `unmountOnExit` if you'd prefer to unmount the component after it finishes exiting.
-   */
-  unmountOnExit: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-
-  /**
-   * Normally a component is not transitioned if it is shown when the
-   * `<Transition>` component mounts. If you want to transition on the first
-   * mount set `appear` to `true`, and the component will transition in as soon
-   * as the `<Transition>` mounts.
-   *
-   * > **Note**: there are no special appear states like `appearing`/`appeared`, this prop
-   * > only adds an additional enter transition. However, in the
-   * > `<CSSTransition>` component that first enter transition does result in
-   * > additional `.appear-*` classes, that way you can choose to style it
-   * > differently.
-   */
-  appear: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-
-  /**
-   * Enable or disable enter transitions.
-   */
-  enter: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-
-  /**
-   * Enable or disable exit transitions.
-   */
-  exit: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
-
-  /**
-   * The duration of the transition, in milliseconds.
-   * Required unless `addEndListener` is provided.
-   *
-   * You may specify a single timeout for all transitions:
-   *
-   * ```jsx
-   * timeout={500}
-   * ```
-   *
-   * or individually:
-   *
-   * ```jsx
-   * timeout={{
-   *  appear: 500,
-   *  enter: 300,
-   *  exit: 500,
-   * }}
-   * ```
-   *
-   * - `appear` defaults to the value of `enter`
-   * - `enter` defaults to `0`
-   * - `exit` defaults to `0`
-   *
-   * @type {number | { enter?: number, exit?: number, appear?: number }}
-   */
-  timeout: function timeout(props) {
-    var pt = _utils_PropTypes__WEBPACK_IMPORTED_MODULE_6__["timeoutsShape"];
-    if (!props.addEndListener) pt = pt.isRequired;
-
-    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-      args[_key - 1] = arguments[_key];
-    }
-
-    return pt.apply(void 0, [props].concat(args));
-  },
-
-  /**
-   * Add a custom transition end trigger. Called with the transitioning
-   * DOM node and a `done` callback. Allows for more fine grained transition end
-   * logic. **Note:** Timeouts are still used as a fallback if provided.
-   *
-   * ```jsx
-   * addEndListener={(node, done) => {
-   *   // use the css transitionend event to mark the finish of a transition
-   *   node.addEventListener('transitionend', done, false);
-   * }}
-   * ```
-   */
-  addEndListener: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-
-  /**
-   * Callback fired before the "entering" status is applied. An extra parameter
-   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool) -> void
-   */
-  onEnter: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-
-  /**
-   * Callback fired after the "entering" status is applied. An extra parameter
-   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool)
-   */
-  onEntering: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-
-  /**
-   * Callback fired after the "entered" status is applied. An extra parameter
-   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount
-   *
-   * @type Function(node: HtmlElement, isAppearing: bool) -> void
-   */
-  onEntered: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-
-  /**
-   * Callback fired before the "exiting" status is applied.
-   *
-   * @type Function(node: HtmlElement) -> void
-   */
-  onExit: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-
-  /**
-   * Callback fired after the "exiting" status is applied.
-   *
-   * @type Function(node: HtmlElement) -> void
-   */
-  onExiting: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
-
-  /**
-   * Callback fired after the "exited" status is applied.
-   *
-   * @type Function(node: HtmlElement) -> void
-   */
-  onExited: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func // Name the function so it is clearer in the documentation
-
-} : undefined;
-
-function noop() {}
-
-Transition.defaultProps = {
-  in: false,
-  mountOnEnter: false,
-  unmountOnExit: false,
-  appear: false,
-  enter: true,
-  exit: true,
-  onEnter: noop,
-  onEntering: noop,
-  onEntered: noop,
-  onExit: noop,
-  onExiting: noop,
-  onExited: noop
-};
-Transition.UNMOUNTED = 0;
-Transition.EXITED = 1;
-Transition.ENTERING = 2;
-Transition.ENTERED = 3;
-Transition.EXITING = 4;
-/* harmony default export */ __webpack_exports__["default"] = (Transition);
-
-/***/ }),
-
-/***/ "./node_modules/react-transition-group/esm/TransitionGroupContext.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/react-transition-group/esm/TransitionGroupContext.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-/* harmony default export */ __webpack_exports__["default"] = (react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(null));
-
-/***/ }),
-
-/***/ "./node_modules/react-transition-group/esm/config.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/react-transition-group/esm/config.js ***!
-  \***********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ({
-  disabled: false
-});
-
-/***/ }),
-
-/***/ "./node_modules/react-transition-group/esm/utils/PropTypes.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/react-transition-group/esm/utils/PropTypes.js ***!
-  \********************************************************************/
-/*! exports provided: timeoutsShape, classNamesShape */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "timeoutsShape", function() { return timeoutsShape; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "classNamesShape", function() { return classNamesShape; });
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
-
-var timeoutsShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number, prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-  enter: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
-  exit: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number,
-  appear: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number
-}).isRequired]) : undefined;
-var classNamesShape =  true ? prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-  enter: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  exit: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  active: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string
-}), prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.shape({
-  enter: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  enterDone: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  enterActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  exit: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  exitDone: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string,
-  exitActive: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.string
-})]) : undefined;
 
 /***/ }),
 

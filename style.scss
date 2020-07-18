@@ -1,5 +1,4 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
-// @import "base/baseline";
 
 :root {
   --mainPurple: #4a1962;
@@ -17,22 +16,14 @@
 }
 
 @font-face {
-  font-family: "Exo2-Regular";
-  src: url("/fonts/Exo2-Regular.otf") format("opentype");
+  font-family: "TTNorms-Regular.otf";
+  src: url("/fonts/TTNorms-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "TTNorms-Medium.otf";
+  src: url("/fonts/TTNorms-Medium.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "PlayfairDisplaySC-Bold";
-  src: url("/fonts/PlayfairDisplaySC-Bold.ttf") format("opentype");
-}
-@font-face {
-  font-family: "IBMPlexSans-Bold";
-  src: url("/fonts/IBMPlexSans-Bold.ttf") format("opentype");
-}
-@font-face {
-  font-family: "sofiapro-light.otf";
-  src: url("/fonts/sofiapro-light.otf") format("opentype");
-}
 @font-face {
   font-family: "TTNorms-Bold.otf";
   src: url("/fonts/TTNorms-Bold.otf") format("opentype");
@@ -43,32 +34,15 @@
   src: url("/fonts/TTNorms-ExtraBold.otf") format("opentype");
 }
 @font-face {
-  font-family: "TTNorms-Medium.otf";
-  src: url("/fonts/TTNorms-Medium.otf") format("opentype");
-}
-@font-face {
-  font-family: "TTNorms-Regular.otf";
-  src: url("/fonts/TTNorms-Regular.otf") format("opentype");
-}
-@font-face {
   font-family: "TTNorms-ExtraBoldItalic.otf";
   src: url("/fonts/TTNorms-ExtraBoldItalic.otf") format("opentype");
 }
-@font-face {
-  font-family: "TTNorms-Medium.otf";
-  src: url("/fonts/TTNorms-Medium.otf") format("opentype");
-}
 
 body {
-  //   font-family: "CaslonGraD", "Arial", sans-serif;
-  //   font-family: "PlayfairDisplaySC-Bold", "Arial", sans-serif;
-  //   font-family: "IBMPlexSans-Bold", "Arial", sans-serif;
-  //   font-family: "Exo2-Regular", "Arial", sans-serif;
-  //   font-family: "sofiapro-light.otf", "Arial", sans-serif;
   font-family: "TTNorms-Regular.otf", "Arial", sans-serif;
-  //   font-weight: 900;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 main {
@@ -80,13 +54,19 @@ main {
   padding-left: 0px;
 }
 
+.site-header-init {
+  position: relative;
+}
+
 // NAV STYLES
 .site-header {
+  transition: all 0.65s ease-in-out;
   background-color: var(--mainPurple);
-  background: var(--purpleGradient);
+  background-color: rgba(74, 25, 98, 0.9);
   margin-bottom: 20px;
-  position: relative;
-  //   font-family: Tahoma;
+  position: sticky;
+  z-index: 1;
+  top: 0;
   border-bottom: 2px solid #e7e7e7c7;
   font-family: "TTNorms-Bold.otf";
 
@@ -94,17 +74,18 @@ main {
     position: relative;
     transition: color 500ms;
     letter-spacing: 1.3px;
+    color: var(--mainPurple);
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "TTNorms-Extra-Bold.otf";
 
     &::after {
       content: "";
-      //   color: white;
       position: absolute;
       bottom: -10px;
       left: 0;
       width: 100%;
       height: 0.2rem;
-
-      //   background-color: var(--secondaryRed);
       transition: transform 0.2s;
       transform: scaleX(0);
       transform-origin: left top;
@@ -116,8 +97,7 @@ main {
     @media (min-width: 960px) {
       &:hover {
         text-decoration: none;
-        // color: var(--neonGreen);
-        // color: var(--secondaryRed);
+        color: var(--mainPurple);
       }
       &:hover::after {
         background-color: var(--neonGreen);
@@ -126,24 +106,47 @@ main {
   }
 
   &__list-item-wrapper {
-    // @media (min-width: 960px) {
     display: flex;
     justify-content: space-around;
     width: 250px;
-    // }
   }
 
   &__brand-wrapper {
-    // padding: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__brand-wrapper__line {
+    height: 3px;
+    width: 40px;
+    background-color: var(--neonGreen);
+    transform: rotate(90deg);
+    position: relative;
+    top: 27px;
+    left: -26px;
+  }
+
+  &__brand-name-init {
+    color: var(--mainPurple);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 10px 0 10px;
+
+    &__fine-web {
+      font-weight: 700;
+    }
   }
 
   &__brand-name {
     color: #fff;
     font-size: 1.5rem;
-    padding: 0;
+    padding: 10px 0 10px;
     margin: 0;
     font-family: Arial;
     letter-spacing: 2px;
+    line-height: 1;
 
     img {
       width: 60%;
@@ -205,6 +208,7 @@ main {
     &::before {
       content: "";
       background-color: #fff;
+      background-color: var(--mainPurple);
       position: absolute;
       width: 25px;
       height: 2px;
@@ -215,6 +219,7 @@ main {
 
     &__middle {
       background-color: #fff;
+      background-color: var(--mainPurple);
       position: absolute;
       width: 25px;
       height: 2px;
@@ -225,6 +230,7 @@ main {
     &::after {
       content: "";
       background-color: #fff;
+      background-color: var(--mainPurple);
       position: absolute;
       width: 25px;
       height: 2px;
@@ -249,7 +255,6 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // border: 10px solid #000;
     @media (max-width: 960px) {
       visibility: hidden;
     }
@@ -261,14 +266,9 @@ main {
 
   nav ul li a,
   li {
-    // padding: 30px;
     color: #fff;
-
     font-size: 1.2rem;
     font-weight: bold;
-    &:hover {
-      //   text-decoration: underline;
-    }
   }
 }
 
@@ -278,7 +278,7 @@ main {
   width: 0;
   height: 100%;
   position: fixed;
-  top: 92px;
+  top: 71px;
   right: 0px;
   overflow-x: hidden;
   padding-top: 60px;
@@ -300,7 +300,6 @@ main {
 
   &:hover {
     color: #fff;
-    // border-bottom: 4px solid var(--neonGreen);
   }
 }
 

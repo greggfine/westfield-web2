@@ -1,4 +1,3 @@
-import Jumbo from "../components/Jumbo";
 import ListGroup from "react-bootstrap/ListGroup";
 import Container from "react-bootstrap/Container";
 import styles from "./services.module.scss";

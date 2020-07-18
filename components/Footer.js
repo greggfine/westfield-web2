@@ -3,18 +3,8 @@ import styles from "./Footer.module.scss";
 export default () => (
   <footer className={styles.Footer}>
     <div className={styles.Footer__logoWrapper}>
-      {/* <h3 className={styles.Footer__header}>The Fine Web</h3> */}
       <img className={styles.Footer__image} src="/the-fine-web.png" alt="" />
     </div>
-
-    {/* <div class="svg-wrapper"> */}
-    {/* <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg"> */}
-    {/* <rect class="shape" height="58" width="300" /> */}
-    {/* <div class="text">Gregg Fine Web</div> */}
-    {/* </svg> */}
-    {/* </div> */}
-    {/* <div className={styles.Footer__circleDecoration}></div>
-    <div className={styles.Footer__circleDecoration2}></div> */}
 
     <div className={styles.Footer__inner}>
       <p className={styles.Footer__copyright}>&copy;2020 The Fine Web</p>

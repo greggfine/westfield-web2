@@ -1,0 +1,58 @@
+.CardGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 200px 30px;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 1s;
+
+  &__cardGridTrans {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  @media (min-width: 960px) {
+    flex-flow: row wrap;
+    width: 65%;
+    margin: 0 auto;
+    padding: 0;
+    align-content: space-around;
+    height: 700px;
+  }
+
+  &__serviceCard {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    padding: 10px;
+
+    @media (min-width: 960px) {
+      flex-basis: 28%;
+    }
+  }
+
+  &__cardIcon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--mainRed);
+    border-radius: 50%;
+    padding: 5px;
+    transition: transform 0.3s ease-out;
+
+    &:hover {
+      transform: rotate(20deg) scale(1.1);
+    }
+  }
+
+  &__serviceCardTitle {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #3b244d;
+    font-family: "TTNorms-Bold.otf";
+  }
+
+  &__secondaryCardContent {
+    color: var(--secondaryText);
+  }
+}

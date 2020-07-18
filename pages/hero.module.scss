@@ -1,0 +1,189 @@
+.Hero {
+  height: 320px;
+  color: #fff;
+  margin: 0 auto;
+
+  @media (min-width: 960px) {
+    height: 600px;
+    background-position: 0 -10px;
+    margin-top: 30px;
+  }
+
+  &__highlightParent {
+    position: relative;
+  }
+
+  &__highlight {
+    height: 4px;
+    transform: rotate(-2deg);
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    right: 0%;
+  }
+
+  &__about {
+    background-color: #8283821c;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, -50% 80%);
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+    position: relative;
+    border-bottom: 80px solid var(--secondaryRed);
+  }
+
+  &__whatwedo {
+    color: #3b244d;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 30px;
+    // margin-top: 30px;
+    margin-top: 0px;
+    font-family: "TTNorms-Medium.otf";
+    padding: 25% 10px 0;
+    font-size: 2rem;
+
+    @media (min-width: 960px) {
+      max-width: 960px;
+      margin: 0 auto 30px;
+      margin-top: 100px;
+      padding: 100px 10px 0;
+      font-size: 3rem;
+      line-height: 55px;
+      position: relative;
+      top: -50px;
+      transition: all 0.6s ease-in-out;
+    }
+  }
+
+  &__button {
+    background-color: var(--mainWhite);
+    color: var(--mainRed);
+    border: 2px solid var(--mainRed);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 17px 32px;
+
+    &:hover {
+      background-color: var(--mainRed);
+      color: var(--mainWhite);
+    }
+  }
+
+  &__headerWrap {
+    bottom: 20%;
+    padding-top: 15px;
+
+    @media (min-width: 960px) {
+      bottom: 10%;
+      padding-left: 10px;
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+    }
+  }
+
+  &__heading {
+    max-width: 700px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: rgb(51, 51, 51);
+    font-family: "TTNorms-Bold.otf";
+
+    @media (min-width: 960px) {
+      text-align: left;
+      font-size: 2rem;
+      padding-left: 30px;
+    }
+  }
+
+  &__subheading {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  &__img {
+    height: 600px;
+  }
+
+  &__testImg {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0.2%;
+
+    @media (min-width: 960px) {
+      width: 1000px;
+    }
+  }
+
+  &__text {
+    font-family: "Avenir", Arial, sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 30px 100px;
+    font-size: 1.2rem;
+
+    @media (min-width: 960px) {
+      max-width: 960px;
+      position: relative;
+      bottom: -100px;
+      transition: all 0.7s ease-in-out;
+      opacity: 0;
+    }
+  }
+
+  &__typewriter {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.3rem;
+    color: var(--secondaryRed);
+    animation: animated-text 3s steps(30, end) 1s 1 alternate both;
+    animation-iteration-count: infinite;
+    padding-left: 10px;
+    max-width: 90%;
+    font-family: "TTNorms-Extra-Bold.otf";
+
+    @media (min-width: 960px) {
+      white-space: nowrap;
+      overflow: hidden;
+      font-size: 2rem;
+      animation: animated-text 3s steps(30, end) 1s 1 alternate both;
+      animation-iteration-count: forwards;
+      padding-left: 30px;
+    }
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 872px;
+    }
+  }
+}
+@media (min-width: 960px) {
+  .Hero {
+    &__textTrans {
+      bottom: 0px;
+      opacity: 1;
+    }
+
+    &__whatwedoTrans {
+      top: 0;
+    }
+  }
+}

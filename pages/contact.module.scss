@@ -5,7 +5,6 @@
 }
 .formTitle {
   text-align: center;
-  color: var(--secondaryRed);
   color: var(--mainPurple);
   font-weight: 600;
   margin-bottom: 100px;
@@ -101,23 +100,36 @@
     justify-content: space-between;
     flex-direction: column;
     background-color: var(--boxShadowGrey);
+
+    @media (min-width: 960px) {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
   }
   &__additional {
     text-align: center;
-    flex-basis: 33%;
+    flex-basis: 40%;
     font-size: 1.2rem;
     font-family: "TTNorms-Medium.otf";
     padding-top: 30px;
     padding-bottom: 30px;
+
+    @media (min-width: 960px) {
+      text-align: left;
+    }
   }
   &__colorDiv {
     display: flex;
     flex-direction: column;
     position: relative;
     filter: grayscale(80%);
-    // width: 480px;
     height: 280px;
     overflow: hidden;
+
+    @media (min-width: 960px) {
+      width: 480px;
+    }
   }
 
   &__colorDivItem {
@@ -134,22 +146,5 @@
   &__colorDiv:hover &__colorDivItem img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
-}
-
-@media (min-width: 960px) {
-  .Contact {
-    &__additional {
-      text-align: left;
-    }
-    &__bottomWrapper {
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-    }
-
-    &__colorDiv {
-      width: 480px;
-    }
   }
 }
