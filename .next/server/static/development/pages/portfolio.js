@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -200,7 +200,7 @@ const Site = ({
     lineNumber: 31
   },
   __self: undefined
-}, "VIEW WEBSITE"))))))));
+}, "VIEW PROJECT"))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Site);
 
@@ -388,7 +388,7 @@ module.exports = JSON.parse("{\"sites\":[{\"name\":\"Gregg Fine Dev\",\"img\":\"
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /*!**********************************!*\
   !*** multi ./pages/portfolio.js ***!
   \**********************************/

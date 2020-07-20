@@ -9,10 +9,11 @@
   );
   --mainWhite: #ffffff;
   --neonGreen: #00e06d;
-  --secondaryText: #666;
+  --secondaryText: #575656;
   --boxShadowGrey: #eee;
   --mainRed: #d81159;
   --secondaryRed: #db1f63;
+  --secondaryRed: #c41856;
 }
 
 @font-face {
@@ -56,6 +57,12 @@ main {
 
 .site-header-init {
   position: relative;
+
+  a {
+    &:hover {
+      color: var(--mainPurple);
+    }
+  }
 }
 
 // NAV STYLES
@@ -75,7 +82,7 @@ main {
     transition: color 500ms;
     letter-spacing: 1.3px;
     color: var(--mainPurple);
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 700;
     font-family: "TTNorms-Extra-Bold.otf";
 
@@ -97,7 +104,7 @@ main {
     @media (min-width: 960px) {
       &:hover {
         text-decoration: none;
-        color: var(--mainPurple);
+        // color: var(--mainPurple);
       }
       &:hover::after {
         background-color: var(--neonGreen);
@@ -183,14 +190,16 @@ main {
 
   &__menu-icon {
     position: absolute;
-    right: 80px;
+    right: 50px;
     width: 25px;
     height: 18px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 34%;
+    // transform: translateY(-50%);
+    transition: transform 0.15s ease-in;
 
     &:hover {
       cursor: pointer;
+      transform: scale(1.1);
     }
 
     &--close-x {
@@ -278,7 +287,7 @@ main {
   width: 0;
   height: 100%;
   position: fixed;
-  top: 71px;
+  top: 60px;
   right: 0px;
   overflow-x: hidden;
   padding-top: 60px;
@@ -305,7 +314,7 @@ main {
 
 .open-side-menu {
   width: 300px;
-  width: 80%;
+  width: 100%;
 }
 
 .btn-close {
@@ -330,7 +339,7 @@ main {
     padding-right: 50px;
 
     &:hover {
-      border-bottom: 3px solid var(--neonGreen);
+      border-bottom: 3px solid #0cfb80;
     }
   }
 }

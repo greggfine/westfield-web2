@@ -47,11 +47,11 @@
 
   &__cardBtn {
     color: var(--secondaryRed) !important;
-    border: 1px solid var(--secondaryRed) !important;
+    border: 1px solid currentColor !important;
 
     &:hover {
-      background-color: var(--secondaryRed);
-      border: 1px solid var(--secondaryRed);
+      background-color: var(--secondaryRed) !important;
+      border: 1px solid currentColor !important;
       color: #fff !important;
     }
   }

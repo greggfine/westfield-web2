@@ -17,6 +17,7 @@
     width: 65%;
     margin: 0 auto;
     padding: 0;
+    padding: 400px 0;
     align-content: space-around;
     height: 700px;
   }
@@ -26,6 +27,7 @@
     flex-direction: column;
     flex-basis: 25%;
     padding: 10px;
+    // text-align: center;
 
     @media (min-width: 960px) {
       flex-basis: 28%;
@@ -48,11 +50,13 @@
   &__serviceCardTitle {
     font-size: 1.5rem;
     margin-top: 20px;
+    margin-bottom: 15px;
     color: #3b244d;
     font-family: "TTNorms-Bold.otf";
   }
 
   &__secondaryCardContent {
     color: var(--secondaryText);
+    line-height: 1.5;
   }
 }

@@ -15,7 +15,7 @@ function Index() {
           <h2 className={styles.Hero__typewriter}>THAT HELP BRANDS GROW</h2>
         </div>
         <div></div> */}
-        <img src="/man.jpg" alt="" className={heroStyles.Hero__testImg} />
+        <img src="/man2.jpg" alt="" className={heroStyles.Hero__testImg} />
       </div>
 
       <section className={heroStyles.Hero__about}>

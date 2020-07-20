@@ -34,7 +34,7 @@ const Site = ({ website }) => (
                   target="_blank"
                   className={websiteStyles.Card__cardBtn}
                 >
-                  VIEW WEBSITE
+                  VIEW PROJECT
                 </Button>
               </Card.Body>
             </div>
