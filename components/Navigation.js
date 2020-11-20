@@ -91,7 +91,7 @@ class Navigation extends React.Component {
                     <div className="site-header__brand-wrapper__line"></div>
                     <div className="site-header__brand-name__the">The</div>
                     <div className="site-header__brand-name__fine-web">
-                      Fine Web
+                      Code Creative
                     </div>
                     {/* <img src="/the-fine-web.png" alt="" /> */}
                   </div>

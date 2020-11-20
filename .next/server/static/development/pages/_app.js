@@ -124,16 +124,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 5
   },
   __self: undefined
-}, __jsx("img", {
-  className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__image,
-  src: "/the-fine-web.png",
-  alt: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-})), __jsx("div", {
+}), __jsx("div", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__inner,
   __source: {
     fileName: _jsxFileName,
@@ -147,7 +138,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     lineNumber: 10
   },
   __self: undefined
-}, "\xA92020 The Fine Web"), __jsx("div", {
+}, "\xA92020 The Code Creative"), __jsx("div", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a.Footer__social,
   __source: {
     fileName: _jsxFileName,
@@ -439,7 +430,7 @@ class Navigation extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component 
         lineNumber: 93
       },
       __self: this
-    }, "Fine Web")))), __jsx("div", {
+    }, "Code Creative")))), __jsx("div", {
       className: "site-header__list-item-wrapper",
       __source: {
         fileName: _jsxFileName,

@@ -3,11 +3,11 @@ import styles from "./Footer.module.scss";
 export default () => (
   <footer className={styles.Footer}>
     <div className={styles.Footer__logoWrapper}>
-      <img className={styles.Footer__image} src="/the-fine-web.png" alt="" />
+      {/* <img className={styles.Footer__image} src="/the-fine-web.png" alt="" /> */}
     </div>
 
     <div className={styles.Footer__inner}>
-      <p className={styles.Footer__copyright}>&copy;2020 The Fine Web</p>
+      <p className={styles.Footer__copyright}>&copy;2020 The Code Creative</p>
       <div className={styles.Footer__social}>
         <a
           href="https://twitter.com/GreggFine"

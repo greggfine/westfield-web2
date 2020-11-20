@@ -1,7 +1,9 @@
 .Hero {
   height: 320px;
+  max-width: 1800px;
   color: #fff;
   margin: 0 auto;
+  //   border: 1px solid #000;
 
   @media (min-width: 960px) {
     height: 600px;
@@ -31,7 +33,8 @@
     background-size: cover;
     background-position: 0% 100%;
     position: relative;
-    border-bottom: 80px solid var(--secondaryRed);
+    border-bottom: 100px solid #c41856d4;
+    // border-bottom: 3px solid var(--neonGreen);
   }
 
   &__whatwedo {
@@ -120,13 +123,16 @@
   }
 
   &__testImg {
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     display: block;
-    border-radius: 0.2%;
+    border-radius: 0.5%;
 
     @media (min-width: 960px) {
-      width: 1000px;
+      // width: 1000px;
+      height: 110%;
+      object-fit: cover;
+      object-position: 10%;
     }
   }
 
