@@ -1,7 +1,7 @@
 import {useRouter} from "next/router" ;
 import useSWR from "swr"
 
-export default () => {
+const Result = () => {
     const router = useRouter();
     const {data, error} = useSWR(
         router.query.session_id ? `/api/checkout/${router.query.session_id}` : null,
@@ -15,3 +15,5 @@ export default () => {
         </>
     )
 }
+
+export default Result;

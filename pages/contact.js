@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import styles from "./contact.module.scss";
 
-export default () => {
+const Contact = () => {
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -123,7 +123,7 @@ export default () => {
         )}
         {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       </div>
-      <div class={styles.Contact__bottomWrapper}>
+      <div className={styles.Contact__bottomWrapper}>
         <div className={styles.Contact__additional}>
           <p>NEW JERSEY</p>
           {/* <p>522 Summit Ave. Westfield, NJ 07090</p> */}
@@ -143,3 +143,5 @@ export default () => {
     </main>
   );
 };
+
+export default Contact;
