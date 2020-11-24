@@ -69,6 +69,11 @@ class Navigation extends React.Component {
                 Portfolio
               </a>
             </Link>
+            {/* <Link href="/checkout">
+              <a className="site-header__listitem" onClick={this.handleClick}>
+                Checkout
+              </a>
+            </Link> */}
             <Link href="/contact">
               <a className="site-header__listitem" onClick={this.handleClick}>
                 Contact
@@ -103,6 +108,11 @@ class Navigation extends React.Component {
                     <a className="site-header__listitem">Portfolio</a>
                   </Link>
                 </li>
+                {/* <li className="site-header__nav-list-item">
+                  <Link href="/checkout">
+                    <a className="site-header__listitem">Checkout</a>
+                  </Link>
+                </li> */}
                 <li>
                   <Link href="/contact">
                     <a className="site-header__listitem">Contact</a>

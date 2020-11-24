@@ -126,8 +126,8 @@ export default () => {
       <div class={styles.Contact__bottomWrapper}>
         <div className={styles.Contact__additional}>
           <p>NEW JERSEY</p>
-          <p>522 Summit Ave. Westfield, NJ 10012</p>
-          <p>(917)355-4217</p>
+          {/* <p>522 Summit Ave. Westfield, NJ 07090</p> */}
+          {/* <p>(917)355-4217</p> */}
         </div>
         <div className={styles.Contact__colorDiv}>
           <div className={styles.Contact__colorDivItem}>

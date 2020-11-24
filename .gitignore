@@ -4,4 +4,5 @@ example_pics
 keynote
 brainstorming
 .prettierrc
-.env
+.env.local
+tsconfig.json

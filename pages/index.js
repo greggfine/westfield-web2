@@ -7,14 +7,6 @@ function Index() {
   return (
     <main>
       <div className={heroStyles.Hero}>
-        {/* <div className={styles.Hero__headerWrap}>
-          <h1 className={styles.Hero__heading}>
-            I CREATE CUSTOM WEBSITES AND APPS
-            <br />
-          </h1>
-          <h2 className={styles.Hero__typewriter}>THAT HELP BRANDS GROW</h2>
-        </div>
-        <div></div> */}
         <img src="/man2.jpg" alt="" className={heroStyles.Hero__testImg} />
       </div>
 
@@ -28,8 +20,7 @@ function Index() {
             offset={600}
           >
             <h1 className={heroStyles.Hero__whatwedo}>
-              Gregg Fine provides website development that helps your business
-              be more successful
+              Welcome to The Code Creative!
             </h1>
           </Scene>
         </Controller>
@@ -42,11 +33,8 @@ function Index() {
             classToggle={heroStyles.Hero__textTrans}
           >
             <p className={heroStyles.Hero__text}>
-              While site builders like Squarespace and Wix are great for putting
-              up a quick website, they’re often limited in what they can do. are
-              often sufficient for in order to stand out and tailor your brand
-              and looks polished that helps you attract customers and help your
-              business grow and the things you need to be able to do
+              The future home of The Code Creative tutorials and portfolio
+              projects
             </p>
           </Scene>
         </Controller>
