@@ -19,9 +19,9 @@ const Checkout = () => {
   return (
     <div>
       <h1>Checkout</h1>
-      <button role="link" onClick={handleClick}>
+      {/* <button role="link" onClick={handleClick}>
         Checkout
-      </button>
+      </button> */}
     </div>
   );
 };
