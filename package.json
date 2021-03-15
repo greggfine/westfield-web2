@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@stripe/stripe-js": "^1.11.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cloudinary": "^1.23.0",
     "dotenv": "^8.2.0",
     "isomorphic-unfetch": "^3.0.0",
