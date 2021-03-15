@@ -6,3 +6,4 @@ brainstorming
 .prettierrc
 .env.local
 tsconfig.json
+.next
