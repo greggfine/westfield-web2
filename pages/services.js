@@ -1,38 +1,121 @@
-import ListGroup from "react-bootstrap/ListGroup";
-import Container from "react-bootstrap/Container";
-import styles from "./services.module.scss";
-import fetch from "isomorphic-unfetch";
+import cardGridStyles from "./cardGrid.module.scss";
+import { Controller, Scene } from "react-scrollmagic";
+import Head from "next/head";
 
-function PlansAndPricing(props) {
-  console.log(props);
+function Services(props) {
   const { products } = props;
   return (
-    <main>
-      {/* <Jumbo headingText={"Services"} /> */}
-      <Container>
-        <ListGroup>
-          <ListGroup.Item>Ongoing Maintenance Time</ListGroup.Item>
-          <ListGroup.Item>Pages Populated For You</ListGroup.Item>
-          <ListGroup.Item>Professional Stock Images</ListGroup.Item>
-          <ListGroup.Item>Plugins</ListGroup.Item>
-          <ListGroup.Item>File Storage / Bandwidth</ListGroup.Item>
-        </ListGroup>
-      </Container>
-    </main>
+    <>
+      <Head>
+        <title>Services | The Code Creative</title>
+      </Head>
+      <main>
+        <Controller>
+          <Scene
+            duration={1500}
+            reverse={true}
+            triggerHook={1}
+            classToggle={cardGridStyles.CardGrid__cardGridTrans}
+            offset={150}
+          >
+            <section className={cardGridStyles.CardGrid}>
+              <div className={cardGridStyles.CardGrid__serviceCard}>
+                <img
+                  src="/web-icon-gravit.png"
+                  alt=""
+                  className={cardGridStyles.CardGrid__cardIcon}
+                />
+                <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
+                  Website Development
+                </h2>
+                <p className={cardGridStyles.CardGrid__secondaryCardContent}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia veritatis beatae pariatur id eligendi. Quibusdam
+                  aperiam aspernatur culpa molestiae qui ut pariatur, quae
+                  praesentium illum!
+                </p>
+              </div>
+              <div className={cardGridStyles.CardGrid__serviceCard}>
+                <img
+                  src="/web-custom-web-apps-icon-gravit.png"
+                  alt=""
+                  className={cardGridStyles.CardGrid__cardIcon}
+                />
+                <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
+                  Custom Web Apps
+                </h2>
+                <p className={cardGridStyles.CardGrid__secondaryCardContent}>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Omnis molestias nulla, ullam vel itaque voluptatibus minima
+                  maxime corporis laborum natus.
+                </p>
+              </div>
+              <div className={cardGridStyles.CardGrid__serviceCard}>
+                <img
+                  src="/email-icon-gravit.png"
+                  alt=""
+                  className={cardGridStyles.CardGrid__cardIcon}
+                />
+                <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
+                  Email Marketing
+                </h2>
+                <p className={cardGridStyles.CardGrid__secondaryCardContent}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Neque beatae cupiditate reprehenderit ea dicta repellendus
+                  ratione aspernatur mollitia natus assumenda.
+                </p>
+              </div>
+              <div className={cardGridStyles.CardGrid__serviceCard}>
+                <img
+                  src="/website-redesign-icon-gravit.png"
+                  alt=""
+                  className={cardGridStyles.CardGrid__cardIcon}
+                />
+                <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
+                  Website Redesign
+                </h2>
+                <p className={cardGridStyles.CardGrid__secondaryCardContent}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos aut accusantium neque eveniet dolorum illum
+                  debitis nesciunt pariatur officiis voluptatem?
+                </p>
+              </div>
+              <div className={cardGridStyles.CardGrid__serviceCard}>
+                <img
+                  src="/seo-icon-gravit.png"
+                  alt=""
+                  className={cardGridStyles.CardGrid__cardIcon}
+                />
+                <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
+                  SEO
+                </h2>
+                <p className={cardGridStyles.CardGrid__secondaryCardContent}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consectetur repellat officia architecto sint recusandae et
+                  consequatur suscipit alias in? Debitis.
+                </p>
+              </div>
+              <div className={cardGridStyles.CardGrid__serviceCard}>
+                <img
+                  src="/web-maintenance-icon-gravit.png"
+                  alt=""
+                  className={cardGridStyles.CardGrid__cardIcon}
+                />
+                <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
+                  Website Maintenance & Content Updates
+                </h2>
+                <p className={cardGridStyles.CardGrid__secondaryCardContent}>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
+                  cum necessitatibus! Ipsa iusto quam quisquam itaque delectus.
+                  Minus, ad numquam.
+                </p>
+              </div>
+            </section>
+          </Scene>
+        </Controller>
+      </main>
+    </>
   );
 }
 
-// export async function getServerSideProps() {
-//   const { API_URL } = process.env;
-
-//   const res = await fetch(`${API_URL}/upload/files`);
-//   const data = await res.json();
-
-//   return {
-//     props: {
-//       products: data,
-//     },
-//   };
-// }
-
-export default PlansAndPricing;
+export default Services;

@@ -64,14 +64,29 @@ class Navigation extends React.Component {
                 Home
               </a>
             </Link>
-            <Link href="/portfolio">
+            {/* <Link href="/portfolio">
               <a className="site-header__listitem" onClick={this.handleClick}>
                 Portfolio
               </a>
             </Link>
-            {/* <Link href="/checkout">
+            <Link href="/services">
+              <a className="site-header__listitem" onClick={this.handleClick}>
+                Services
+              </a>
+            </Link>
+            <Link href="/courses">
+              <a className="site-header__listitem" onClick={this.handleClick}>
+                Courses
+              </a>
+            </Link>
+            <Link href="/checkout">
               <a className="site-header__listitem" onClick={this.handleClick}>
                 Checkout
+              </a>
+            </Link>
+            <Link href="/about">
+              <a className="site-header__listitem" onClick={this.handleClick}>
+                About
               </a>
             </Link> */}
             <Link href="/contact">
@@ -104,15 +119,35 @@ class Navigation extends React.Component {
               </div>
               <div className="site-header__list-item-wrapper">
                 <li className="site-header__nav-list-item">
+                  <Link href="/">
+                    <a className="site-header__listitem">Home</a>
+                  </Link>
+                </li>
+                {/* <li className="site-header__nav-list-item">
                   <Link href="/portfolio">
                     <a className="site-header__listitem">Portfolio</a>
                   </Link>
                 </li>
-                {/* <li className="site-header__nav-list-item">
+                <li className="site-header__nav-list-item">
+                  <Link href="/services">
+                    <a className="site-header__listitem">Services</a>
+                  </Link>
+                </li>
+                <li className="site-header__nav-list-item">
                   <Link href="/checkout">
                     <a className="site-header__listitem">Checkout</a>
                   </Link>
-                </li> */}
+                </li>
+                <li>
+                  <Link href="/courses">
+                    <a className="site-header__listitem">Courses</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about">
+                    <a className="site-header__listitem">About</a>
+                  </Link>
+                </li>{" "} */}
                 <li>
                   <Link href="/contact">
                     <a className="site-header__listitem">Contact</a>

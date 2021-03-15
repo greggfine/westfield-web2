@@ -1,147 +1,53 @@
 import React from "react";
+import Head from "next/head";
 import cardGridStyles from "./cardGrid.module.scss";
 import heroStyles from "./hero.module.scss";
 import { Controller, Scene } from "react-scrollmagic";
 
 function Index() {
   return (
-    <main>
-      <div className={heroStyles.Hero}>
-        <img src="/man2.jpg" alt="" className={heroStyles.Hero__testImg} />
-      </div>
+    <>
+      <Head>
+        <title>Home | The Code Creative</title>
+      </Head>
+      <main>
+        <div className={heroStyles.Hero}>
+          {/* <img src="/man2.jpg" alt="" className={heroStyles.Hero__testImg} /> */}
+          <img
+            src="/code-creative-youtube-banner.png"
+            alt=""
+            className={heroStyles.Hero__homeImg}
+          />
+        </div>
 
-      <section className={heroStyles.Hero__about}>
-        <Controller>
-          <Scene
-            duration={1500}
-            reverse={true}
-            triggerHook={1}
-            classToggle={heroStyles.Hero__whatwedoTrans}
-            offset={600}
-          >
-            <h1 className={heroStyles.Hero__whatwedo}>
-              Welcome to The Code Creative!
-            </h1>
-          </Scene>
-        </Controller>
-        <Controller>
-          <Scene
-            duration={1500}
-            reverse={true}
-            triggerHook={1}
-            offset={150}
-            classToggle={heroStyles.Hero__textTrans}
-          >
-            <p className={heroStyles.Hero__text}>
-              The future home of The Code Creative tutorials and portfolio
-              projects
-            </p>
-          </Scene>
-        </Controller>
-      </section>
-
-      <Controller>
-        <Scene
-          duration={1500}
-          reverse={true}
-          triggerHook={1}
-          classToggle={cardGridStyles.CardGrid__cardGridTrans}
-          offset={150}
-        >
-          <section className={cardGridStyles.CardGrid}>
-            <div className={cardGridStyles.CardGrid__serviceCard}>
-              <img
-                src="/web-icon-gravit.png"
-                alt=""
-                className={cardGridStyles.CardGrid__cardIcon}
-              />
-              <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
-                Website Development
-              </h2>
-              <p className={cardGridStyles.CardGrid__secondaryCardContent}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                veritatis beatae pariatur id eligendi. Quibusdam aperiam
-                aspernatur culpa molestiae qui ut pariatur, quae praesentium
-                illum!
-              </p>
-            </div>
-            <div className={cardGridStyles.CardGrid__serviceCard}>
-              <img
-                src="/web-custom-web-apps-icon-gravit.png"
-                alt=""
-                className={cardGridStyles.CardGrid__cardIcon}
-              />
-              <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
-                Custom Web Apps
-              </h2>
-              <p className={cardGridStyles.CardGrid__secondaryCardContent}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                molestias nulla, ullam vel itaque voluptatibus minima maxime
-                corporis laborum natus.
-              </p>
-            </div>
-            <div className={cardGridStyles.CardGrid__serviceCard}>
-              <img
-                src="/email-icon-gravit.png"
-                alt=""
-                className={cardGridStyles.CardGrid__cardIcon}
-              />
-              <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
-                Email Marketing
-              </h2>
-              <p className={cardGridStyles.CardGrid__secondaryCardContent}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
-                beatae cupiditate reprehenderit ea dicta repellendus ratione
-                aspernatur mollitia natus assumenda.
-              </p>
-            </div>
-            <div className={cardGridStyles.CardGrid__serviceCard}>
-              <img
-                src="/website-redesign-icon-gravit.png"
-                alt=""
-                className={cardGridStyles.CardGrid__cardIcon}
-              />
-              <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
-                Website Redesign
-              </h2>
-              <p className={cardGridStyles.CardGrid__secondaryCardContent}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos aut accusantium neque eveniet dolorum illum debitis
-                nesciunt pariatur officiis voluptatem?
-              </p>
-            </div>
-            <div className={cardGridStyles.CardGrid__serviceCard}>
-              <img
-                src="/seo-icon-gravit.png"
-                alt=""
-                className={cardGridStyles.CardGrid__cardIcon}
-              />
-              <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>SEO</h2>
-              <p className={cardGridStyles.CardGrid__secondaryCardContent}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur repellat officia architecto sint recusandae et
-                consequatur suscipit alias in? Debitis.
-              </p>
-            </div>
-            <div className={cardGridStyles.CardGrid__serviceCard}>
-              <img
-                src="/web-maintenance-icon-gravit.png"
-                alt=""
-                className={cardGridStyles.CardGrid__cardIcon}
-              />
-              <h2 className={cardGridStyles.CardGrid__serviceCardTitle}>
-                Website Maintenance & Content Updates
-              </h2>
-              <p className={cardGridStyles.CardGrid__secondaryCardContent}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex,
-                cum necessitatibus! Ipsa iusto quam quisquam itaque delectus.
-                Minus, ad numquam.
-              </p>
-            </div>
-          </section>
-        </Scene>
-      </Controller>
-    </main>
+        <section className={heroStyles.Hero__about}>
+          <Controller>
+            <Scene
+              duration={1500}
+              reverse={true}
+              triggerHook={1}
+              classToggle={heroStyles.Hero__whatwedoTrans}
+              offset={600}
+            >
+              <h1 className={heroStyles.Hero__whatwedo}>
+                Welcome to The Code Creative!
+              </h1>
+            </Scene>
+          </Controller>
+          <Controller>
+            <Scene
+              duration={1500}
+              reverse={true}
+              triggerHook={1}
+              offset={150}
+              classToggle={heroStyles.Hero__textTrans}
+            >
+              <p className={heroStyles.Hero__text}></p>
+            </Scene>
+          </Controller>
+        </section>
+      </main>
+    </>
   );
 }
 

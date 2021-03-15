@@ -8,14 +8,9 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
           <meta charSet="UTF-8" />
-          <title>Gregg Fine Web Dev</title>
           <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"

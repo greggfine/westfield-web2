@@ -7,7 +7,7 @@ export default () => (
     </div>
 
     <div className={styles.Footer__inner}>
-      <p className={styles.Footer__copyright}>&copy;2020 The Code Creative</p>
+      <p className={styles.Footer__copyright}>&copy;2021 The Code Creative</p>
       <div className={styles.Footer__social}>
         <a
           href="https://twitter.com/GreggFine"

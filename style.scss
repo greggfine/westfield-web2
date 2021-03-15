@@ -83,8 +83,7 @@ main {
     letter-spacing: 1.3px;
     color: var(--mainPurple);
     font-size: 1.25rem;
-    font-weight: 700;
-    font-family: "TTNorms-Extra-Bold.otf";
+    font-family: "TTNorms-Medium.otf";
 
     &::after {
       content: "";
@@ -115,7 +114,7 @@ main {
   &__list-item-wrapper {
     display: flex;
     justify-content: space-around;
-    width: 400px;
+    width: 800px;
   }
 
   &__brand-wrapper {
