@@ -108,12 +108,17 @@ class Navigation extends React.Component {
                         : "site-header__brand-name-init"
                     }
                   >
-                    <div className="site-header__brand-wrapper__line"></div>
-                    <div className="site-header__brand-name__the">The</div>
-                    <div className="site-header__brand-name__fine-web">
+                    {/* <div className="site-header__brand-wrapper__line"></div> */}
+                    {/* <div className="site-header__brand-name__the">The</div> */}
+                    {/* <div className="site-header__brand-name__fine-web">
                       Code Creative
-                    </div>
-                    {/* <img src="/the-fine-web.png" alt="" /> */}
+                    </div> */}
+                    <img
+                      src="/the-code-creative_logo-light_003.svg"
+                      alt=""
+                      width="200"
+                      height="100"
+                    />
                   </div>
                 </Link>
               </div>

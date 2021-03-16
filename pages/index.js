@@ -10,18 +10,20 @@ function Index() {
       <Head>
         <title>Home | The Code Creative</title>
       </Head>
-      <main>
+      <main className={heroStyles.main}>
         <div className={heroStyles.Hero}>
           {/* <img src="/man2.jpg" alt="" className={heroStyles.Hero__testImg} /> */}
           <img
-            src="/code-creative-youtube-banner.png"
+            src="/the-code-creative_logo-light_003.svg"
             alt=""
+            width="400"
+            height="400"
             className={heroStyles.Hero__homeImg}
           />
         </div>
 
         <section className={heroStyles.Hero__about}>
-          <Controller>
+          {/* <Controller>
             <Scene
               duration={1500}
               reverse={true}
@@ -33,8 +35,8 @@ function Index() {
                 Welcome to The Code Creative!
               </h1>
             </Scene>
-          </Controller>
-          <Controller>
+          </Controller> */}
+          {/* <Controller>
             <Scene
               duration={1500}
               reverse={true}
@@ -44,7 +46,7 @@ function Index() {
             >
               <p className={heroStyles.Hero__text}></p>
             </Scene>
-          </Controller>
+          </Controller> */}
         </section>
       </main>
     </>

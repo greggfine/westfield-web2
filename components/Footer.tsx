@@ -4,6 +4,12 @@ export default () => (
   <footer className={styles.Footer}>
     <div className={styles.Footer__logoWrapper}>
       {/* <img className={styles.Footer__image} src="/the-fine-web.png" alt="" /> */}
+      <img
+        src="/the-code-creative_logo-dark_003.svg"
+        alt=""
+        width="200"
+        height="100"
+      />
     </div>
 
     <div className={styles.Footer__inner}>
